@@ -1,0 +1,38 @@
+{
+  "name": "@astrozi/bazi-mcp",
+  "version": "0.0.0",
+  "private": true,
+  "description": "MCP server for BaZi (八字) charts, built on @iching/bazi. By AstroZi.",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astrozi-ai/bazi.git",
+    "directory": "packages/mcp"
+  },
+  "homepage": "https://github.com/astrozi-ai/bazi#readme",
+  "bugs": "https://github.com/astrozi-ai/bazi/issues",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "bazi",
+    "four-pillars",
+    "八字",
+    "astrozi"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "dependencies": {
+    "@iching/bazi": "workspace:*"
+  }
+}

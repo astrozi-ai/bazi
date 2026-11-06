@@ -1,0 +1,19 @@
+{
+  "name": "bazi-monorepo",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "typecheck": "tsc -b packages/bazi packages/mcp",
+    "test": "bun test",
+    "check": "bun run typecheck && bun run test",
+    "changeset": "changeset"
+  },
+  "devDependencies": {
+    "@changesets/cli": "2.29.7",
+    "@types/bun": "1.3.1",
+    "typescript": "5.9.3"
+  }
+}

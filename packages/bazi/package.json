@@ -1,0 +1,37 @@
+{
+  "name": "@iching/bazi",
+  "version": "0.0.0",
+  "private": true,
+  "description": "BaZi (Four Pillars of Destiny / 八字排盘) chart calculation: pillars, luck periods, hidden stems, ten gods, chart snapshot.",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astrozi-ai/bazi.git",
+    "directory": "packages/bazi"
+  },
+  "homepage": "https://github.com/astrozi-ai/bazi#readme",
+  "bugs": "https://github.com/astrozi-ai/bazi/issues",
+  "keywords": [
+    "bazi",
+    "four-pillars",
+    "four-pillars-of-destiny",
+    "paipan",
+    "chinese-astrology",
+    "八字",
+    "排盘",
+    "命理"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
+}
