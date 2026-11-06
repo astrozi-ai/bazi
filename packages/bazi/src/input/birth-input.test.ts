@@ -1,5 +1,5 @@
 import { describe, expect, it } from "bun:test";
-import { BirthInputError, lunarLabelOf, toChartInput, type BirthInput } from "./birth-input";
+import { BirthInputError, lunarLabelOf, monthsOf, shichenOf, toChartInput, type BirthInput } from "./birth-input";
 
 const NOON: Omit<BirthInput, "calendar" | "year" | "month" | "day" | "isLeapMonth"> = {
   hour: 12,
@@ -46,5 +46,32 @@ describe("Given a birth moment When it enters the chart engine", () => {
     expect(() =>
       toChartInput({ ...NOON, hour: 24, calendar: "gregorian", year: 2001, month: 4, day: 1, isLeapMonth: false }),
     ).toThrow(BirthInputError);
+  });
+});
+
+describe("Given a year When a form lists its months", () => {
+  it("Then 公历 has twelve, with February's length from the calendar", () => {
+    const months = monthsOf("gregorian", 2024);
+    expect(months).toHaveLength(12);
+    expect(months[1]).toEqual({ month: 2, isLeap: false, label: "2月", days: 29 });
+  });
+
+  it("Then a lunar year with a leap month lists it after the month it repeats", () => {
+    const months = monthsOf("chinese-lunar", 2001);
+    expect(months).toHaveLength(13);
+    expect(months.map((month) => month.label).slice(3, 6)).toEqual(["四月", "闰四月", "五月"]);
+    expect(months[4]).toMatchObject({ month: 4, isLeap: true });
+  });
+
+  it("Then a lunar year without one lists twelve, every month 29 or 30 days", () => {
+    const months = monthsOf("chinese-lunar", 2002);
+    expect(months).toHaveLength(12);
+    expect(months.every((month) => !month.isLeap && (month.days === 29 || month.days === 30))).toBe(true);
+  });
+});
+
+describe("Given an hour When a form names its 时辰", () => {
+  it("Then 23:00 and 00:00 are 子时 and 08:00 is 辰时", () => {
+    expect([shichenOf(23), shichenOf(0), shichenOf(8)]).toEqual(["子时", "子时", "辰时"]);
   });
 });

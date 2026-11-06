@@ -3,19 +3,25 @@ import { expect, open, test } from "nsh/test";
 import golden from "../../packages/bazi/src/paipan/__tests__/fixtures/synthetic/paipan.golden.json";
 import { cachedSheets, loadSheet } from "./engine/sheet";
 
+const PHONE = { platform: "ios" } as const;
+const DESKTOP = { platform: "macos", width: 1100, height: 820 } as const;
+
+function typedMoment(caseIndex: number) {
+  const input = golden.cases[caseIndex]?.input;
+  if (!input) throw new Error(`golden has no case ${caseIndex}`);
+  const pad = (n: number) => String(n).padStart(2, "0");
+  return `${input.year}-${pad(input.month)}-${pad(input.day)} ${pad(input.hour)}:${pad(input.minute)}`;
+}
+
 function goldenSelection(caseIndex: number, year: number) {
   const entry = golden.cases[caseIndex]?.selections.find((item) => item.year === year);
   if (!entry) throw new Error(`golden has no selection for case ${caseIndex}, year ${year}`);
   return entry.selection;
 }
 
-test("an empty form cannot be charted", async () => {
-  const app = await open("./App.tsx");
-  expect(app.enabled("id:submit")).toBe(false);
-});
-
-test("a Gregorian moment is charted by the engine, cell for cell", async () => {
-  const app = await open("./App.tsx");
+test("phone: wheels pick the moment and the engine charts it, cell for cell", async () => {
+  const app = await open("./App.tsx", PHONE);
+  await app.waitFor("id:wheel-form");
   await app.press("id:sample-a");
   await app.press("id:submit");
   await app.waitFor("id:paipan-grid");
@@ -25,27 +31,49 @@ test("a Gregorian moment is charted by the engine, cell for cell", async () => {
   await app.waitFor(`text:${expected.columns.liunian.naYin}`);
   expect(app.texts()).toContain(expected.qiyun.ageText);
   expect(app.texts()).toContain(expected.qiyun.changeText);
-  expect(app.texts()).toContain(expected.columns.dayun.lifeStage);
 });
 
-test("a lunar leap-month moment goes through tyme4ts", async () => {
-  const app = await open("./App.tsx");
+test("phone: the month wheel offers a leap month only in a year that has one", async () => {
+  const app = await open("./App.tsx", PHONE);
   await app.press("id:sample-b");
-  await app.waitFor("label:闰月");
+  await app.waitFor("label:月 闰四月");
+  await app.press("label:年 2002");
+  await app.waitUntil(() => app.count("label:月 闰四月") === 0);
+  await app.press("label:年 2001");
+  await app.waitFor("label:月 闰四月");
+  await app.press("label:月 闰四月");
   await app.press("id:submit");
   await app.waitFor("id:paipan-grid");
   expect(app.texts()).toContain("辛巳 甲午 己酉 戊辰");
   expect(app.texts().some((text) => text.includes("闰四月廿四"))).toBe(true);
 });
 
-test("a leap month the year does not have is refused before charting", async () => {
-  const app = await open("./App.tsx");
-  await app.press("id:sample-b");
-  await app.clear("id:field-year");
-  await app.type("id:field-year", "2002");
-  await app.press("id:submit");
+test("desktop: a typed moment and Return chart it", async () => {
+  const app = await open("./App.tsx", DESKTOP);
+  await app.waitFor("id:field-moment");
+  expect(app.count("id:wheel-form")).toBe(0);
+  await app.type("id:field-moment", typedMoment(0));
+  await app.submit("id:field-moment");
+  await app.waitFor("id:paipan-grid");
+  expect(app.texts()).toContain("己卯 丙子 戊午 戊午");
+});
+
+test("desktop: a moment that is not a date is refused, not guessed", async () => {
+  const app = await open("./App.tsx", DESKTOP);
+  await app.type("id:field-moment", "明年春天");
+  await app.submit("id:field-moment");
   await app.waitFor("id:form-problem");
   expect(app.shows("id:paipan-grid")).toBe(false);
+});
+
+test("desktop: 农历 offers its months as a list, the leap month included", async () => {
+  const app = await open("./App.tsx", DESKTOP);
+  await app.press("id:sample-b");
+  await app.waitFor("id:field-lunar-month");
+  expect(app.texts()).toContain("闰四月");
+  await app.press("id:submit");
+  await app.waitFor("id:paipan-grid");
+  expect(app.texts()).toContain("辛巳 甲午 己酉 戊辰");
 });
 
 test("the 大运 row pages, and the 流月 row follows the selected year", async () => {

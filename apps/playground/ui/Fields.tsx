@@ -9,7 +9,11 @@ export function NumberColumn(props: {
   min: number;
   max: number;
   testID?: string;
+  /** A short note under the field (the 时辰 of an hour). */
+  hint?: string;
   onChange: (value: number | null) => void;
+  /** Return in the field. */
+  onSubmit?: () => void;
 }) {
   return (
     <View class="flex-1 gap-1.5">
@@ -21,11 +25,15 @@ export function NumberColumn(props: {
         min={props.min}
         max={props.max}
         onChange={({ value }) => props.onChange(value)}
+        onSubmit={() => props.onSubmit?.()}
         class="h-10 flex-row items-center rounded-(--radius) border border-input bg-background focus-within:border-ring"
         inputClass="flex-1 px-1 text-center text-base font-bold text-foreground"
         decrementButtonClass="hidden"
         incrementButtonClass="hidden"
       />
+      <If when={props.hint}>
+        <Text class="text-center text-xs text-muted-foreground">{props.hint}</Text>
+      </If>
     </View>
   );
 }
