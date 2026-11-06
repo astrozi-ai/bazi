@@ -4,7 +4,7 @@
  * 公历、农历（闰月必须显式）都只经 tyme4ts 换算一次；引擎从不见到农历数字。换算不了的
  * 输入（不存在的日期、该年没有的闰月）抛 `BirthInputError`，不猜、不就近取。
  */
-import { LunarDay, SolarDay } from "tyme4ts";
+import { LunarDay, LunarYear, SolarDay, SolarTime, SolarYear } from "tyme4ts";
 import type { ChartCalculationInput } from "../chart/types";
 import type { GenderType } from "../core-types";
 
@@ -88,4 +88,39 @@ export function lunarLabelOf(input: ChartCalculationInput): {
     day: lunar.getDay(),
     label: `${month.getName()}${lunar.getName()}`,
   };
+}
+
+/** One month a birth form can offer: its number, whether it is a leap month, its name and its length. */
+export interface CalendarMonth {
+  month: number;
+  isLeap: boolean;
+  label: string;
+  days: number;
+}
+
+/**
+ * The months of `year` in `calendar`, in order, from tyme4ts: twelve for 公历; for 农历 twelve or
+ * thirteen, the leap month after the month it repeats (闰四月 after 四月).
+ */
+export function monthsOf(calendar: BirthCalendar, year: number): CalendarMonth[] {
+  if (calendar === "gregorian") {
+    return SolarYear.fromYear(year).getMonths().map((month) => ({
+      month: month.getMonth(),
+      isLeap: false,
+      label: `${month.getMonth()}月`,
+      days: month.getDayCount(),
+    }));
+  }
+  return LunarYear.fromYear(year).getMonths().map((month) => ({
+    month: Math.abs(month.getMonthWithLeap()),
+    isLeap: month.isLeap(),
+    label: month.getName(),
+    days: month.getDayCount(),
+  }));
+}
+
+/** The 时辰 an hour falls in (23:00 and 00:00 are both 子时), from tyme4ts. */
+export function shichenOf(hour: number): string {
+  requireInteger(hour, 0, 23, "时");
+  return `${SolarTime.fromYmdHms(2000, 1, 1, hour, 0, 0).getLunarHour().getSixtyCycle().getEarthBranch().getName()}时`;
 }

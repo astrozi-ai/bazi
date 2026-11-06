@@ -35,4 +35,4 @@ export type { BaziAsOfContext, BaziAsOfSource } from "./time-context";
 
 export * as shensha from "./shensha/shensha";
 export * as paipan from "./paipan/index";
-export { BirthInputError, lunarLabelOf, toChartInput, type BirthCalendar, type BirthInput } from "./input/birth-input";
+export { BirthInputError, type CalendarMonth, lunarLabelOf, monthsOf, shichenOf, toChartInput, type BirthCalendar, type BirthInput } from "./input/birth-input";
