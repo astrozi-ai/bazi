@@ -1,0 +1,7619 @@
+{
+ "note": "Synthetic inputs (made-up moments that belong to no one). Generated from the 排盘 view-model this package was ported from, 干支作用 left out; the port must reproduce every cell.",
+ "cases": [
+  {
+   "label": "示例甲",
+   "input": {
+    "year": 2000,
+    "month": 1,
+    "day": 1,
+    "hour": 12,
+    "minute": 0,
+    "second": 0,
+    "gender": "male"
+   },
+   "options": {
+    "referenceYear": 2026,
+    "referenceMonth": 11
+   },
+   "yearRange": {
+    "from": 2000,
+    "to": 2127
+   },
+   "fortune": {
+    "xiaoyun": {
+     "label": "1-8",
+     "startAge": 1,
+     "endAge": 8
+    },
+    "firstDayunStartYear": 2008,
+    "dayun": [
+     {
+      "stem": "乙",
+      "branch": "亥",
+      "startAge": 8,
+      "endAge": 17,
+      "startYear": 2008,
+      "projected": false
+     },
+     {
+      "stem": "甲",
+      "branch": "戌",
+      "startAge": 18,
+      "endAge": 27,
+      "startYear": 2018,
+      "projected": false
+     },
+     {
+      "stem": "癸",
+      "branch": "酉",
+      "startAge": 28,
+      "endAge": 37,
+      "startYear": 2028,
+      "projected": false
+     },
+     {
+      "stem": "壬",
+      "branch": "申",
+      "startAge": 38,
+      "endAge": 47,
+      "startYear": 2038,
+      "projected": false
+     },
+     {
+      "stem": "辛",
+      "branch": "未",
+      "startAge": 48,
+      "endAge": 57,
+      "startYear": 2048,
+      "projected": false
+     },
+     {
+      "stem": "庚",
+      "branch": "午",
+      "startAge": 58,
+      "endAge": 67,
+      "startYear": 2058,
+      "projected": false
+     },
+     {
+      "stem": "己",
+      "branch": "巳",
+      "startAge": 68,
+      "endAge": 77,
+      "startYear": 2068,
+      "projected": false
+     },
+     {
+      "stem": "戊",
+      "branch": "辰",
+      "startAge": 78,
+      "endAge": 87,
+      "startYear": 2078,
+      "projected": false
+     },
+     {
+      "stem": "丁",
+      "branch": "卯",
+      "startAge": 88,
+      "endAge": 97,
+      "startYear": 2088,
+      "projected": true
+     },
+     {
+      "stem": "丙",
+      "branch": "寅",
+      "startAge": 98,
+      "endAge": 107,
+      "startYear": 2098,
+      "projected": true
+     },
+     {
+      "stem": "乙",
+      "branch": "丑",
+      "startAge": 108,
+      "endAge": 117,
+      "startYear": 2108,
+      "projected": true
+     },
+     {
+      "stem": "甲",
+      "branch": "子",
+      "startAge": 118,
+      "endAge": 127,
+      "startYear": 2118,
+      "projected": true
+     }
+    ]
+   },
+   "glyphs": {
+    "stems": {
+     "甲": {
+      "element": "木",
+      "tenGod": "七杀"
+     },
+     "乙": {
+      "element": "木",
+      "tenGod": "正官"
+     },
+     "丙": {
+      "element": "火",
+      "tenGod": "偏印"
+     },
+     "丁": {
+      "element": "火",
+      "tenGod": "正印"
+     },
+     "戊": {
+      "element": "土",
+      "tenGod": "比肩"
+     },
+     "己": {
+      "element": "土",
+      "tenGod": "劫财"
+     },
+     "庚": {
+      "element": "金",
+      "tenGod": "食神"
+     },
+     "辛": {
+      "element": "金",
+      "tenGod": "伤官"
+     },
+     "壬": {
+      "element": "水",
+      "tenGod": "偏财"
+     },
+     "癸": {
+      "element": "水",
+      "tenGod": "正财"
+     }
+    },
+    "branches": {
+     "子": {
+      "element": "水",
+      "tenGod": "正财"
+     },
+     "丑": {
+      "element": "土",
+      "tenGod": "劫财"
+     },
+     "寅": {
+      "element": "木",
+      "tenGod": "七杀"
+     },
+     "卯": {
+      "element": "木",
+      "tenGod": "正官"
+     },
+     "辰": {
+      "element": "土",
+      "tenGod": "比肩"
+     },
+     "巳": {
+      "element": "火",
+      "tenGod": "偏印"
+     },
+     "午": {
+      "element": "火",
+      "tenGod": "正印"
+     },
+     "未": {
+      "element": "土",
+      "tenGod": "劫财"
+     },
+     "申": {
+      "element": "金",
+      "tenGod": "食神"
+     },
+     "酉": {
+      "element": "金",
+      "tenGod": "伤官"
+     },
+     "戌": {
+      "element": "土",
+      "tenGod": "比肩"
+     },
+     "亥": {
+      "element": "水",
+      "tenGod": "偏财"
+     }
+    }
+   },
+   "selections": [
+    {
+     "year": 2000,
+     "selection": {
+      "columns": {
+       "liunian": {
+        "stem": "庚",
+        "branch": "辰",
+        "stemElement": "金",
+        "branchElement": "土",
+        "mainStar": "食神",
+        "hiddenStems": [
+         {
+          "stem": "戊",
+          "tenGod": "比肩",
+          "element": "土"
+         },
+         {
+          "stem": "乙",
+          "tenGod": "正官",
+          "element": "木"
+         },
+         {
+          "stem": "癸",
+          "tenGod": "正财",
+          "element": "水"
+         }
+        ],
+        "lifeStage": "冠带",
+        "strength": "休",
+        "naYin": "白蜡金"
+       },
+       "dayun": {
+        "stem": "-",
+        "branch": "-",
+        "stemElement": null,
+        "branchElement": null,
+        "mainStar": "-",
+        "hiddenStems": [],
+        "lifeStage": "-",
+        "strength": "-",
+        "naYin": "-"
+       },
+       "year": {
+        "stem": "己",
+        "branch": "卯",
+        "stemElement": "土",
+        "branchElement": "木",
+        "mainStar": "劫财",
+        "hiddenStems": [
+         {
+          "stem": "乙",
+          "tenGod": "正官",
+          "element": "木"
+         }
+        ],
+        "lifeStage": "沐浴",
+        "strength": "囚",
+        "naYin": "城头土"
+       },
+       "month": {
+        "stem": "丙",
+        "branch": "子",
+        "stemElement": "火",
+        "branchElement": "水",
+        "mainStar": "偏印",
+        "hiddenStems": [
+         {
+          "stem": "癸",
+          "tenGod": "正财",
+          "element": "水"
+         }
+        ],
+        "lifeStage": "胎",
+        "strength": "死",
+        "naYin": "涧下水"
+       },
+       "day": {
+        "stem": "戊",
+        "branch": "午",
+        "stemElement": "土",
+        "branchElement": "火",
+        "mainStar": "日主",
+        "hiddenStems": [
+         {
+          "stem": "丁",
+          "tenGod": "正印",
+          "element": "火"
+         },
+         {
+          "stem": "己",
+          "tenGod": "劫财",
+          "element": "土"
+         }
+        ],
+        "lifeStage": "帝旺",
+        "strength": "囚",
+        "naYin": "天上火"
+       },
+       "hour": {
+        "stem": "戊",
+        "branch": "午",
+        "stemElement": "土",
+        "branchElement": "火",
+        "mainStar": "比肩",
+        "hiddenStems": [
+         {
+          "stem": "丁",
+          "tenGod": "正印",
+          "element": "火"
+         },
+         {
+          "stem": "己",
+          "tenGod": "劫财",
+          "element": "土"
+         }
+        ],
+        "lifeStage": "帝旺",
+        "strength": "囚",
+        "naYin": "天上火"
+       }
+      },
+      "shenSha": {
+       "liunian": [
+        "红艳",
+        "太极贵人",
+        "白虎煞",
+        "十恶大败"
+       ],
+       "dayun": [],
+       "year": [
+        "将星"
+       ],
+       "month": [
+        "红鸾",
+        "咸池",
+        "空亡",
+        "天德贵人"
+       ],
+       "day": [
+        "天喜",
+        "羊刃"
+       ],
+       "hour": [
+        "天喜",
+        "羊刃"
+       ]
+      },
+      "qiyun": {
+       "years": 8,
+       "months": 2,
+       "changeYearDigit": 8,
+       "changeMonth": 3,
+       "ageText": "8岁2个月",
+       "changeText": "逢8字年3月换大运"
+      },
+      "year": {
+       "year": 2000,
+       "age": 1,
+       "ganZhi": {
+        "stem": "庚",
+        "branch": "辰"
+       },
+       "table": {
+        "liunian": {
+         "stem": "庚",
+         "branch": "辰",
+         "stemElement": "金",
+         "branchElement": "土",
+         "mainStar": "食神",
+         "hiddenStems": [
+          {
+           "stem": "戊",
+           "tenGod": "比肩",
+           "element": "土"
+          },
+          {
+           "stem": "乙",
+           "tenGod": "正官",
+           "element": "木"
+          },
+          {
+           "stem": "癸",
+           "tenGod": "正财",
+           "element": "水"
+          }
+         ],
+         "lifeStage": "冠带",
+         "strength": "休",
+         "naYin": "白蜡金"
+        },
+        "dayun": {
+         "kind": "none"
+        },
+        "shenSha": {
+         "liunian": [
+          "红艳",
+          "太极贵人",
+          "白虎煞",
+          "十恶大败"
+         ],
+         "dayun": [],
+         "year": [
+          "将星"
+         ],
+         "month": [
+          "红鸾",
+          "咸池",
+          "空亡",
+          "天德贵人"
+         ],
+         "day": [
+          "天喜",
+          "羊刃"
+         ],
+         "hour": [
+          "天喜",
+          "羊刃"
+         ]
+        }
+       },
+       "liuyue": [
+        {
+         "stem": "戊",
+         "branch": "寅",
+         "month": 1,
+         "solarTerm": "立春",
+         "dateStr": "2/4"
+        },
+        {
+         "stem": "己",
+         "branch": "卯",
+         "month": 2,
+         "solarTerm": "惊蛰",
+         "dateStr": "3/5"
+        },
+        {
+         "stem": "庚",
+         "branch": "辰",
+         "month": 3,
+         "solarTerm": "清明",
+         "dateStr": "4/4"
+        },
+        {
+         "stem": "辛",
+         "branch": "巳",
+         "month": 4,
+         "solarTerm": "立夏",
+         "dateStr": "5/5"
+        },
+        {
+         "stem": "壬",
+         "branch": "午",
+         "month": 5,
+         "solarTerm": "芒种",
+         "dateStr": "6/5"
+        },
+        {
+         "stem": "癸",
+         "branch": "未",
+         "month": 6,
+         "solarTerm": "小暑",
+         "dateStr": "7/7"
+        },
+        {
+         "stem": "甲",
+         "branch": "申",
+         "month": 7,
+         "solarTerm": "立秋",
+         "dateStr": "8/7"
+        },
+        {
+         "stem": "乙",
+         "branch": "酉",
+         "month": 8,
+         "solarTerm": "白露",
+         "dateStr": "9/7"
+        },
+        {
+         "stem": "丙",
+         "branch": "戌",
+         "month": 9,
+         "solarTerm": "寒露",
+         "dateStr": "10/8"
+        },
+        {
+         "stem": "丁",
+         "branch": "亥",
+         "month": 10,
+         "solarTerm": "立冬",
+         "dateStr": "11/7"
+        },
+        {
+         "stem": "戊",
+         "branch": "子",
+         "month": 11,
+         "solarTerm": "大雪",
+         "dateStr": "12/7"
+        },
+        {
+         "stem": "己",
+         "branch": "丑",
+         "month": 12,
+         "solarTerm": "小寒",
+         "dateStr": "1/5"
+        }
+       ]
+      }
+     },
+     "rows": [
+      [
+       {
+        "type": "xiaoyun",
+        "label": "1-8",
+        "age": 1,
+        "endAge": 8,
+        "isActive": true
+       },
+       {
+        "type": "dayun",
+        "year": 2008,
+        "age": 8,
+        "endAge": 17,
+        "gan": "乙",
+        "zhi": "亥",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2018,
+        "age": 18,
+        "endAge": 27,
+        "gan": "甲",
+        "zhi": "戌",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2028,
+        "age": 28,
+        "endAge": 37,
+        "gan": "癸",
+        "zhi": "酉",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2038,
+        "age": 38,
+        "endAge": 47,
+        "gan": "壬",
+        "zhi": "申",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2048,
+        "age": 48,
+        "endAge": 57,
+        "gan": "辛",
+        "zhi": "未",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2058,
+        "age": 58,
+        "endAge": 67,
+        "gan": "庚",
+        "zhi": "午",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2068,
+        "age": 68,
+        "endAge": 77,
+        "gan": "己",
+        "zhi": "巳",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2078,
+        "age": 78,
+        "endAge": 87,
+        "gan": "戊",
+        "zhi": "辰",
+        "isActive": false
+       },
+       {
+        "type": "more"
+       }
+      ],
+      [
+       {
+        "type": "liunian",
+        "year": 2000,
+        "age": 1,
+        "gan": "庚",
+        "zhi": "辰",
+        "isActive": true
+       },
+       {
+        "type": "liunian",
+        "year": 2001,
+        "age": 2,
+        "gan": "辛",
+        "zhi": "巳",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2002,
+        "age": 3,
+        "gan": "壬",
+        "zhi": "午",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2003,
+        "age": 4,
+        "gan": "癸",
+        "zhi": "未",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2004,
+        "age": 5,
+        "gan": "甲",
+        "zhi": "申",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2005,
+        "age": 6,
+        "gan": "乙",
+        "zhi": "酉",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2006,
+        "age": 7,
+        "gan": "丙",
+        "zhi": "戌",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2007,
+        "age": 8,
+        "gan": "丁",
+        "zhi": "亥",
+        "isActive": false
+       },
+       {
+        "type": "empty"
+       },
+       {
+        "type": "empty"
+       }
+      ],
+      [
+       {
+        "type": "liyue_simple",
+        "year": 2000,
+        "month": 1,
+        "gan": "戊",
+        "zhi": "寅",
+        "solarTerm": "立春",
+        "dateStr": "2/4",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2000,
+        "month": 2,
+        "gan": "己",
+        "zhi": "卯",
+        "solarTerm": "惊蛰",
+        "dateStr": "3/5",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2000,
+        "month": 3,
+        "gan": "庚",
+        "zhi": "辰",
+        "solarTerm": "清明",
+        "dateStr": "4/4",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2000,
+        "month": 4,
+        "gan": "辛",
+        "zhi": "巳",
+        "solarTerm": "立夏",
+        "dateStr": "5/5",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2000,
+        "month": 5,
+        "gan": "壬",
+        "zhi": "午",
+        "solarTerm": "芒种",
+        "dateStr": "6/5",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2000,
+        "month": 6,
+        "gan": "癸",
+        "zhi": "未",
+        "solarTerm": "小暑",
+        "dateStr": "7/7",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2000,
+        "month": 7,
+        "gan": "甲",
+        "zhi": "申",
+        "solarTerm": "立秋",
+        "dateStr": "8/7",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2000,
+        "month": 8,
+        "gan": "乙",
+        "zhi": "酉",
+        "solarTerm": "白露",
+        "dateStr": "9/7",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2000,
+        "month": 9,
+        "gan": "丙",
+        "zhi": "戌",
+        "solarTerm": "寒露",
+        "dateStr": "10/8",
+        "isActive": false
+       },
+       {
+        "type": "more_liyue"
+       }
+      ]
+     ]
+    },
+    {
+     "year": 2008,
+     "selection": {
+      "columns": {
+       "liunian": {
+        "stem": "戊",
+        "branch": "子",
+        "stemElement": "土",
+        "branchElement": "水",
+        "mainStar": "比肩",
+        "hiddenStems": [
+         {
+          "stem": "癸",
+          "tenGod": "正财",
+          "element": "水"
+         }
+        ],
+        "lifeStage": "胎",
+        "strength": "囚",
+        "naYin": "霹雳火"
+       },
+       "dayun": {
+        "stem": "乙",
+        "branch": "亥",
+        "stemElement": "木",
+        "branchElement": "水",
+        "mainStar": "正官",
+        "hiddenStems": [
+         {
+          "stem": "壬",
+          "tenGod": "偏财",
+          "element": "水"
+         },
+         {
+          "stem": "甲",
+          "tenGod": "七杀",
+          "element": "木"
+         }
+        ],
+        "lifeStage": "绝",
+        "strength": "相",
+        "naYin": "山头火"
+       },
+       "year": {
+        "stem": "己",
+        "branch": "卯",
+        "stemElement": "土",
+        "branchElement": "木",
+        "mainStar": "劫财",
+        "hiddenStems": [
+         {
+          "stem": "乙",
+          "tenGod": "正官",
+          "element": "木"
+         }
+        ],
+        "lifeStage": "沐浴",
+        "strength": "囚",
+        "naYin": "城头土"
+       },
+       "month": {
+        "stem": "丙",
+        "branch": "子",
+        "stemElement": "火",
+        "branchElement": "水",
+        "mainStar": "偏印",
+        "hiddenStems": [
+         {
+          "stem": "癸",
+          "tenGod": "正财",
+          "element": "水"
+         }
+        ],
+        "lifeStage": "胎",
+        "strength": "死",
+        "naYin": "涧下水"
+       },
+       "day": {
+        "stem": "戊",
+        "branch": "午",
+        "stemElement": "土",
+        "branchElement": "火",
+        "mainStar": "日主",
+        "hiddenStems": [
+         {
+          "stem": "丁",
+          "tenGod": "正印",
+          "element": "火"
+         },
+         {
+          "stem": "己",
+          "tenGod": "劫财",
+          "element": "土"
+         }
+        ],
+        "lifeStage": "帝旺",
+        "strength": "囚",
+        "naYin": "天上火"
+       },
+       "hour": {
+        "stem": "戊",
+        "branch": "午",
+        "stemElement": "土",
+        "branchElement": "火",
+        "mainStar": "比肩",
+        "hiddenStems": [
+         {
+          "stem": "丁",
+          "tenGod": "正印",
+          "element": "火"
+         },
+         {
+          "stem": "己",
+          "tenGod": "劫财",
+          "element": "土"
+         }
+        ],
+        "lifeStage": "帝旺",
+        "strength": "囚",
+        "naYin": "天上火"
+       }
+      },
+      "shenSha": {
+       "liunian": [
+        "红鸾",
+        "咸池",
+        "空亡"
+       ],
+       "dayun": [
+        "天罗"
+       ],
+       "year": [
+        "将星"
+       ],
+       "month": [
+        "红鸾",
+        "咸池",
+        "空亡",
+        "天德贵人"
+       ],
+       "day": [
+        "天喜",
+        "羊刃"
+       ],
+       "hour": [
+        "天喜",
+        "羊刃"
+       ]
+      },
+      "qiyun": {
+       "years": 8,
+       "months": 2,
+       "changeYearDigit": 8,
+       "changeMonth": 3,
+       "ageText": "8岁2个月",
+       "changeText": "逢8字年3月换大运"
+      },
+      "year": {
+       "year": 2008,
+       "age": 9,
+       "ganZhi": {
+        "stem": "戊",
+        "branch": "子"
+       },
+       "table": {
+        "liunian": {
+         "stem": "戊",
+         "branch": "子",
+         "stemElement": "土",
+         "branchElement": "水",
+         "mainStar": "比肩",
+         "hiddenStems": [
+          {
+           "stem": "癸",
+           "tenGod": "正财",
+           "element": "水"
+          }
+         ],
+         "lifeStage": "胎",
+         "strength": "囚",
+         "naYin": "霹雳火"
+        },
+        "dayun": {
+         "kind": "period",
+         "index": 0
+        },
+        "shenSha": {
+         "liunian": [
+          "红鸾",
+          "咸池",
+          "空亡"
+         ],
+         "dayun": [
+          "天罗"
+         ],
+         "year": [
+          "将星"
+         ],
+         "month": [
+          "红鸾",
+          "咸池",
+          "空亡",
+          "天德贵人"
+         ],
+         "day": [
+          "天喜",
+          "羊刃"
+         ],
+         "hour": [
+          "天喜",
+          "羊刃"
+         ]
+        }
+       },
+       "liuyue": [
+        {
+         "stem": "甲",
+         "branch": "寅",
+         "month": 1,
+         "solarTerm": "立春",
+         "dateStr": "2/4"
+        },
+        {
+         "stem": "乙",
+         "branch": "卯",
+         "month": 2,
+         "solarTerm": "惊蛰",
+         "dateStr": "3/5"
+        },
+        {
+         "stem": "丙",
+         "branch": "辰",
+         "month": 3,
+         "solarTerm": "清明",
+         "dateStr": "4/4"
+        },
+        {
+         "stem": "丁",
+         "branch": "巳",
+         "month": 4,
+         "solarTerm": "立夏",
+         "dateStr": "5/5"
+        },
+        {
+         "stem": "戊",
+         "branch": "午",
+         "month": 5,
+         "solarTerm": "芒种",
+         "dateStr": "6/5"
+        },
+        {
+         "stem": "己",
+         "branch": "未",
+         "month": 6,
+         "solarTerm": "小暑",
+         "dateStr": "7/7"
+        },
+        {
+         "stem": "庚",
+         "branch": "申",
+         "month": 7,
+         "solarTerm": "立秋",
+         "dateStr": "8/7"
+        },
+        {
+         "stem": "辛",
+         "branch": "酉",
+         "month": 8,
+         "solarTerm": "白露",
+         "dateStr": "9/7"
+        },
+        {
+         "stem": "壬",
+         "branch": "戌",
+         "month": 9,
+         "solarTerm": "寒露",
+         "dateStr": "10/8"
+        },
+        {
+         "stem": "癸",
+         "branch": "亥",
+         "month": 10,
+         "solarTerm": "立冬",
+         "dateStr": "11/7"
+        },
+        {
+         "stem": "甲",
+         "branch": "子",
+         "month": 11,
+         "solarTerm": "大雪",
+         "dateStr": "12/7"
+        },
+        {
+         "stem": "乙",
+         "branch": "丑",
+         "month": 12,
+         "solarTerm": "小寒",
+         "dateStr": "1/5"
+        }
+       ]
+      }
+     },
+     "rows": [
+      [
+       {
+        "type": "xiaoyun",
+        "label": "1-8",
+        "age": 1,
+        "endAge": 8,
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2008,
+        "age": 8,
+        "endAge": 17,
+        "gan": "乙",
+        "zhi": "亥",
+        "isActive": true
+       },
+       {
+        "type": "dayun",
+        "year": 2018,
+        "age": 18,
+        "endAge": 27,
+        "gan": "甲",
+        "zhi": "戌",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2028,
+        "age": 28,
+        "endAge": 37,
+        "gan": "癸",
+        "zhi": "酉",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2038,
+        "age": 38,
+        "endAge": 47,
+        "gan": "壬",
+        "zhi": "申",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2048,
+        "age": 48,
+        "endAge": 57,
+        "gan": "辛",
+        "zhi": "未",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2058,
+        "age": 58,
+        "endAge": 67,
+        "gan": "庚",
+        "zhi": "午",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2068,
+        "age": 68,
+        "endAge": 77,
+        "gan": "己",
+        "zhi": "巳",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2078,
+        "age": 78,
+        "endAge": 87,
+        "gan": "戊",
+        "zhi": "辰",
+        "isActive": false
+       },
+       {
+        "type": "more"
+       }
+      ],
+      [
+       {
+        "type": "liunian",
+        "year": 2008,
+        "age": 9,
+        "gan": "戊",
+        "zhi": "子",
+        "isActive": true
+       },
+       {
+        "type": "liunian",
+        "year": 2009,
+        "age": 10,
+        "gan": "己",
+        "zhi": "丑",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2010,
+        "age": 11,
+        "gan": "庚",
+        "zhi": "寅",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2011,
+        "age": 12,
+        "gan": "辛",
+        "zhi": "卯",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2012,
+        "age": 13,
+        "gan": "壬",
+        "zhi": "辰",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2013,
+        "age": 14,
+        "gan": "癸",
+        "zhi": "巳",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2014,
+        "age": 15,
+        "gan": "甲",
+        "zhi": "午",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2015,
+        "age": 16,
+        "gan": "乙",
+        "zhi": "未",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2016,
+        "age": 17,
+        "gan": "丙",
+        "zhi": "申",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2017,
+        "age": 18,
+        "gan": "丁",
+        "zhi": "酉",
+        "isActive": false
+       }
+      ],
+      [
+       {
+        "type": "liyue_simple",
+        "year": 2008,
+        "month": 1,
+        "gan": "甲",
+        "zhi": "寅",
+        "solarTerm": "立春",
+        "dateStr": "2/4",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2008,
+        "month": 2,
+        "gan": "乙",
+        "zhi": "卯",
+        "solarTerm": "惊蛰",
+        "dateStr": "3/5",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2008,
+        "month": 3,
+        "gan": "丙",
+        "zhi": "辰",
+        "solarTerm": "清明",
+        "dateStr": "4/4",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2008,
+        "month": 4,
+        "gan": "丁",
+        "zhi": "巳",
+        "solarTerm": "立夏",
+        "dateStr": "5/5",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2008,
+        "month": 5,
+        "gan": "戊",
+        "zhi": "午",
+        "solarTerm": "芒种",
+        "dateStr": "6/5",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2008,
+        "month": 6,
+        "gan": "己",
+        "zhi": "未",
+        "solarTerm": "小暑",
+        "dateStr": "7/7",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2008,
+        "month": 7,
+        "gan": "庚",
+        "zhi": "申",
+        "solarTerm": "立秋",
+        "dateStr": "8/7",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2008,
+        "month": 8,
+        "gan": "辛",
+        "zhi": "酉",
+        "solarTerm": "白露",
+        "dateStr": "9/7",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2008,
+        "month": 9,
+        "gan": "壬",
+        "zhi": "戌",
+        "solarTerm": "寒露",
+        "dateStr": "10/8",
+        "isActive": false
+       },
+       {
+        "type": "more_liyue"
+       }
+      ]
+     ]
+    },
+    {
+     "year": 2026,
+     "selection": {
+      "columns": {
+       "liunian": {
+        "stem": "丙",
+        "branch": "午",
+        "stemElement": "火",
+        "branchElement": "火",
+        "mainStar": "偏印",
+        "hiddenStems": [
+         {
+          "stem": "丁",
+          "tenGod": "正印",
+          "element": "火"
+         },
+         {
+          "stem": "己",
+          "tenGod": "劫财",
+          "element": "土"
+         }
+        ],
+        "lifeStage": "帝旺",
+        "strength": "死",
+        "naYin": "天河水"
+       },
+       "dayun": {
+        "stem": "甲",
+        "branch": "戌",
+        "stemElement": "木",
+        "branchElement": "土",
+        "mainStar": "七杀",
+        "hiddenStems": [
+         {
+          "stem": "戊",
+          "tenGod": "比肩",
+          "element": "土"
+         },
+         {
+          "stem": "辛",
+          "tenGod": "伤官",
+          "element": "金"
+         },
+         {
+          "stem": "丁",
+          "tenGod": "正印",
+          "element": "火"
+         }
+        ],
+        "lifeStage": "墓",
+        "strength": "相",
+        "naYin": "山头火"
+       },
+       "year": {
+        "stem": "己",
+        "branch": "卯",
+        "stemElement": "土",
+        "branchElement": "木",
+        "mainStar": "劫财",
+        "hiddenStems": [
+         {
+          "stem": "乙",
+          "tenGod": "正官",
+          "element": "木"
+         }
+        ],
+        "lifeStage": "沐浴",
+        "strength": "囚",
+        "naYin": "城头土"
+       },
+       "month": {
+        "stem": "丙",
+        "branch": "子",
+        "stemElement": "火",
+        "branchElement": "水",
+        "mainStar": "偏印",
+        "hiddenStems": [
+         {
+          "stem": "癸",
+          "tenGod": "正财",
+          "element": "水"
+         }
+        ],
+        "lifeStage": "胎",
+        "strength": "死",
+        "naYin": "涧下水"
+       },
+       "day": {
+        "stem": "戊",
+        "branch": "午",
+        "stemElement": "土",
+        "branchElement": "火",
+        "mainStar": "日主",
+        "hiddenStems": [
+         {
+          "stem": "丁",
+          "tenGod": "正印",
+          "element": "火"
+         },
+         {
+          "stem": "己",
+          "tenGod": "劫财",
+          "element": "土"
+         }
+        ],
+        "lifeStage": "帝旺",
+        "strength": "囚",
+        "naYin": "天上火"
+       },
+       "hour": {
+        "stem": "戊",
+        "branch": "午",
+        "stemElement": "土",
+        "branchElement": "火",
+        "mainStar": "比肩",
+        "hiddenStems": [
+         {
+          "stem": "丁",
+          "tenGod": "正印",
+          "element": "火"
+         },
+         {
+          "stem": "己",
+          "tenGod": "劫财",
+          "element": "土"
+         }
+        ],
+        "lifeStage": "帝旺",
+        "strength": "囚",
+        "naYin": "天上火"
+       }
+      },
+      "shenSha": {
+       "liunian": [
+        "天喜",
+        "羊刃"
+       ],
+       "dayun": [
+        "太极贵人",
+        "词馆",
+        "天罗"
+       ],
+       "year": [
+        "将星"
+       ],
+       "month": [
+        "红鸾",
+        "咸池",
+        "空亡",
+        "天德贵人"
+       ],
+       "day": [
+        "天喜",
+        "羊刃"
+       ],
+       "hour": [
+        "天喜",
+        "羊刃"
+       ]
+      },
+      "qiyun": {
+       "years": 8,
+       "months": 2,
+       "changeYearDigit": 8,
+       "changeMonth": 3,
+       "ageText": "8岁2个月",
+       "changeText": "逢8字年3月换大运"
+      },
+      "year": {
+       "year": 2026,
+       "age": 27,
+       "ganZhi": {
+        "stem": "丙",
+        "branch": "午"
+       },
+       "table": {
+        "liunian": {
+         "stem": "丙",
+         "branch": "午",
+         "stemElement": "火",
+         "branchElement": "火",
+         "mainStar": "偏印",
+         "hiddenStems": [
+          {
+           "stem": "丁",
+           "tenGod": "正印",
+           "element": "火"
+          },
+          {
+           "stem": "己",
+           "tenGod": "劫财",
+           "element": "土"
+          }
+         ],
+         "lifeStage": "帝旺",
+         "strength": "死",
+         "naYin": "天河水"
+        },
+        "dayun": {
+         "kind": "period",
+         "index": 1
+        },
+        "shenSha": {
+         "liunian": [
+          "天喜",
+          "羊刃"
+         ],
+         "dayun": [
+          "太极贵人",
+          "词馆",
+          "天罗"
+         ],
+         "year": [
+          "将星"
+         ],
+         "month": [
+          "红鸾",
+          "咸池",
+          "空亡",
+          "天德贵人"
+         ],
+         "day": [
+          "天喜",
+          "羊刃"
+         ],
+         "hour": [
+          "天喜",
+          "羊刃"
+         ]
+        }
+       },
+       "liuyue": [
+        {
+         "stem": "庚",
+         "branch": "寅",
+         "month": 1,
+         "solarTerm": "立春",
+         "dateStr": "2/4"
+        },
+        {
+         "stem": "辛",
+         "branch": "卯",
+         "month": 2,
+         "solarTerm": "惊蛰",
+         "dateStr": "3/5"
+        },
+        {
+         "stem": "壬",
+         "branch": "辰",
+         "month": 3,
+         "solarTerm": "清明",
+         "dateStr": "4/5"
+        },
+        {
+         "stem": "癸",
+         "branch": "巳",
+         "month": 4,
+         "solarTerm": "立夏",
+         "dateStr": "5/5"
+        },
+        {
+         "stem": "甲",
+         "branch": "午",
+         "month": 5,
+         "solarTerm": "芒种",
+         "dateStr": "6/5"
+        },
+        {
+         "stem": "乙",
+         "branch": "未",
+         "month": 6,
+         "solarTerm": "小暑",
+         "dateStr": "7/7"
+        },
+        {
+         "stem": "丙",
+         "branch": "申",
+         "month": 7,
+         "solarTerm": "立秋",
+         "dateStr": "8/7"
+        },
+        {
+         "stem": "丁",
+         "branch": "酉",
+         "month": 8,
+         "solarTerm": "白露",
+         "dateStr": "9/7"
+        },
+        {
+         "stem": "戊",
+         "branch": "戌",
+         "month": 9,
+         "solarTerm": "寒露",
+         "dateStr": "10/8"
+        },
+        {
+         "stem": "己",
+         "branch": "亥",
+         "month": 10,
+         "solarTerm": "立冬",
+         "dateStr": "11/7"
+        },
+        {
+         "stem": "庚",
+         "branch": "子",
+         "month": 11,
+         "solarTerm": "大雪",
+         "dateStr": "12/7"
+        },
+        {
+         "stem": "辛",
+         "branch": "丑",
+         "month": 12,
+         "solarTerm": "小寒",
+         "dateStr": "1/5"
+        }
+       ]
+      }
+     },
+     "rows": [
+      [
+       {
+        "type": "xiaoyun",
+        "label": "1-8",
+        "age": 1,
+        "endAge": 8,
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2008,
+        "age": 8,
+        "endAge": 17,
+        "gan": "乙",
+        "zhi": "亥",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2018,
+        "age": 18,
+        "endAge": 27,
+        "gan": "甲",
+        "zhi": "戌",
+        "isActive": true
+       },
+       {
+        "type": "dayun",
+        "year": 2028,
+        "age": 28,
+        "endAge": 37,
+        "gan": "癸",
+        "zhi": "酉",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2038,
+        "age": 38,
+        "endAge": 47,
+        "gan": "壬",
+        "zhi": "申",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2048,
+        "age": 48,
+        "endAge": 57,
+        "gan": "辛",
+        "zhi": "未",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2058,
+        "age": 58,
+        "endAge": 67,
+        "gan": "庚",
+        "zhi": "午",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2068,
+        "age": 68,
+        "endAge": 77,
+        "gan": "己",
+        "zhi": "巳",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2078,
+        "age": 78,
+        "endAge": 87,
+        "gan": "戊",
+        "zhi": "辰",
+        "isActive": false
+       },
+       {
+        "type": "more"
+       }
+      ],
+      [
+       {
+        "type": "liunian",
+        "year": 2018,
+        "age": 19,
+        "gan": "戊",
+        "zhi": "戌",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2019,
+        "age": 20,
+        "gan": "己",
+        "zhi": "亥",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2020,
+        "age": 21,
+        "gan": "庚",
+        "zhi": "子",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2021,
+        "age": 22,
+        "gan": "辛",
+        "zhi": "丑",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2022,
+        "age": 23,
+        "gan": "壬",
+        "zhi": "寅",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2023,
+        "age": 24,
+        "gan": "癸",
+        "zhi": "卯",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2024,
+        "age": 25,
+        "gan": "甲",
+        "zhi": "辰",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2025,
+        "age": 26,
+        "gan": "乙",
+        "zhi": "巳",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2026,
+        "age": 27,
+        "gan": "丙",
+        "zhi": "午",
+        "isActive": true
+       },
+       {
+        "type": "liunian",
+        "year": 2027,
+        "age": 28,
+        "gan": "丁",
+        "zhi": "未",
+        "isActive": false
+       }
+      ],
+      [
+       {
+        "type": "liyue_simple",
+        "year": 2026,
+        "month": 1,
+        "gan": "庚",
+        "zhi": "寅",
+        "solarTerm": "立春",
+        "dateStr": "2/4",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2026,
+        "month": 2,
+        "gan": "辛",
+        "zhi": "卯",
+        "solarTerm": "惊蛰",
+        "dateStr": "3/5",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2026,
+        "month": 3,
+        "gan": "壬",
+        "zhi": "辰",
+        "solarTerm": "清明",
+        "dateStr": "4/5",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2026,
+        "month": 4,
+        "gan": "癸",
+        "zhi": "巳",
+        "solarTerm": "立夏",
+        "dateStr": "5/5",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2026,
+        "month": 5,
+        "gan": "甲",
+        "zhi": "午",
+        "solarTerm": "芒种",
+        "dateStr": "6/5",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2026,
+        "month": 6,
+        "gan": "乙",
+        "zhi": "未",
+        "solarTerm": "小暑",
+        "dateStr": "7/7",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2026,
+        "month": 7,
+        "gan": "丙",
+        "zhi": "申",
+        "solarTerm": "立秋",
+        "dateStr": "8/7",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2026,
+        "month": 8,
+        "gan": "丁",
+        "zhi": "酉",
+        "solarTerm": "白露",
+        "dateStr": "9/7",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2026,
+        "month": 9,
+        "gan": "戊",
+        "zhi": "戌",
+        "solarTerm": "寒露",
+        "dateStr": "10/8",
+        "isActive": false
+       },
+       {
+        "type": "more_liyue"
+       }
+      ]
+     ]
+    },
+    {
+     "year": 2127,
+     "selection": {
+      "columns": {
+       "liunian": {
+        "stem": "-",
+        "branch": "-",
+        "stemElement": null,
+        "branchElement": null,
+        "mainStar": "-",
+        "hiddenStems": [],
+        "lifeStage": "-",
+        "strength": "-",
+        "naYin": "-"
+       },
+       "dayun": {
+        "stem": "甲",
+        "branch": "子",
+        "stemElement": "木",
+        "branchElement": "水",
+        "mainStar": "七杀",
+        "hiddenStems": [
+         {
+          "stem": "癸",
+          "tenGod": "正财",
+          "element": "水"
+         }
+        ],
+        "lifeStage": "胎",
+        "strength": "相",
+        "naYin": "海中金"
+       },
+       "year": {
+        "stem": "己",
+        "branch": "卯",
+        "stemElement": "土",
+        "branchElement": "木",
+        "mainStar": "劫财",
+        "hiddenStems": [
+         {
+          "stem": "乙",
+          "tenGod": "正官",
+          "element": "木"
+         }
+        ],
+        "lifeStage": "沐浴",
+        "strength": "囚",
+        "naYin": "城头土"
+       },
+       "month": {
+        "stem": "丙",
+        "branch": "子",
+        "stemElement": "火",
+        "branchElement": "水",
+        "mainStar": "偏印",
+        "hiddenStems": [
+         {
+          "stem": "癸",
+          "tenGod": "正财",
+          "element": "水"
+         }
+        ],
+        "lifeStage": "胎",
+        "strength": "死",
+        "naYin": "涧下水"
+       },
+       "day": {
+        "stem": "戊",
+        "branch": "午",
+        "stemElement": "土",
+        "branchElement": "火",
+        "mainStar": "日主",
+        "hiddenStems": [
+         {
+          "stem": "丁",
+          "tenGod": "正印",
+          "element": "火"
+         },
+         {
+          "stem": "己",
+          "tenGod": "劫财",
+          "element": "土"
+         }
+        ],
+        "lifeStage": "帝旺",
+        "strength": "囚",
+        "naYin": "天上火"
+       },
+       "hour": {
+        "stem": "戊",
+        "branch": "午",
+        "stemElement": "土",
+        "branchElement": "火",
+        "mainStar": "比肩",
+        "hiddenStems": [
+         {
+          "stem": "丁",
+          "tenGod": "正印",
+          "element": "火"
+         },
+         {
+          "stem": "己",
+          "tenGod": "劫财",
+          "element": "土"
+         }
+        ],
+        "lifeStage": "帝旺",
+        "strength": "囚",
+        "naYin": "天上火"
+       }
+      },
+      "shenSha": {
+       "liunian": [],
+       "dayun": [
+        "红鸾",
+        "咸池",
+        "空亡",
+        "词馆"
+       ],
+       "year": [
+        "将星"
+       ],
+       "month": [
+        "红鸾",
+        "咸池",
+        "空亡",
+        "天德贵人"
+       ],
+       "day": [
+        "天喜",
+        "羊刃"
+       ],
+       "hour": [
+        "天喜",
+        "羊刃"
+       ]
+      },
+      "qiyun": {
+       "years": 8,
+       "months": 2,
+       "changeYearDigit": 8,
+       "changeMonth": 3,
+       "ageText": "8岁2个月",
+       "changeText": "逢8字年3月换大运"
+      },
+      "year": {
+       "year": 2127,
+       "age": 128,
+       "ganZhi": {
+        "stem": "丁",
+        "branch": "亥"
+       },
+       "table": {
+        "liunian": {
+         "stem": "-",
+         "branch": "-",
+         "stemElement": null,
+         "branchElement": null,
+         "mainStar": "-",
+         "hiddenStems": [],
+         "lifeStage": "-",
+         "strength": "-",
+         "naYin": "-"
+        },
+        "dayun": {
+         "kind": "projected",
+         "index": 3
+        },
+        "shenSha": {
+         "liunian": [],
+         "dayun": [
+          "红鸾",
+          "咸池",
+          "空亡",
+          "词馆"
+         ],
+         "year": [
+          "将星"
+         ],
+         "month": [
+          "红鸾",
+          "咸池",
+          "空亡",
+          "天德贵人"
+         ],
+         "day": [
+          "天喜",
+          "羊刃"
+         ],
+         "hour": [
+          "天喜",
+          "羊刃"
+         ]
+        }
+       },
+       "liuyue": [
+        {
+         "stem": "壬",
+         "branch": "寅",
+         "month": 1,
+         "solarTerm": "立春",
+         "dateStr": "2/4"
+        },
+        {
+         "stem": "癸",
+         "branch": "卯",
+         "month": 2,
+         "solarTerm": "惊蛰",
+         "dateStr": "3/6"
+        },
+        {
+         "stem": "甲",
+         "branch": "辰",
+         "month": 3,
+         "solarTerm": "清明",
+         "dateStr": "4/5"
+        },
+        {
+         "stem": "乙",
+         "branch": "巳",
+         "month": 4,
+         "solarTerm": "立夏",
+         "dateStr": "5/6"
+        },
+        {
+         "stem": "丙",
+         "branch": "午",
+         "month": 5,
+         "solarTerm": "芒种",
+         "dateStr": "6/6"
+        },
+        {
+         "stem": "丁",
+         "branch": "未",
+         "month": 6,
+         "solarTerm": "小暑",
+         "dateStr": "7/7"
+        },
+        {
+         "stem": "戊",
+         "branch": "申",
+         "month": 7,
+         "solarTerm": "立秋",
+         "dateStr": "8/8"
+        },
+        {
+         "stem": "己",
+         "branch": "酉",
+         "month": 8,
+         "solarTerm": "白露",
+         "dateStr": "9/8"
+        },
+        {
+         "stem": "庚",
+         "branch": "戌",
+         "month": 9,
+         "solarTerm": "寒露",
+         "dateStr": "10/9"
+        },
+        {
+         "stem": "辛",
+         "branch": "亥",
+         "month": 10,
+         "solarTerm": "立冬",
+         "dateStr": "11/8"
+        },
+        {
+         "stem": "壬",
+         "branch": "子",
+         "month": 11,
+         "solarTerm": "大雪",
+         "dateStr": "12/7"
+        },
+        {
+         "stem": "癸",
+         "branch": "丑",
+         "month": 12,
+         "solarTerm": "小寒",
+         "dateStr": "1/6"
+        }
+       ]
+      }
+     },
+     "rows": [
+      [
+       {
+        "type": "xiaoyun",
+        "label": "1-8",
+        "age": 1,
+        "endAge": 8,
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2008,
+        "age": 8,
+        "endAge": 17,
+        "gan": "乙",
+        "zhi": "亥",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2018,
+        "age": 18,
+        "endAge": 27,
+        "gan": "甲",
+        "zhi": "戌",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2028,
+        "age": 28,
+        "endAge": 37,
+        "gan": "癸",
+        "zhi": "酉",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2038,
+        "age": 38,
+        "endAge": 47,
+        "gan": "壬",
+        "zhi": "申",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2048,
+        "age": 48,
+        "endAge": 57,
+        "gan": "辛",
+        "zhi": "未",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2058,
+        "age": 58,
+        "endAge": 67,
+        "gan": "庚",
+        "zhi": "午",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2068,
+        "age": 68,
+        "endAge": 77,
+        "gan": "己",
+        "zhi": "巳",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2078,
+        "age": 78,
+        "endAge": 87,
+        "gan": "戊",
+        "zhi": "辰",
+        "isActive": false
+       },
+       {
+        "type": "more"
+       }
+      ],
+      [
+       {
+        "type": "liunian",
+        "year": 2118,
+        "age": 119,
+        "gan": "戊",
+        "zhi": "寅",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2119,
+        "age": 120,
+        "gan": "己",
+        "zhi": "卯",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2120,
+        "age": 121,
+        "gan": "庚",
+        "zhi": "辰",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2121,
+        "age": 122,
+        "gan": "辛",
+        "zhi": "巳",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2122,
+        "age": 123,
+        "gan": "壬",
+        "zhi": "午",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2123,
+        "age": 124,
+        "gan": "癸",
+        "zhi": "未",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2124,
+        "age": 125,
+        "gan": "甲",
+        "zhi": "申",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2125,
+        "age": 126,
+        "gan": "乙",
+        "zhi": "酉",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2126,
+        "age": 127,
+        "gan": "丙",
+        "zhi": "戌",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2127,
+        "age": 128,
+        "gan": "丁",
+        "zhi": "亥",
+        "isActive": true
+       }
+      ],
+      [
+       {
+        "type": "liyue_simple",
+        "year": 2127,
+        "month": 1,
+        "gan": "壬",
+        "zhi": "寅",
+        "solarTerm": "立春",
+        "dateStr": "2/4",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2127,
+        "month": 2,
+        "gan": "癸",
+        "zhi": "卯",
+        "solarTerm": "惊蛰",
+        "dateStr": "3/6",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2127,
+        "month": 3,
+        "gan": "甲",
+        "zhi": "辰",
+        "solarTerm": "清明",
+        "dateStr": "4/5",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2127,
+        "month": 4,
+        "gan": "乙",
+        "zhi": "巳",
+        "solarTerm": "立夏",
+        "dateStr": "5/6",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2127,
+        "month": 5,
+        "gan": "丙",
+        "zhi": "午",
+        "solarTerm": "芒种",
+        "dateStr": "6/6",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2127,
+        "month": 6,
+        "gan": "丁",
+        "zhi": "未",
+        "solarTerm": "小暑",
+        "dateStr": "7/7",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2127,
+        "month": 7,
+        "gan": "戊",
+        "zhi": "申",
+        "solarTerm": "立秋",
+        "dateStr": "8/8",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2127,
+        "month": 8,
+        "gan": "己",
+        "zhi": "酉",
+        "solarTerm": "白露",
+        "dateStr": "9/8",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2127,
+        "month": 9,
+        "gan": "庚",
+        "zhi": "戌",
+        "solarTerm": "寒露",
+        "dateStr": "10/9",
+        "isActive": false
+       },
+       {
+        "type": "more_liyue"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "label": "示例乙（闰四月）",
+   "input": {
+    "year": 2001,
+    "month": 6,
+    "day": 15,
+    "hour": 8,
+    "minute": 30,
+    "second": 0,
+    "gender": "female"
+   },
+   "options": {
+    "referenceYear": 2026,
+    "referenceMonth": 11
+   },
+   "yearRange": {
+    "from": 2001,
+    "to": 2127
+   },
+   "fortune": {
+    "xiaoyun": {
+     "label": "1-7",
+     "startAge": 1,
+     "endAge": 7
+    },
+    "firstDayunStartYear": 2008,
+    "dayun": [
+     {
+      "stem": "乙",
+      "branch": "未",
+      "startAge": 7,
+      "endAge": 16,
+      "startYear": 2008,
+      "projected": false
+     },
+     {
+      "stem": "丙",
+      "branch": "申",
+      "startAge": 17,
+      "endAge": 26,
+      "startYear": 2018,
+      "projected": false
+     },
+     {
+      "stem": "丁",
+      "branch": "酉",
+      "startAge": 27,
+      "endAge": 36,
+      "startYear": 2028,
+      "projected": false
+     },
+     {
+      "stem": "戊",
+      "branch": "戌",
+      "startAge": 37,
+      "endAge": 46,
+      "startYear": 2038,
+      "projected": false
+     },
+     {
+      "stem": "己",
+      "branch": "亥",
+      "startAge": 47,
+      "endAge": 56,
+      "startYear": 2048,
+      "projected": false
+     },
+     {
+      "stem": "庚",
+      "branch": "子",
+      "startAge": 57,
+      "endAge": 66,
+      "startYear": 2058,
+      "projected": false
+     },
+     {
+      "stem": "辛",
+      "branch": "丑",
+      "startAge": 67,
+      "endAge": 76,
+      "startYear": 2068,
+      "projected": false
+     },
+     {
+      "stem": "壬",
+      "branch": "寅",
+      "startAge": 77,
+      "endAge": 86,
+      "startYear": 2078,
+      "projected": false
+     },
+     {
+      "stem": "癸",
+      "branch": "卯",
+      "startAge": 87,
+      "endAge": 96,
+      "startYear": 2088,
+      "projected": true
+     },
+     {
+      "stem": "甲",
+      "branch": "辰",
+      "startAge": 97,
+      "endAge": 106,
+      "startYear": 2098,
+      "projected": true
+     },
+     {
+      "stem": "乙",
+      "branch": "巳",
+      "startAge": 107,
+      "endAge": 116,
+      "startYear": 2108,
+      "projected": true
+     },
+     {
+      "stem": "丙",
+      "branch": "午",
+      "startAge": 117,
+      "endAge": 126,
+      "startYear": 2118,
+      "projected": true
+     }
+    ]
+   },
+   "glyphs": {
+    "stems": {
+     "甲": {
+      "element": "木",
+      "tenGod": "正官"
+     },
+     "乙": {
+      "element": "木",
+      "tenGod": "七杀"
+     },
+     "丙": {
+      "element": "火",
+      "tenGod": "正印"
+     },
+     "丁": {
+      "element": "火",
+      "tenGod": "偏印"
+     },
+     "戊": {
+      "element": "土",
+      "tenGod": "劫财"
+     },
+     "己": {
+      "element": "土",
+      "tenGod": "比肩"
+     },
+     "庚": {
+      "element": "金",
+      "tenGod": "伤官"
+     },
+     "辛": {
+      "element": "金",
+      "tenGod": "食神"
+     },
+     "壬": {
+      "element": "水",
+      "tenGod": "正财"
+     },
+     "癸": {
+      "element": "水",
+      "tenGod": "偏财"
+     }
+    },
+    "branches": {
+     "子": {
+      "element": "水",
+      "tenGod": "偏财"
+     },
+     "丑": {
+      "element": "土",
+      "tenGod": "比肩"
+     },
+     "寅": {
+      "element": "木",
+      "tenGod": "正官"
+     },
+     "卯": {
+      "element": "木",
+      "tenGod": "七杀"
+     },
+     "辰": {
+      "element": "土",
+      "tenGod": "劫财"
+     },
+     "巳": {
+      "element": "火",
+      "tenGod": "正印"
+     },
+     "午": {
+      "element": "火",
+      "tenGod": "偏印"
+     },
+     "未": {
+      "element": "土",
+      "tenGod": "比肩"
+     },
+     "申": {
+      "element": "金",
+      "tenGod": "伤官"
+     },
+     "酉": {
+      "element": "金",
+      "tenGod": "食神"
+     },
+     "戌": {
+      "element": "土",
+      "tenGod": "劫财"
+     },
+     "亥": {
+      "element": "水",
+      "tenGod": "正财"
+     }
+    }
+   },
+   "selections": [
+    {
+     "year": 2001,
+     "selection": {
+      "columns": {
+       "liunian": {
+        "stem": "辛",
+        "branch": "巳",
+        "stemElement": "金",
+        "branchElement": "火",
+        "mainStar": "食神",
+        "hiddenStems": [
+         {
+          "stem": "丙",
+          "tenGod": "正印",
+          "element": "火"
+         },
+         {
+          "stem": "戊",
+          "tenGod": "劫财",
+          "element": "土"
+         },
+         {
+          "stem": "庚",
+          "tenGod": "伤官",
+          "element": "金"
+         }
+        ],
+        "lifeStage": "帝旺",
+        "strength": "死",
+        "naYin": "白蜡金"
+       },
+       "dayun": {
+        "stem": "-",
+        "branch": "-",
+        "stemElement": null,
+        "branchElement": null,
+        "mainStar": "-",
+        "hiddenStems": [],
+        "lifeStage": "-",
+        "strength": "-",
+        "naYin": "-"
+       },
+       "year": {
+        "stem": "辛",
+        "branch": "巳",
+        "stemElement": "金",
+        "branchElement": "火",
+        "mainStar": "食神",
+        "hiddenStems": [
+         {
+          "stem": "丙",
+          "tenGod": "正印",
+          "element": "火"
+         },
+         {
+          "stem": "戊",
+          "tenGod": "劫财",
+          "element": "土"
+         },
+         {
+          "stem": "庚",
+          "tenGod": "伤官",
+          "element": "金"
+         }
+        ],
+        "lifeStage": "帝旺",
+        "strength": "死",
+        "naYin": "白蜡金"
+       },
+       "month": {
+        "stem": "甲",
+        "branch": "午",
+        "stemElement": "木",
+        "branchElement": "火",
+        "mainStar": "正官",
+        "hiddenStems": [
+         {
+          "stem": "丁",
+          "tenGod": "偏印",
+          "element": "火"
+         },
+         {
+          "stem": "己",
+          "tenGod": "比肩",
+          "element": "土"
+         }
+        ],
+        "lifeStage": "临官",
+        "strength": "休",
+        "naYin": "砂中金"
+       },
+       "day": {
+        "stem": "己",
+        "branch": "酉",
+        "stemElement": "土",
+        "branchElement": "金",
+        "mainStar": "日主",
+        "hiddenStems": [
+         {
+          "stem": "辛",
+          "tenGod": "食神",
+          "element": "金"
+         }
+        ],
+        "lifeStage": "长生",
+        "strength": "相",
+        "naYin": "大驿土"
+       },
+       "hour": {
+        "stem": "戊",
+        "branch": "辰",
+        "stemElement": "土",
+        "branchElement": "土",
+        "mainStar": "劫财",
+        "hiddenStems": [
+         {
+          "stem": "戊",
+          "tenGod": "劫财",
+          "element": "土"
+         },
+         {
+          "stem": "乙",
+          "tenGod": "七杀",
+          "element": "木"
+         },
+         {
+          "stem": "癸",
+          "tenGod": "偏财",
+          "element": "水"
+         }
+        ],
+        "lifeStage": "衰",
+        "strength": "相",
+        "naYin": "大林木"
+       }
+      },
+      "shenSha": {
+       "liunian": [
+        "羊刃",
+        "月德合",
+        "十恶大败",
+        "地网"
+       ],
+       "dayun": [],
+       "year": [
+        "羊刃",
+        "月德合",
+        "地网"
+       ],
+       "month": [
+        "咸池",
+        "禄神",
+        "白虎煞",
+        "元辰"
+       ],
+       "day": [
+        "文昌贵人",
+        "将星",
+        "学堂"
+       ],
+       "hour": [
+        "天喜",
+        "红艳",
+        "太极贵人",
+        "寡宿",
+        "地网"
+       ]
+      },
+      "qiyun": {
+       "years": 7,
+       "months": 4,
+       "changeYearDigit": 8,
+       "changeMonth": 10,
+       "ageText": "7岁4个月",
+       "changeText": "逢8字年10月换大运"
+      },
+      "year": {
+       "year": 2001,
+       "age": 1,
+       "ganZhi": {
+        "stem": "辛",
+        "branch": "巳"
+       },
+       "table": {
+        "liunian": {
+         "stem": "辛",
+         "branch": "巳",
+         "stemElement": "金",
+         "branchElement": "火",
+         "mainStar": "食神",
+         "hiddenStems": [
+          {
+           "stem": "丙",
+           "tenGod": "正印",
+           "element": "火"
+          },
+          {
+           "stem": "戊",
+           "tenGod": "劫财",
+           "element": "土"
+          },
+          {
+           "stem": "庚",
+           "tenGod": "伤官",
+           "element": "金"
+          }
+         ],
+         "lifeStage": "帝旺",
+         "strength": "死",
+         "naYin": "白蜡金"
+        },
+        "dayun": {
+         "kind": "none"
+        },
+        "shenSha": {
+         "liunian": [
+          "羊刃",
+          "月德合",
+          "十恶大败",
+          "地网"
+         ],
+         "dayun": [],
+         "year": [
+          "羊刃",
+          "月德合",
+          "地网"
+         ],
+         "month": [
+          "咸池",
+          "禄神",
+          "白虎煞",
+          "元辰"
+         ],
+         "day": [
+          "文昌贵人",
+          "将星",
+          "学堂"
+         ],
+         "hour": [
+          "天喜",
+          "红艳",
+          "太极贵人",
+          "寡宿",
+          "地网"
+         ]
+        }
+       },
+       "liuyue": [
+        {
+         "stem": "庚",
+         "branch": "寅",
+         "month": 1,
+         "solarTerm": "立春",
+         "dateStr": "2/4"
+        },
+        {
+         "stem": "辛",
+         "branch": "卯",
+         "month": 2,
+         "solarTerm": "惊蛰",
+         "dateStr": "3/5"
+        },
+        {
+         "stem": "壬",
+         "branch": "辰",
+         "month": 3,
+         "solarTerm": "清明",
+         "dateStr": "4/5"
+        },
+        {
+         "stem": "癸",
+         "branch": "巳",
+         "month": 4,
+         "solarTerm": "立夏",
+         "dateStr": "5/5"
+        },
+        {
+         "stem": "甲",
+         "branch": "午",
+         "month": 5,
+         "solarTerm": "芒种",
+         "dateStr": "6/5"
+        },
+        {
+         "stem": "乙",
+         "branch": "未",
+         "month": 6,
+         "solarTerm": "小暑",
+         "dateStr": "7/7"
+        },
+        {
+         "stem": "丙",
+         "branch": "申",
+         "month": 7,
+         "solarTerm": "立秋",
+         "dateStr": "8/7"
+        },
+        {
+         "stem": "丁",
+         "branch": "酉",
+         "month": 8,
+         "solarTerm": "白露",
+         "dateStr": "9/7"
+        },
+        {
+         "stem": "戊",
+         "branch": "戌",
+         "month": 9,
+         "solarTerm": "寒露",
+         "dateStr": "10/8"
+        },
+        {
+         "stem": "己",
+         "branch": "亥",
+         "month": 10,
+         "solarTerm": "立冬",
+         "dateStr": "11/7"
+        },
+        {
+         "stem": "庚",
+         "branch": "子",
+         "month": 11,
+         "solarTerm": "大雪",
+         "dateStr": "12/7"
+        },
+        {
+         "stem": "辛",
+         "branch": "丑",
+         "month": 12,
+         "solarTerm": "小寒",
+         "dateStr": "1/5"
+        }
+       ]
+      }
+     },
+     "rows": [
+      [
+       {
+        "type": "xiaoyun",
+        "label": "1-7",
+        "age": 1,
+        "endAge": 7,
+        "isActive": true
+       },
+       {
+        "type": "dayun",
+        "year": 2008,
+        "age": 7,
+        "endAge": 16,
+        "gan": "乙",
+        "zhi": "未",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2018,
+        "age": 17,
+        "endAge": 26,
+        "gan": "丙",
+        "zhi": "申",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2028,
+        "age": 27,
+        "endAge": 36,
+        "gan": "丁",
+        "zhi": "酉",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2038,
+        "age": 37,
+        "endAge": 46,
+        "gan": "戊",
+        "zhi": "戌",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2048,
+        "age": 47,
+        "endAge": 56,
+        "gan": "己",
+        "zhi": "亥",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2058,
+        "age": 57,
+        "endAge": 66,
+        "gan": "庚",
+        "zhi": "子",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2068,
+        "age": 67,
+        "endAge": 76,
+        "gan": "辛",
+        "zhi": "丑",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2078,
+        "age": 77,
+        "endAge": 86,
+        "gan": "壬",
+        "zhi": "寅",
+        "isActive": false
+       },
+       {
+        "type": "more"
+       }
+      ],
+      [
+       {
+        "type": "liunian",
+        "year": 2001,
+        "age": 1,
+        "gan": "辛",
+        "zhi": "巳",
+        "isActive": true
+       },
+       {
+        "type": "liunian",
+        "year": 2002,
+        "age": 2,
+        "gan": "壬",
+        "zhi": "午",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2003,
+        "age": 3,
+        "gan": "癸",
+        "zhi": "未",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2004,
+        "age": 4,
+        "gan": "甲",
+        "zhi": "申",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2005,
+        "age": 5,
+        "gan": "乙",
+        "zhi": "酉",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2006,
+        "age": 6,
+        "gan": "丙",
+        "zhi": "戌",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2007,
+        "age": 7,
+        "gan": "丁",
+        "zhi": "亥",
+        "isActive": false
+       },
+       {
+        "type": "empty"
+       },
+       {
+        "type": "empty"
+       },
+       {
+        "type": "empty"
+       }
+      ],
+      [
+       {
+        "type": "liyue_simple",
+        "year": 2001,
+        "month": 1,
+        "gan": "庚",
+        "zhi": "寅",
+        "solarTerm": "立春",
+        "dateStr": "2/4",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2001,
+        "month": 2,
+        "gan": "辛",
+        "zhi": "卯",
+        "solarTerm": "惊蛰",
+        "dateStr": "3/5",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2001,
+        "month": 3,
+        "gan": "壬",
+        "zhi": "辰",
+        "solarTerm": "清明",
+        "dateStr": "4/5",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2001,
+        "month": 4,
+        "gan": "癸",
+        "zhi": "巳",
+        "solarTerm": "立夏",
+        "dateStr": "5/5",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2001,
+        "month": 5,
+        "gan": "甲",
+        "zhi": "午",
+        "solarTerm": "芒种",
+        "dateStr": "6/5",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2001,
+        "month": 6,
+        "gan": "乙",
+        "zhi": "未",
+        "solarTerm": "小暑",
+        "dateStr": "7/7",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2001,
+        "month": 7,
+        "gan": "丙",
+        "zhi": "申",
+        "solarTerm": "立秋",
+        "dateStr": "8/7",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2001,
+        "month": 8,
+        "gan": "丁",
+        "zhi": "酉",
+        "solarTerm": "白露",
+        "dateStr": "9/7",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2001,
+        "month": 9,
+        "gan": "戊",
+        "zhi": "戌",
+        "solarTerm": "寒露",
+        "dateStr": "10/8",
+        "isActive": false
+       },
+       {
+        "type": "more_liyue"
+       }
+      ]
+     ]
+    },
+    {
+     "year": 2008,
+     "selection": {
+      "columns": {
+       "liunian": {
+        "stem": "戊",
+        "branch": "子",
+        "stemElement": "土",
+        "branchElement": "水",
+        "mainStar": "劫财",
+        "hiddenStems": [
+         {
+          "stem": "癸",
+          "tenGod": "偏财",
+          "element": "水"
+         }
+        ],
+        "lifeStage": "绝",
+        "strength": "相",
+        "naYin": "霹雳火"
+       },
+       "dayun": {
+        "stem": "乙",
+        "branch": "未",
+        "stemElement": "木",
+        "branchElement": "土",
+        "mainStar": "七杀",
+        "hiddenStems": [
+         {
+          "stem": "己",
+          "tenGod": "比肩",
+          "element": "土"
+         },
+         {
+          "stem": "丁",
+          "tenGod": "偏印",
+          "element": "火"
+         },
+         {
+          "stem": "乙",
+          "tenGod": "七杀",
+          "element": "木"
+         }
+        ],
+        "lifeStage": "冠带",
+        "strength": "休",
+        "naYin": "砂中金"
+       },
+       "year": {
+        "stem": "辛",
+        "branch": "巳",
+        "stemElement": "金",
+        "branchElement": "火",
+        "mainStar": "食神",
+        "hiddenStems": [
+         {
+          "stem": "丙",
+          "tenGod": "正印",
+          "element": "火"
+         },
+         {
+          "stem": "戊",
+          "tenGod": "劫财",
+          "element": "土"
+         },
+         {
+          "stem": "庚",
+          "tenGod": "伤官",
+          "element": "金"
+         }
+        ],
+        "lifeStage": "帝旺",
+        "strength": "死",
+        "naYin": "白蜡金"
+       },
+       "month": {
+        "stem": "甲",
+        "branch": "午",
+        "stemElement": "木",
+        "branchElement": "火",
+        "mainStar": "正官",
+        "hiddenStems": [
+         {
+          "stem": "丁",
+          "tenGod": "偏印",
+          "element": "火"
+         },
+         {
+          "stem": "己",
+          "tenGod": "比肩",
+          "element": "土"
+         }
+        ],
+        "lifeStage": "临官",
+        "strength": "休",
+        "naYin": "砂中金"
+       },
+       "day": {
+        "stem": "己",
+        "branch": "酉",
+        "stemElement": "土",
+        "branchElement": "金",
+        "mainStar": "日主",
+        "hiddenStems": [
+         {
+          "stem": "辛",
+          "tenGod": "食神",
+          "element": "金"
+         }
+        ],
+        "lifeStage": "长生",
+        "strength": "相",
+        "naYin": "大驿土"
+       },
+       "hour": {
+        "stem": "戊",
+        "branch": "辰",
+        "stemElement": "土",
+        "branchElement": "土",
+        "mainStar": "劫财",
+        "hiddenStems": [
+         {
+          "stem": "戊",
+          "tenGod": "劫财",
+          "element": "土"
+         },
+         {
+          "stem": "乙",
+          "tenGod": "七杀",
+          "element": "木"
+         },
+         {
+          "stem": "癸",
+          "tenGod": "偏财",
+          "element": "水"
+         }
+        ],
+        "lifeStage": "衰",
+        "strength": "相",
+        "naYin": "大林木"
+       }
+      },
+      "shenSha": {
+       "liunian": [
+        "天乙贵人"
+       ],
+       "dayun": [
+        "词馆"
+       ],
+       "year": [
+        "羊刃",
+        "月德合",
+        "地网"
+       ],
+       "month": [
+        "咸池",
+        "禄神",
+        "白虎煞",
+        "元辰"
+       ],
+       "day": [
+        "文昌贵人",
+        "将星",
+        "学堂"
+       ],
+       "hour": [
+        "天喜",
+        "红艳",
+        "太极贵人",
+        "寡宿",
+        "地网"
+       ]
+      },
+      "qiyun": {
+       "years": 7,
+       "months": 4,
+       "changeYearDigit": 8,
+       "changeMonth": 10,
+       "ageText": "7岁4个月",
+       "changeText": "逢8字年10月换大运"
+      },
+      "year": {
+       "year": 2008,
+       "age": 8,
+       "ganZhi": {
+        "stem": "戊",
+        "branch": "子"
+       },
+       "table": {
+        "liunian": {
+         "stem": "戊",
+         "branch": "子",
+         "stemElement": "土",
+         "branchElement": "水",
+         "mainStar": "劫财",
+         "hiddenStems": [
+          {
+           "stem": "癸",
+           "tenGod": "偏财",
+           "element": "水"
+          }
+         ],
+         "lifeStage": "绝",
+         "strength": "相",
+         "naYin": "霹雳火"
+        },
+        "dayun": {
+         "kind": "period",
+         "index": 0
+        },
+        "shenSha": {
+         "liunian": [
+          "天乙贵人"
+         ],
+         "dayun": [
+          "词馆"
+         ],
+         "year": [
+          "羊刃",
+          "月德合",
+          "地网"
+         ],
+         "month": [
+          "咸池",
+          "禄神",
+          "白虎煞",
+          "元辰"
+         ],
+         "day": [
+          "文昌贵人",
+          "将星",
+          "学堂"
+         ],
+         "hour": [
+          "天喜",
+          "红艳",
+          "太极贵人",
+          "寡宿",
+          "地网"
+         ]
+        }
+       },
+       "liuyue": [
+        {
+         "stem": "甲",
+         "branch": "寅",
+         "month": 1,
+         "solarTerm": "立春",
+         "dateStr": "2/4"
+        },
+        {
+         "stem": "乙",
+         "branch": "卯",
+         "month": 2,
+         "solarTerm": "惊蛰",
+         "dateStr": "3/5"
+        },
+        {
+         "stem": "丙",
+         "branch": "辰",
+         "month": 3,
+         "solarTerm": "清明",
+         "dateStr": "4/4"
+        },
+        {
+         "stem": "丁",
+         "branch": "巳",
+         "month": 4,
+         "solarTerm": "立夏",
+         "dateStr": "5/5"
+        },
+        {
+         "stem": "戊",
+         "branch": "午",
+         "month": 5,
+         "solarTerm": "芒种",
+         "dateStr": "6/5"
+        },
+        {
+         "stem": "己",
+         "branch": "未",
+         "month": 6,
+         "solarTerm": "小暑",
+         "dateStr": "7/7"
+        },
+        {
+         "stem": "庚",
+         "branch": "申",
+         "month": 7,
+         "solarTerm": "立秋",
+         "dateStr": "8/7"
+        },
+        {
+         "stem": "辛",
+         "branch": "酉",
+         "month": 8,
+         "solarTerm": "白露",
+         "dateStr": "9/7"
+        },
+        {
+         "stem": "壬",
+         "branch": "戌",
+         "month": 9,
+         "solarTerm": "寒露",
+         "dateStr": "10/8"
+        },
+        {
+         "stem": "癸",
+         "branch": "亥",
+         "month": 10,
+         "solarTerm": "立冬",
+         "dateStr": "11/7"
+        },
+        {
+         "stem": "甲",
+         "branch": "子",
+         "month": 11,
+         "solarTerm": "大雪",
+         "dateStr": "12/7"
+        },
+        {
+         "stem": "乙",
+         "branch": "丑",
+         "month": 12,
+         "solarTerm": "小寒",
+         "dateStr": "1/5"
+        }
+       ]
+      }
+     },
+     "rows": [
+      [
+       {
+        "type": "xiaoyun",
+        "label": "1-7",
+        "age": 1,
+        "endAge": 7,
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2008,
+        "age": 7,
+        "endAge": 16,
+        "gan": "乙",
+        "zhi": "未",
+        "isActive": true
+       },
+       {
+        "type": "dayun",
+        "year": 2018,
+        "age": 17,
+        "endAge": 26,
+        "gan": "丙",
+        "zhi": "申",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2028,
+        "age": 27,
+        "endAge": 36,
+        "gan": "丁",
+        "zhi": "酉",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2038,
+        "age": 37,
+        "endAge": 46,
+        "gan": "戊",
+        "zhi": "戌",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2048,
+        "age": 47,
+        "endAge": 56,
+        "gan": "己",
+        "zhi": "亥",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2058,
+        "age": 57,
+        "endAge": 66,
+        "gan": "庚",
+        "zhi": "子",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2068,
+        "age": 67,
+        "endAge": 76,
+        "gan": "辛",
+        "zhi": "丑",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2078,
+        "age": 77,
+        "endAge": 86,
+        "gan": "壬",
+        "zhi": "寅",
+        "isActive": false
+       },
+       {
+        "type": "more"
+       }
+      ],
+      [
+       {
+        "type": "liunian",
+        "year": 2008,
+        "age": 8,
+        "gan": "戊",
+        "zhi": "子",
+        "isActive": true
+       },
+       {
+        "type": "liunian",
+        "year": 2009,
+        "age": 9,
+        "gan": "己",
+        "zhi": "丑",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2010,
+        "age": 10,
+        "gan": "庚",
+        "zhi": "寅",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2011,
+        "age": 11,
+        "gan": "辛",
+        "zhi": "卯",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2012,
+        "age": 12,
+        "gan": "壬",
+        "zhi": "辰",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2013,
+        "age": 13,
+        "gan": "癸",
+        "zhi": "巳",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2014,
+        "age": 14,
+        "gan": "甲",
+        "zhi": "午",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2015,
+        "age": 15,
+        "gan": "乙",
+        "zhi": "未",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2016,
+        "age": 16,
+        "gan": "丙",
+        "zhi": "申",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2017,
+        "age": 17,
+        "gan": "丁",
+        "zhi": "酉",
+        "isActive": false
+       }
+      ],
+      [
+       {
+        "type": "liyue_simple",
+        "year": 2008,
+        "month": 1,
+        "gan": "甲",
+        "zhi": "寅",
+        "solarTerm": "立春",
+        "dateStr": "2/4",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2008,
+        "month": 2,
+        "gan": "乙",
+        "zhi": "卯",
+        "solarTerm": "惊蛰",
+        "dateStr": "3/5",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2008,
+        "month": 3,
+        "gan": "丙",
+        "zhi": "辰",
+        "solarTerm": "清明",
+        "dateStr": "4/4",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2008,
+        "month": 4,
+        "gan": "丁",
+        "zhi": "巳",
+        "solarTerm": "立夏",
+        "dateStr": "5/5",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2008,
+        "month": 5,
+        "gan": "戊",
+        "zhi": "午",
+        "solarTerm": "芒种",
+        "dateStr": "6/5",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2008,
+        "month": 6,
+        "gan": "己",
+        "zhi": "未",
+        "solarTerm": "小暑",
+        "dateStr": "7/7",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2008,
+        "month": 7,
+        "gan": "庚",
+        "zhi": "申",
+        "solarTerm": "立秋",
+        "dateStr": "8/7",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2008,
+        "month": 8,
+        "gan": "辛",
+        "zhi": "酉",
+        "solarTerm": "白露",
+        "dateStr": "9/7",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2008,
+        "month": 9,
+        "gan": "壬",
+        "zhi": "戌",
+        "solarTerm": "寒露",
+        "dateStr": "10/8",
+        "isActive": false
+       },
+       {
+        "type": "more_liyue"
+       }
+      ]
+     ]
+    },
+    {
+     "year": 2026,
+     "selection": {
+      "columns": {
+       "liunian": {
+        "stem": "丙",
+        "branch": "午",
+        "stemElement": "火",
+        "branchElement": "火",
+        "mainStar": "正印",
+        "hiddenStems": [
+         {
+          "stem": "丁",
+          "tenGod": "偏印",
+          "element": "火"
+         },
+         {
+          "stem": "己",
+          "tenGod": "比肩",
+          "element": "土"
+         }
+        ],
+        "lifeStage": "临官",
+        "strength": "旺",
+        "naYin": "天河水"
+       },
+       "dayun": {
+        "stem": "丙",
+        "branch": "申",
+        "stemElement": "火",
+        "branchElement": "金",
+        "mainStar": "正印",
+        "hiddenStems": [
+         {
+          "stem": "庚",
+          "tenGod": "伤官",
+          "element": "金"
+         },
+         {
+          "stem": "壬",
+          "tenGod": "正财",
+          "element": "水"
+         },
+         {
+          "stem": "戊",
+          "tenGod": "劫财",
+          "element": "土"
+         }
+        ],
+        "lifeStage": "沐浴",
+        "strength": "旺",
+        "naYin": "山下火"
+       },
+       "year": {
+        "stem": "辛",
+        "branch": "巳",
+        "stemElement": "金",
+        "branchElement": "火",
+        "mainStar": "食神",
+        "hiddenStems": [
+         {
+          "stem": "丙",
+          "tenGod": "正印",
+          "element": "火"
+         },
+         {
+          "stem": "戊",
+          "tenGod": "劫财",
+          "element": "土"
+         },
+         {
+          "stem": "庚",
+          "tenGod": "伤官",
+          "element": "金"
+         }
+        ],
+        "lifeStage": "帝旺",
+        "strength": "死",
+        "naYin": "白蜡金"
+       },
+       "month": {
+        "stem": "甲",
+        "branch": "午",
+        "stemElement": "木",
+        "branchElement": "火",
+        "mainStar": "正官",
+        "hiddenStems": [
+         {
+          "stem": "丁",
+          "tenGod": "偏印",
+          "element": "火"
+         },
+         {
+          "stem": "己",
+          "tenGod": "比肩",
+          "element": "土"
+         }
+        ],
+        "lifeStage": "临官",
+        "strength": "休",
+        "naYin": "砂中金"
+       },
+       "day": {
+        "stem": "己",
+        "branch": "酉",
+        "stemElement": "土",
+        "branchElement": "金",
+        "mainStar": "日主",
+        "hiddenStems": [
+         {
+          "stem": "辛",
+          "tenGod": "食神",
+          "element": "金"
+         }
+        ],
+        "lifeStage": "长生",
+        "strength": "相",
+        "naYin": "大驿土"
+       },
+       "hour": {
+        "stem": "戊",
+        "branch": "辰",
+        "stemElement": "土",
+        "branchElement": "土",
+        "mainStar": "劫财",
+        "hiddenStems": [
+         {
+          "stem": "戊",
+          "tenGod": "劫财",
+          "element": "土"
+         },
+         {
+          "stem": "乙",
+          "tenGod": "七杀",
+          "element": "木"
+         },
+         {
+          "stem": "癸",
+          "tenGod": "偏财",
+          "element": "水"
+         }
+        ],
+        "lifeStage": "衰",
+        "strength": "相",
+        "naYin": "大林木"
+       }
+      },
+      "shenSha": {
+       "liunian": [
+        "咸池",
+        "禄神",
+        "白虎煞",
+        "月德贵人",
+        "元辰"
+       ],
+       "dayun": [
+        "天乙贵人",
+        "金舆",
+        "孤辰",
+        "月德贵人",
+        "十恶大败"
+       ],
+       "year": [
+        "羊刃",
+        "月德合",
+        "地网"
+       ],
+       "month": [
+        "咸池",
+        "禄神",
+        "白虎煞",
+        "元辰"
+       ],
+       "day": [
+        "文昌贵人",
+        "将星",
+        "学堂"
+       ],
+       "hour": [
+        "天喜",
+        "红艳",
+        "太极贵人",
+        "寡宿",
+        "地网"
+       ]
+      },
+      "qiyun": {
+       "years": 7,
+       "months": 4,
+       "changeYearDigit": 8,
+       "changeMonth": 10,
+       "ageText": "7岁4个月",
+       "changeText": "逢8字年10月换大运"
+      },
+      "year": {
+       "year": 2026,
+       "age": 26,
+       "ganZhi": {
+        "stem": "丙",
+        "branch": "午"
+       },
+       "table": {
+        "liunian": {
+         "stem": "丙",
+         "branch": "午",
+         "stemElement": "火",
+         "branchElement": "火",
+         "mainStar": "正印",
+         "hiddenStems": [
+          {
+           "stem": "丁",
+           "tenGod": "偏印",
+           "element": "火"
+          },
+          {
+           "stem": "己",
+           "tenGod": "比肩",
+           "element": "土"
+          }
+         ],
+         "lifeStage": "临官",
+         "strength": "旺",
+         "naYin": "天河水"
+        },
+        "dayun": {
+         "kind": "period",
+         "index": 1
+        },
+        "shenSha": {
+         "liunian": [
+          "咸池",
+          "禄神",
+          "白虎煞",
+          "月德贵人",
+          "元辰"
+         ],
+         "dayun": [
+          "天乙贵人",
+          "金舆",
+          "孤辰",
+          "月德贵人",
+          "十恶大败"
+         ],
+         "year": [
+          "羊刃",
+          "月德合",
+          "地网"
+         ],
+         "month": [
+          "咸池",
+          "禄神",
+          "白虎煞",
+          "元辰"
+         ],
+         "day": [
+          "文昌贵人",
+          "将星",
+          "学堂"
+         ],
+         "hour": [
+          "天喜",
+          "红艳",
+          "太极贵人",
+          "寡宿",
+          "地网"
+         ]
+        }
+       },
+       "liuyue": [
+        {
+         "stem": "庚",
+         "branch": "寅",
+         "month": 1,
+         "solarTerm": "立春",
+         "dateStr": "2/4"
+        },
+        {
+         "stem": "辛",
+         "branch": "卯",
+         "month": 2,
+         "solarTerm": "惊蛰",
+         "dateStr": "3/5"
+        },
+        {
+         "stem": "壬",
+         "branch": "辰",
+         "month": 3,
+         "solarTerm": "清明",
+         "dateStr": "4/5"
+        },
+        {
+         "stem": "癸",
+         "branch": "巳",
+         "month": 4,
+         "solarTerm": "立夏",
+         "dateStr": "5/5"
+        },
+        {
+         "stem": "甲",
+         "branch": "午",
+         "month": 5,
+         "solarTerm": "芒种",
+         "dateStr": "6/5"
+        },
+        {
+         "stem": "乙",
+         "branch": "未",
+         "month": 6,
+         "solarTerm": "小暑",
+         "dateStr": "7/7"
+        },
+        {
+         "stem": "丙",
+         "branch": "申",
+         "month": 7,
+         "solarTerm": "立秋",
+         "dateStr": "8/7"
+        },
+        {
+         "stem": "丁",
+         "branch": "酉",
+         "month": 8,
+         "solarTerm": "白露",
+         "dateStr": "9/7"
+        },
+        {
+         "stem": "戊",
+         "branch": "戌",
+         "month": 9,
+         "solarTerm": "寒露",
+         "dateStr": "10/8"
+        },
+        {
+         "stem": "己",
+         "branch": "亥",
+         "month": 10,
+         "solarTerm": "立冬",
+         "dateStr": "11/7"
+        },
+        {
+         "stem": "庚",
+         "branch": "子",
+         "month": 11,
+         "solarTerm": "大雪",
+         "dateStr": "12/7"
+        },
+        {
+         "stem": "辛",
+         "branch": "丑",
+         "month": 12,
+         "solarTerm": "小寒",
+         "dateStr": "1/5"
+        }
+       ]
+      }
+     },
+     "rows": [
+      [
+       {
+        "type": "xiaoyun",
+        "label": "1-7",
+        "age": 1,
+        "endAge": 7,
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2008,
+        "age": 7,
+        "endAge": 16,
+        "gan": "乙",
+        "zhi": "未",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2018,
+        "age": 17,
+        "endAge": 26,
+        "gan": "丙",
+        "zhi": "申",
+        "isActive": true
+       },
+       {
+        "type": "dayun",
+        "year": 2028,
+        "age": 27,
+        "endAge": 36,
+        "gan": "丁",
+        "zhi": "酉",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2038,
+        "age": 37,
+        "endAge": 46,
+        "gan": "戊",
+        "zhi": "戌",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2048,
+        "age": 47,
+        "endAge": 56,
+        "gan": "己",
+        "zhi": "亥",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2058,
+        "age": 57,
+        "endAge": 66,
+        "gan": "庚",
+        "zhi": "子",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2068,
+        "age": 67,
+        "endAge": 76,
+        "gan": "辛",
+        "zhi": "丑",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2078,
+        "age": 77,
+        "endAge": 86,
+        "gan": "壬",
+        "zhi": "寅",
+        "isActive": false
+       },
+       {
+        "type": "more"
+       }
+      ],
+      [
+       {
+        "type": "liunian",
+        "year": 2018,
+        "age": 18,
+        "gan": "戊",
+        "zhi": "戌",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2019,
+        "age": 19,
+        "gan": "己",
+        "zhi": "亥",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2020,
+        "age": 20,
+        "gan": "庚",
+        "zhi": "子",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2021,
+        "age": 21,
+        "gan": "辛",
+        "zhi": "丑",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2022,
+        "age": 22,
+        "gan": "壬",
+        "zhi": "寅",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2023,
+        "age": 23,
+        "gan": "癸",
+        "zhi": "卯",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2024,
+        "age": 24,
+        "gan": "甲",
+        "zhi": "辰",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2025,
+        "age": 25,
+        "gan": "乙",
+        "zhi": "巳",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2026,
+        "age": 26,
+        "gan": "丙",
+        "zhi": "午",
+        "isActive": true
+       },
+       {
+        "type": "liunian",
+        "year": 2027,
+        "age": 27,
+        "gan": "丁",
+        "zhi": "未",
+        "isActive": false
+       }
+      ],
+      [
+       {
+        "type": "liyue_simple",
+        "year": 2026,
+        "month": 1,
+        "gan": "庚",
+        "zhi": "寅",
+        "solarTerm": "立春",
+        "dateStr": "2/4",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2026,
+        "month": 2,
+        "gan": "辛",
+        "zhi": "卯",
+        "solarTerm": "惊蛰",
+        "dateStr": "3/5",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2026,
+        "month": 3,
+        "gan": "壬",
+        "zhi": "辰",
+        "solarTerm": "清明",
+        "dateStr": "4/5",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2026,
+        "month": 4,
+        "gan": "癸",
+        "zhi": "巳",
+        "solarTerm": "立夏",
+        "dateStr": "5/5",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2026,
+        "month": 5,
+        "gan": "甲",
+        "zhi": "午",
+        "solarTerm": "芒种",
+        "dateStr": "6/5",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2026,
+        "month": 6,
+        "gan": "乙",
+        "zhi": "未",
+        "solarTerm": "小暑",
+        "dateStr": "7/7",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2026,
+        "month": 7,
+        "gan": "丙",
+        "zhi": "申",
+        "solarTerm": "立秋",
+        "dateStr": "8/7",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2026,
+        "month": 8,
+        "gan": "丁",
+        "zhi": "酉",
+        "solarTerm": "白露",
+        "dateStr": "9/7",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2026,
+        "month": 9,
+        "gan": "戊",
+        "zhi": "戌",
+        "solarTerm": "寒露",
+        "dateStr": "10/8",
+        "isActive": false
+       },
+       {
+        "type": "more_liyue"
+       }
+      ]
+     ]
+    },
+    {
+     "year": 2127,
+     "selection": {
+      "columns": {
+       "liunian": {
+        "stem": "-",
+        "branch": "-",
+        "stemElement": null,
+        "branchElement": null,
+        "mainStar": "-",
+        "hiddenStems": [],
+        "lifeStage": "-",
+        "strength": "-",
+        "naYin": "-"
+       },
+       "dayun": {
+        "stem": "丙",
+        "branch": "午",
+        "stemElement": "火",
+        "branchElement": "火",
+        "mainStar": "正印",
+        "hiddenStems": [
+         {
+          "stem": "丁",
+          "tenGod": "偏印",
+          "element": "火"
+         },
+         {
+          "stem": "己",
+          "tenGod": "比肩",
+          "element": "土"
+         }
+        ],
+        "lifeStage": "临官",
+        "strength": "旺",
+        "naYin": "天河水"
+       },
+       "year": {
+        "stem": "辛",
+        "branch": "巳",
+        "stemElement": "金",
+        "branchElement": "火",
+        "mainStar": "食神",
+        "hiddenStems": [
+         {
+          "stem": "丙",
+          "tenGod": "正印",
+          "element": "火"
+         },
+         {
+          "stem": "戊",
+          "tenGod": "劫财",
+          "element": "土"
+         },
+         {
+          "stem": "庚",
+          "tenGod": "伤官",
+          "element": "金"
+         }
+        ],
+        "lifeStage": "帝旺",
+        "strength": "死",
+        "naYin": "白蜡金"
+       },
+       "month": {
+        "stem": "甲",
+        "branch": "午",
+        "stemElement": "木",
+        "branchElement": "火",
+        "mainStar": "正官",
+        "hiddenStems": [
+         {
+          "stem": "丁",
+          "tenGod": "偏印",
+          "element": "火"
+         },
+         {
+          "stem": "己",
+          "tenGod": "比肩",
+          "element": "土"
+         }
+        ],
+        "lifeStage": "临官",
+        "strength": "休",
+        "naYin": "砂中金"
+       },
+       "day": {
+        "stem": "己",
+        "branch": "酉",
+        "stemElement": "土",
+        "branchElement": "金",
+        "mainStar": "日主",
+        "hiddenStems": [
+         {
+          "stem": "辛",
+          "tenGod": "食神",
+          "element": "金"
+         }
+        ],
+        "lifeStage": "长生",
+        "strength": "相",
+        "naYin": "大驿土"
+       },
+       "hour": {
+        "stem": "戊",
+        "branch": "辰",
+        "stemElement": "土",
+        "branchElement": "土",
+        "mainStar": "劫财",
+        "hiddenStems": [
+         {
+          "stem": "戊",
+          "tenGod": "劫财",
+          "element": "土"
+         },
+         {
+          "stem": "乙",
+          "tenGod": "七杀",
+          "element": "木"
+         },
+         {
+          "stem": "癸",
+          "tenGod": "偏财",
+          "element": "水"
+         }
+        ],
+        "lifeStage": "衰",
+        "strength": "相",
+        "naYin": "大林木"
+       }
+      },
+      "shenSha": {
+       "liunian": [],
+       "dayun": [
+        "咸池",
+        "禄神",
+        "白虎煞",
+        "月德贵人",
+        "元辰"
+       ],
+       "year": [
+        "羊刃",
+        "月德合",
+        "地网"
+       ],
+       "month": [
+        "咸池",
+        "禄神",
+        "白虎煞",
+        "元辰"
+       ],
+       "day": [
+        "文昌贵人",
+        "将星",
+        "学堂"
+       ],
+       "hour": [
+        "天喜",
+        "红艳",
+        "太极贵人",
+        "寡宿",
+        "地网"
+       ]
+      },
+      "qiyun": {
+       "years": 7,
+       "months": 4,
+       "changeYearDigit": 8,
+       "changeMonth": 10,
+       "ageText": "7岁4个月",
+       "changeText": "逢8字年10月换大运"
+      },
+      "year": {
+       "year": 2127,
+       "age": 127,
+       "ganZhi": {
+        "stem": "丁",
+        "branch": "亥"
+       },
+       "table": {
+        "liunian": {
+         "stem": "-",
+         "branch": "-",
+         "stemElement": null,
+         "branchElement": null,
+         "mainStar": "-",
+         "hiddenStems": [],
+         "lifeStage": "-",
+         "strength": "-",
+         "naYin": "-"
+        },
+        "dayun": {
+         "kind": "projected",
+         "index": 3
+        },
+        "shenSha": {
+         "liunian": [],
+         "dayun": [
+          "咸池",
+          "禄神",
+          "白虎煞",
+          "月德贵人",
+          "元辰"
+         ],
+         "year": [
+          "羊刃",
+          "月德合",
+          "地网"
+         ],
+         "month": [
+          "咸池",
+          "禄神",
+          "白虎煞",
+          "元辰"
+         ],
+         "day": [
+          "文昌贵人",
+          "将星",
+          "学堂"
+         ],
+         "hour": [
+          "天喜",
+          "红艳",
+          "太极贵人",
+          "寡宿",
+          "地网"
+         ]
+        }
+       },
+       "liuyue": [
+        {
+         "stem": "壬",
+         "branch": "寅",
+         "month": 1,
+         "solarTerm": "立春",
+         "dateStr": "2/4"
+        },
+        {
+         "stem": "癸",
+         "branch": "卯",
+         "month": 2,
+         "solarTerm": "惊蛰",
+         "dateStr": "3/6"
+        },
+        {
+         "stem": "甲",
+         "branch": "辰",
+         "month": 3,
+         "solarTerm": "清明",
+         "dateStr": "4/5"
+        },
+        {
+         "stem": "乙",
+         "branch": "巳",
+         "month": 4,
+         "solarTerm": "立夏",
+         "dateStr": "5/6"
+        },
+        {
+         "stem": "丙",
+         "branch": "午",
+         "month": 5,
+         "solarTerm": "芒种",
+         "dateStr": "6/6"
+        },
+        {
+         "stem": "丁",
+         "branch": "未",
+         "month": 6,
+         "solarTerm": "小暑",
+         "dateStr": "7/7"
+        },
+        {
+         "stem": "戊",
+         "branch": "申",
+         "month": 7,
+         "solarTerm": "立秋",
+         "dateStr": "8/8"
+        },
+        {
+         "stem": "己",
+         "branch": "酉",
+         "month": 8,
+         "solarTerm": "白露",
+         "dateStr": "9/8"
+        },
+        {
+         "stem": "庚",
+         "branch": "戌",
+         "month": 9,
+         "solarTerm": "寒露",
+         "dateStr": "10/9"
+        },
+        {
+         "stem": "辛",
+         "branch": "亥",
+         "month": 10,
+         "solarTerm": "立冬",
+         "dateStr": "11/8"
+        },
+        {
+         "stem": "壬",
+         "branch": "子",
+         "month": 11,
+         "solarTerm": "大雪",
+         "dateStr": "12/7"
+        },
+        {
+         "stem": "癸",
+         "branch": "丑",
+         "month": 12,
+         "solarTerm": "小寒",
+         "dateStr": "1/6"
+        }
+       ]
+      }
+     },
+     "rows": [
+      [
+       {
+        "type": "xiaoyun",
+        "label": "1-7",
+        "age": 1,
+        "endAge": 7,
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2008,
+        "age": 7,
+        "endAge": 16,
+        "gan": "乙",
+        "zhi": "未",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2018,
+        "age": 17,
+        "endAge": 26,
+        "gan": "丙",
+        "zhi": "申",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2028,
+        "age": 27,
+        "endAge": 36,
+        "gan": "丁",
+        "zhi": "酉",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2038,
+        "age": 37,
+        "endAge": 46,
+        "gan": "戊",
+        "zhi": "戌",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2048,
+        "age": 47,
+        "endAge": 56,
+        "gan": "己",
+        "zhi": "亥",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2058,
+        "age": 57,
+        "endAge": 66,
+        "gan": "庚",
+        "zhi": "子",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2068,
+        "age": 67,
+        "endAge": 76,
+        "gan": "辛",
+        "zhi": "丑",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2078,
+        "age": 77,
+        "endAge": 86,
+        "gan": "壬",
+        "zhi": "寅",
+        "isActive": false
+       },
+       {
+        "type": "more"
+       }
+      ],
+      [
+       {
+        "type": "liunian",
+        "year": 2118,
+        "age": 118,
+        "gan": "戊",
+        "zhi": "寅",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2119,
+        "age": 119,
+        "gan": "己",
+        "zhi": "卯",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2120,
+        "age": 120,
+        "gan": "庚",
+        "zhi": "辰",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2121,
+        "age": 121,
+        "gan": "辛",
+        "zhi": "巳",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2122,
+        "age": 122,
+        "gan": "壬",
+        "zhi": "午",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2123,
+        "age": 123,
+        "gan": "癸",
+        "zhi": "未",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2124,
+        "age": 124,
+        "gan": "甲",
+        "zhi": "申",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2125,
+        "age": 125,
+        "gan": "乙",
+        "zhi": "酉",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2126,
+        "age": 126,
+        "gan": "丙",
+        "zhi": "戌",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2127,
+        "age": 127,
+        "gan": "丁",
+        "zhi": "亥",
+        "isActive": true
+       }
+      ],
+      [
+       {
+        "type": "liyue_simple",
+        "year": 2127,
+        "month": 1,
+        "gan": "壬",
+        "zhi": "寅",
+        "solarTerm": "立春",
+        "dateStr": "2/4",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2127,
+        "month": 2,
+        "gan": "癸",
+        "zhi": "卯",
+        "solarTerm": "惊蛰",
+        "dateStr": "3/6",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2127,
+        "month": 3,
+        "gan": "甲",
+        "zhi": "辰",
+        "solarTerm": "清明",
+        "dateStr": "4/5",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2127,
+        "month": 4,
+        "gan": "乙",
+        "zhi": "巳",
+        "solarTerm": "立夏",
+        "dateStr": "5/6",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2127,
+        "month": 5,
+        "gan": "丙",
+        "zhi": "午",
+        "solarTerm": "芒种",
+        "dateStr": "6/6",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2127,
+        "month": 6,
+        "gan": "丁",
+        "zhi": "未",
+        "solarTerm": "小暑",
+        "dateStr": "7/7",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2127,
+        "month": 7,
+        "gan": "戊",
+        "zhi": "申",
+        "solarTerm": "立秋",
+        "dateStr": "8/8",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2127,
+        "month": 8,
+        "gan": "己",
+        "zhi": "酉",
+        "solarTerm": "白露",
+        "dateStr": "9/8",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2127,
+        "month": 9,
+        "gan": "庚",
+        "zhi": "戌",
+        "solarTerm": "寒露",
+        "dateStr": "10/9",
+        "isActive": false
+       },
+       {
+        "type": "more_liyue"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "label": "立春前",
+   "input": {
+    "year": 2004,
+    "month": 2,
+    "day": 4,
+    "hour": 18,
+    "minute": 56,
+    "second": 0,
+    "gender": "male"
+   },
+   "options": {
+    "referenceYear": 2026,
+    "referenceMonth": 11
+   },
+   "yearRange": {
+    "from": 2004,
+    "to": 2132
+   },
+   "fortune": {
+    "xiaoyun": {
+     "label": "1-9",
+     "startAge": 1,
+     "endAge": 9
+    },
+    "firstDayunStartYear": 2013,
+    "dayun": [
+     {
+      "stem": "甲",
+      "branch": "子",
+      "startAge": 10,
+      "endAge": 19,
+      "startYear": 2013,
+      "projected": false
+     },
+     {
+      "stem": "癸",
+      "branch": "亥",
+      "startAge": 20,
+      "endAge": 29,
+      "startYear": 2023,
+      "projected": false
+     },
+     {
+      "stem": "壬",
+      "branch": "戌",
+      "startAge": 30,
+      "endAge": 39,
+      "startYear": 2033,
+      "projected": false
+     },
+     {
+      "stem": "辛",
+      "branch": "酉",
+      "startAge": 40,
+      "endAge": 49,
+      "startYear": 2043,
+      "projected": false
+     },
+     {
+      "stem": "庚",
+      "branch": "申",
+      "startAge": 50,
+      "endAge": 59,
+      "startYear": 2053,
+      "projected": false
+     },
+     {
+      "stem": "己",
+      "branch": "未",
+      "startAge": 60,
+      "endAge": 69,
+      "startYear": 2063,
+      "projected": false
+     },
+     {
+      "stem": "戊",
+      "branch": "午",
+      "startAge": 70,
+      "endAge": 79,
+      "startYear": 2073,
+      "projected": false
+     },
+     {
+      "stem": "丁",
+      "branch": "巳",
+      "startAge": 80,
+      "endAge": 89,
+      "startYear": 2083,
+      "projected": false
+     },
+     {
+      "stem": "丙",
+      "branch": "辰",
+      "startAge": 90,
+      "endAge": 99,
+      "startYear": 2093,
+      "projected": true
+     },
+     {
+      "stem": "乙",
+      "branch": "卯",
+      "startAge": 100,
+      "endAge": 109,
+      "startYear": 2103,
+      "projected": true
+     },
+     {
+      "stem": "甲",
+      "branch": "寅",
+      "startAge": 110,
+      "endAge": 119,
+      "startYear": 2113,
+      "projected": true
+     },
+     {
+      "stem": "癸",
+      "branch": "丑",
+      "startAge": 120,
+      "endAge": 129,
+      "startYear": 2123,
+      "projected": true
+     }
+    ]
+   },
+   "glyphs": {
+    "stems": {
+     "甲": {
+      "element": "木",
+      "tenGod": "伤官"
+     },
+     "乙": {
+      "element": "木",
+      "tenGod": "食神"
+     },
+     "丙": {
+      "element": "火",
+      "tenGod": "正财"
+     },
+     "丁": {
+      "element": "火",
+      "tenGod": "偏财"
+     },
+     "戊": {
+      "element": "土",
+      "tenGod": "正官"
+     },
+     "己": {
+      "element": "土",
+      "tenGod": "七杀"
+     },
+     "庚": {
+      "element": "金",
+      "tenGod": "正印"
+     },
+     "辛": {
+      "element": "金",
+      "tenGod": "偏印"
+     },
+     "壬": {
+      "element": "水",
+      "tenGod": "劫财"
+     },
+     "癸": {
+      "element": "水",
+      "tenGod": "比肩"
+     }
+    },
+    "branches": {
+     "子": {
+      "element": "水",
+      "tenGod": "比肩"
+     },
+     "丑": {
+      "element": "土",
+      "tenGod": "七杀"
+     },
+     "寅": {
+      "element": "木",
+      "tenGod": "伤官"
+     },
+     "卯": {
+      "element": "木",
+      "tenGod": "食神"
+     },
+     "辰": {
+      "element": "土",
+      "tenGod": "正官"
+     },
+     "巳": {
+      "element": "火",
+      "tenGod": "正财"
+     },
+     "午": {
+      "element": "火",
+      "tenGod": "偏财"
+     },
+     "未": {
+      "element": "土",
+      "tenGod": "七杀"
+     },
+     "申": {
+      "element": "金",
+      "tenGod": "正印"
+     },
+     "酉": {
+      "element": "金",
+      "tenGod": "偏印"
+     },
+     "戌": {
+      "element": "土",
+      "tenGod": "正官"
+     },
+     "亥": {
+      "element": "水",
+      "tenGod": "劫财"
+     }
+    }
+   },
+   "selections": [
+    {
+     "year": 2004,
+     "selection": {
+      "columns": {
+       "liunian": {
+        "stem": "甲",
+        "branch": "申",
+        "stemElement": "木",
+        "branchElement": "金",
+        "mainStar": "伤官",
+        "hiddenStems": [
+         {
+          "stem": "庚",
+          "tenGod": "正印",
+          "element": "金"
+         },
+         {
+          "stem": "壬",
+          "tenGod": "劫财",
+          "element": "水"
+         },
+         {
+          "stem": "戊",
+          "tenGod": "正官",
+          "element": "土"
+         }
+        ],
+        "lifeStage": "死",
+        "strength": "囚",
+        "naYin": "泉中水"
+       },
+       "dayun": {
+        "stem": "-",
+        "branch": "-",
+        "stemElement": null,
+        "branchElement": null,
+        "mainStar": "-",
+        "hiddenStems": [],
+        "lifeStage": "-",
+        "strength": "-",
+        "naYin": "-"
+       },
+       "year": {
+        "stem": "癸",
+        "branch": "未",
+        "stemElement": "水",
+        "branchElement": "土",
+        "mainStar": "比肩",
+        "hiddenStems": [
+         {
+          "stem": "己",
+          "tenGod": "七杀",
+          "element": "土"
+         },
+         {
+          "stem": "丁",
+          "tenGod": "偏财",
+          "element": "火"
+         },
+         {
+          "stem": "乙",
+          "tenGod": "食神",
+          "element": "木"
+         }
+        ],
+        "lifeStage": "墓",
+        "strength": "死",
+        "naYin": "杨柳木"
+       },
+       "month": {
+        "stem": "乙",
+        "branch": "丑",
+        "stemElement": "木",
+        "branchElement": "土",
+        "mainStar": "食神",
+        "hiddenStems": [
+         {
+          "stem": "己",
+          "tenGod": "七杀",
+          "element": "土"
+         },
+         {
+          "stem": "癸",
+          "tenGod": "比肩",
+          "element": "水"
+         },
+         {
+          "stem": "辛",
+          "tenGod": "偏印",
+          "element": "金"
+         }
+        ],
+        "lifeStage": "冠带",
+        "strength": "囚",
+        "naYin": "海中金"
+       },
+       "day": {
+        "stem": "癸",
+        "branch": "丑",
+        "stemElement": "水",
+        "branchElement": "土",
+        "mainStar": "日主",
+        "hiddenStems": [
+         {
+          "stem": "己",
+          "tenGod": "七杀",
+          "element": "土"
+         },
+         {
+          "stem": "癸",
+          "tenGod": "比肩",
+          "element": "水"
+         },
+         {
+          "stem": "辛",
+          "tenGod": "偏印",
+          "element": "金"
+         }
+        ],
+        "lifeStage": "冠带",
+        "strength": "死",
+        "naYin": "桑柘木"
+       },
+       "hour": {
+        "stem": "辛",
+        "branch": "酉",
+        "stemElement": "金",
+        "branchElement": "金",
+        "mainStar": "偏印",
+        "hiddenStems": [
+         {
+          "stem": "辛",
+          "tenGod": "偏印",
+          "element": "金"
+         }
+        ],
+        "lifeStage": "病",
+        "strength": "相",
+        "naYin": "石榴木"
+       }
+      },
+      "shenSha": {
+       "liunian": [
+        "红鸾",
+        "红艳",
+        "太极贵人",
+        "国印贵人",
+        "亡神",
+        "劫煞",
+        "孤辰",
+        "白虎煞"
+       ],
+       "dayun": [],
+       "year": [
+        "华盖"
+       ],
+       "month": [
+        "月德合"
+       ],
+       "day": [],
+       "hour": [
+        "沐浴",
+        "灾煞"
+       ]
+      },
+      "qiyun": {
+       "years": 9,
+       "months": 9,
+       "changeYearDigit": 3,
+       "changeMonth": 11,
+       "ageText": "9岁9个月",
+       "changeText": "逢3字年11月换大运"
+      },
+      "year": {
+       "year": 2004,
+       "age": 1,
+       "ganZhi": {
+        "stem": "甲",
+        "branch": "申"
+       },
+       "table": {
+        "liunian": {
+         "stem": "甲",
+         "branch": "申",
+         "stemElement": "木",
+         "branchElement": "金",
+         "mainStar": "伤官",
+         "hiddenStems": [
+          {
+           "stem": "庚",
+           "tenGod": "正印",
+           "element": "金"
+          },
+          {
+           "stem": "壬",
+           "tenGod": "劫财",
+           "element": "水"
+          },
+          {
+           "stem": "戊",
+           "tenGod": "正官",
+           "element": "土"
+          }
+         ],
+         "lifeStage": "死",
+         "strength": "囚",
+         "naYin": "泉中水"
+        },
+        "dayun": {
+         "kind": "none"
+        },
+        "shenSha": {
+         "liunian": [
+          "红鸾",
+          "红艳",
+          "太极贵人",
+          "国印贵人",
+          "亡神",
+          "劫煞",
+          "孤辰",
+          "白虎煞"
+         ],
+         "dayun": [],
+         "year": [
+          "华盖"
+         ],
+         "month": [
+          "月德合"
+         ],
+         "day": [],
+         "hour": [
+          "沐浴",
+          "灾煞"
+         ]
+        }
+       },
+       "liuyue": [
+        {
+         "stem": "丙",
+         "branch": "寅",
+         "month": 1,
+         "solarTerm": "立春",
+         "dateStr": "2/4"
+        },
+        {
+         "stem": "丁",
+         "branch": "卯",
+         "month": 2,
+         "solarTerm": "惊蛰",
+         "dateStr": "3/5"
+        },
+        {
+         "stem": "戊",
+         "branch": "辰",
+         "month": 3,
+         "solarTerm": "清明",
+         "dateStr": "4/4"
+        },
+        {
+         "stem": "己",
+         "branch": "巳",
+         "month": 4,
+         "solarTerm": "立夏",
+         "dateStr": "5/5"
+        },
+        {
+         "stem": "庚",
+         "branch": "午",
+         "month": 5,
+         "solarTerm": "芒种",
+         "dateStr": "6/5"
+        },
+        {
+         "stem": "辛",
+         "branch": "未",
+         "month": 6,
+         "solarTerm": "小暑",
+         "dateStr": "7/7"
+        },
+        {
+         "stem": "壬",
+         "branch": "申",
+         "month": 7,
+         "solarTerm": "立秋",
+         "dateStr": "8/7"
+        },
+        {
+         "stem": "癸",
+         "branch": "酉",
+         "month": 8,
+         "solarTerm": "白露",
+         "dateStr": "9/7"
+        },
+        {
+         "stem": "甲",
+         "branch": "戌",
+         "month": 9,
+         "solarTerm": "寒露",
+         "dateStr": "10/8"
+        },
+        {
+         "stem": "乙",
+         "branch": "亥",
+         "month": 10,
+         "solarTerm": "立冬",
+         "dateStr": "11/7"
+        },
+        {
+         "stem": "丙",
+         "branch": "子",
+         "month": 11,
+         "solarTerm": "大雪",
+         "dateStr": "12/7"
+        },
+        {
+         "stem": "丁",
+         "branch": "丑",
+         "month": 12,
+         "solarTerm": "小寒",
+         "dateStr": "1/5"
+        }
+       ]
+      }
+     },
+     "rows": [
+      [
+       {
+        "type": "xiaoyun",
+        "label": "1-9",
+        "age": 1,
+        "endAge": 9,
+        "isActive": true
+       },
+       {
+        "type": "dayun",
+        "year": 2013,
+        "age": 10,
+        "endAge": 19,
+        "gan": "甲",
+        "zhi": "子",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2023,
+        "age": 20,
+        "endAge": 29,
+        "gan": "癸",
+        "zhi": "亥",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2033,
+        "age": 30,
+        "endAge": 39,
+        "gan": "壬",
+        "zhi": "戌",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2043,
+        "age": 40,
+        "endAge": 49,
+        "gan": "辛",
+        "zhi": "酉",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2053,
+        "age": 50,
+        "endAge": 59,
+        "gan": "庚",
+        "zhi": "申",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2063,
+        "age": 60,
+        "endAge": 69,
+        "gan": "己",
+        "zhi": "未",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2073,
+        "age": 70,
+        "endAge": 79,
+        "gan": "戊",
+        "zhi": "午",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2083,
+        "age": 80,
+        "endAge": 89,
+        "gan": "丁",
+        "zhi": "巳",
+        "isActive": false
+       },
+       {
+        "type": "more"
+       }
+      ],
+      [
+       {
+        "type": "liunian",
+        "year": 2004,
+        "age": 1,
+        "gan": "甲",
+        "zhi": "申",
+        "isActive": true
+       },
+       {
+        "type": "liunian",
+        "year": 2005,
+        "age": 2,
+        "gan": "乙",
+        "zhi": "酉",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2006,
+        "age": 3,
+        "gan": "丙",
+        "zhi": "戌",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2007,
+        "age": 4,
+        "gan": "丁",
+        "zhi": "亥",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2008,
+        "age": 5,
+        "gan": "戊",
+        "zhi": "子",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2009,
+        "age": 6,
+        "gan": "己",
+        "zhi": "丑",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2010,
+        "age": 7,
+        "gan": "庚",
+        "zhi": "寅",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2011,
+        "age": 8,
+        "gan": "辛",
+        "zhi": "卯",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2012,
+        "age": 9,
+        "gan": "壬",
+        "zhi": "辰",
+        "isActive": false
+       },
+       {
+        "type": "empty"
+       }
+      ],
+      [
+       {
+        "type": "liyue_simple",
+        "year": 2004,
+        "month": 1,
+        "gan": "丙",
+        "zhi": "寅",
+        "solarTerm": "立春",
+        "dateStr": "2/4",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2004,
+        "month": 2,
+        "gan": "丁",
+        "zhi": "卯",
+        "solarTerm": "惊蛰",
+        "dateStr": "3/5",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2004,
+        "month": 3,
+        "gan": "戊",
+        "zhi": "辰",
+        "solarTerm": "清明",
+        "dateStr": "4/4",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2004,
+        "month": 4,
+        "gan": "己",
+        "zhi": "巳",
+        "solarTerm": "立夏",
+        "dateStr": "5/5",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2004,
+        "month": 5,
+        "gan": "庚",
+        "zhi": "午",
+        "solarTerm": "芒种",
+        "dateStr": "6/5",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2004,
+        "month": 6,
+        "gan": "辛",
+        "zhi": "未",
+        "solarTerm": "小暑",
+        "dateStr": "7/7",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2004,
+        "month": 7,
+        "gan": "壬",
+        "zhi": "申",
+        "solarTerm": "立秋",
+        "dateStr": "8/7",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2004,
+        "month": 8,
+        "gan": "癸",
+        "zhi": "酉",
+        "solarTerm": "白露",
+        "dateStr": "9/7",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2004,
+        "month": 9,
+        "gan": "甲",
+        "zhi": "戌",
+        "solarTerm": "寒露",
+        "dateStr": "10/8",
+        "isActive": false
+       },
+       {
+        "type": "more_liyue"
+       }
+      ]
+     ]
+    },
+    {
+     "year": 2013,
+     "selection": {
+      "columns": {
+       "liunian": {
+        "stem": "癸",
+        "branch": "巳",
+        "stemElement": "水",
+        "branchElement": "火",
+        "mainStar": "比肩",
+        "hiddenStems": [
+         {
+          "stem": "丙",
+          "tenGod": "正财",
+          "element": "火"
+         },
+         {
+          "stem": "戊",
+          "tenGod": "正官",
+          "element": "土"
+         },
+         {
+          "stem": "庚",
+          "tenGod": "正印",
+          "element": "金"
+         }
+        ],
+        "lifeStage": "胎",
+        "strength": "死",
+        "naYin": "长流水"
+       },
+       "dayun": {
+        "stem": "甲",
+        "branch": "子",
+        "stemElement": "木",
+        "branchElement": "水",
+        "mainStar": "伤官",
+        "hiddenStems": [
+         {
+          "stem": "癸",
+          "tenGod": "比肩",
+          "element": "水"
+         }
+        ],
+        "lifeStage": "临官",
+        "strength": "囚",
+        "naYin": "海中金"
+       },
+       "year": {
+        "stem": "癸",
+        "branch": "未",
+        "stemElement": "水",
+        "branchElement": "土",
+        "mainStar": "比肩",
+        "hiddenStems": [
+         {
+          "stem": "己",
+          "tenGod": "七杀",
+          "element": "土"
+         },
+         {
+          "stem": "丁",
+          "tenGod": "偏财",
+          "element": "火"
+         },
+         {
+          "stem": "乙",
+          "tenGod": "食神",
+          "element": "木"
+         }
+        ],
+        "lifeStage": "墓",
+        "strength": "死",
+        "naYin": "杨柳木"
+       },
+       "month": {
+        "stem": "乙",
+        "branch": "丑",
+        "stemElement": "木",
+        "branchElement": "土",
+        "mainStar": "食神",
+        "hiddenStems": [
+         {
+          "stem": "己",
+          "tenGod": "七杀",
+          "element": "土"
+         },
+         {
+          "stem": "癸",
+          "tenGod": "比肩",
+          "element": "水"
+         },
+         {
+          "stem": "辛",
+          "tenGod": "偏印",
+          "element": "金"
+         }
+        ],
+        "lifeStage": "冠带",
+        "strength": "囚",
+        "naYin": "海中金"
+       },
+       "day": {
+        "stem": "癸",
+        "branch": "丑",
+        "stemElement": "水",
+        "branchElement": "土",
+        "mainStar": "日主",
+        "hiddenStems": [
+         {
+          "stem": "己",
+          "tenGod": "七杀",
+          "element": "土"
+         },
+         {
+          "stem": "癸",
+          "tenGod": "比肩",
+          "element": "水"
+         },
+         {
+          "stem": "辛",
+          "tenGod": "偏印",
+          "element": "金"
+         }
+        ],
+        "lifeStage": "冠带",
+        "strength": "死",
+        "naYin": "桑柘木"
+       },
+       "hour": {
+        "stem": "辛",
+        "branch": "酉",
+        "stemElement": "金",
+        "branchElement": "金",
+        "mainStar": "偏印",
+        "hiddenStems": [
+         {
+          "stem": "辛",
+          "tenGod": "偏印",
+          "element": "金"
+         }
+        ],
+        "lifeStage": "病",
+        "strength": "相",
+        "naYin": "石榴木"
+       }
+      },
+      "shenSha": {
+       "liunian": [
+        "天乙贵人",
+        "驿马"
+       ],
+       "dayun": [
+        "咸池",
+        "禄神",
+        "天德贵人"
+       ],
+       "year": [
+        "华盖"
+       ],
+       "month": [
+        "月德合"
+       ],
+       "day": [],
+       "hour": [
+        "沐浴",
+        "灾煞"
+       ]
+      },
+      "qiyun": {
+       "years": 9,
+       "months": 9,
+       "changeYearDigit": 3,
+       "changeMonth": 11,
+       "ageText": "9岁9个月",
+       "changeText": "逢3字年11月换大运"
+      },
+      "year": {
+       "year": 2013,
+       "age": 10,
+       "ganZhi": {
+        "stem": "癸",
+        "branch": "巳"
+       },
+       "table": {
+        "liunian": {
+         "stem": "癸",
+         "branch": "巳",
+         "stemElement": "水",
+         "branchElement": "火",
+         "mainStar": "比肩",
+         "hiddenStems": [
+          {
+           "stem": "丙",
+           "tenGod": "正财",
+           "element": "火"
+          },
+          {
+           "stem": "戊",
+           "tenGod": "正官",
+           "element": "土"
+          },
+          {
+           "stem": "庚",
+           "tenGod": "正印",
+           "element": "金"
+          }
+         ],
+         "lifeStage": "胎",
+         "strength": "死",
+         "naYin": "长流水"
+        },
+        "dayun": {
+         "kind": "period",
+         "index": 0
+        },
+        "shenSha": {
+         "liunian": [
+          "天乙贵人",
+          "驿马"
+         ],
+         "dayun": [
+          "咸池",
+          "禄神",
+          "天德贵人"
+         ],
+         "year": [
+          "华盖"
+         ],
+         "month": [
+          "月德合"
+         ],
+         "day": [],
+         "hour": [
+          "沐浴",
+          "灾煞"
+         ]
+        }
+       },
+       "liuyue": [
+        {
+         "stem": "甲",
+         "branch": "寅",
+         "month": 1,
+         "solarTerm": "立春",
+         "dateStr": "2/4"
+        },
+        {
+         "stem": "乙",
+         "branch": "卯",
+         "month": 2,
+         "solarTerm": "惊蛰",
+         "dateStr": "3/5"
+        },
+        {
+         "stem": "丙",
+         "branch": "辰",
+         "month": 3,
+         "solarTerm": "清明",
+         "dateStr": "4/4"
+        },
+        {
+         "stem": "丁",
+         "branch": "巳",
+         "month": 4,
+         "solarTerm": "立夏",
+         "dateStr": "5/5"
+        },
+        {
+         "stem": "戊",
+         "branch": "午",
+         "month": 5,
+         "solarTerm": "芒种",
+         "dateStr": "6/5"
+        },
+        {
+         "stem": "己",
+         "branch": "未",
+         "month": 6,
+         "solarTerm": "小暑",
+         "dateStr": "7/7"
+        },
+        {
+         "stem": "庚",
+         "branch": "申",
+         "month": 7,
+         "solarTerm": "立秋",
+         "dateStr": "8/7"
+        },
+        {
+         "stem": "辛",
+         "branch": "酉",
+         "month": 8,
+         "solarTerm": "白露",
+         "dateStr": "9/7"
+        },
+        {
+         "stem": "壬",
+         "branch": "戌",
+         "month": 9,
+         "solarTerm": "寒露",
+         "dateStr": "10/8"
+        },
+        {
+         "stem": "癸",
+         "branch": "亥",
+         "month": 10,
+         "solarTerm": "立冬",
+         "dateStr": "11/7"
+        },
+        {
+         "stem": "甲",
+         "branch": "子",
+         "month": 11,
+         "solarTerm": "大雪",
+         "dateStr": "12/7"
+        },
+        {
+         "stem": "乙",
+         "branch": "丑",
+         "month": 12,
+         "solarTerm": "小寒",
+         "dateStr": "1/5"
+        }
+       ]
+      }
+     },
+     "rows": [
+      [
+       {
+        "type": "xiaoyun",
+        "label": "1-9",
+        "age": 1,
+        "endAge": 9,
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2013,
+        "age": 10,
+        "endAge": 19,
+        "gan": "甲",
+        "zhi": "子",
+        "isActive": true
+       },
+       {
+        "type": "dayun",
+        "year": 2023,
+        "age": 20,
+        "endAge": 29,
+        "gan": "癸",
+        "zhi": "亥",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2033,
+        "age": 30,
+        "endAge": 39,
+        "gan": "壬",
+        "zhi": "戌",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2043,
+        "age": 40,
+        "endAge": 49,
+        "gan": "辛",
+        "zhi": "酉",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2053,
+        "age": 50,
+        "endAge": 59,
+        "gan": "庚",
+        "zhi": "申",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2063,
+        "age": 60,
+        "endAge": 69,
+        "gan": "己",
+        "zhi": "未",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2073,
+        "age": 70,
+        "endAge": 79,
+        "gan": "戊",
+        "zhi": "午",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2083,
+        "age": 80,
+        "endAge": 89,
+        "gan": "丁",
+        "zhi": "巳",
+        "isActive": false
+       },
+       {
+        "type": "more"
+       }
+      ],
+      [
+       {
+        "type": "liunian",
+        "year": 2013,
+        "age": 10,
+        "gan": "癸",
+        "zhi": "巳",
+        "isActive": true
+       },
+       {
+        "type": "liunian",
+        "year": 2014,
+        "age": 11,
+        "gan": "甲",
+        "zhi": "午",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2015,
+        "age": 12,
+        "gan": "乙",
+        "zhi": "未",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2016,
+        "age": 13,
+        "gan": "丙",
+        "zhi": "申",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2017,
+        "age": 14,
+        "gan": "丁",
+        "zhi": "酉",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2018,
+        "age": 15,
+        "gan": "戊",
+        "zhi": "戌",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2019,
+        "age": 16,
+        "gan": "己",
+        "zhi": "亥",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2020,
+        "age": 17,
+        "gan": "庚",
+        "zhi": "子",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2021,
+        "age": 18,
+        "gan": "辛",
+        "zhi": "丑",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2022,
+        "age": 19,
+        "gan": "壬",
+        "zhi": "寅",
+        "isActive": false
+       }
+      ],
+      [
+       {
+        "type": "liyue_simple",
+        "year": 2013,
+        "month": 1,
+        "gan": "甲",
+        "zhi": "寅",
+        "solarTerm": "立春",
+        "dateStr": "2/4",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2013,
+        "month": 2,
+        "gan": "乙",
+        "zhi": "卯",
+        "solarTerm": "惊蛰",
+        "dateStr": "3/5",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2013,
+        "month": 3,
+        "gan": "丙",
+        "zhi": "辰",
+        "solarTerm": "清明",
+        "dateStr": "4/4",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2013,
+        "month": 4,
+        "gan": "丁",
+        "zhi": "巳",
+        "solarTerm": "立夏",
+        "dateStr": "5/5",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2013,
+        "month": 5,
+        "gan": "戊",
+        "zhi": "午",
+        "solarTerm": "芒种",
+        "dateStr": "6/5",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2013,
+        "month": 6,
+        "gan": "己",
+        "zhi": "未",
+        "solarTerm": "小暑",
+        "dateStr": "7/7",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2013,
+        "month": 7,
+        "gan": "庚",
+        "zhi": "申",
+        "solarTerm": "立秋",
+        "dateStr": "8/7",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2013,
+        "month": 8,
+        "gan": "辛",
+        "zhi": "酉",
+        "solarTerm": "白露",
+        "dateStr": "9/7",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2013,
+        "month": 9,
+        "gan": "壬",
+        "zhi": "戌",
+        "solarTerm": "寒露",
+        "dateStr": "10/8",
+        "isActive": false
+       },
+       {
+        "type": "more_liyue"
+       }
+      ]
+     ]
+    },
+    {
+     "year": 2026,
+     "selection": {
+      "columns": {
+       "liunian": {
+        "stem": "丙",
+        "branch": "午",
+        "stemElement": "火",
+        "branchElement": "火",
+        "mainStar": "正财",
+        "hiddenStems": [
+         {
+          "stem": "丁",
+          "tenGod": "偏财",
+          "element": "火"
+         },
+         {
+          "stem": "己",
+          "tenGod": "七杀",
+          "element": "土"
+         }
+        ],
+        "lifeStage": "绝",
+        "strength": "休",
+        "naYin": "天河水"
+       },
+       "dayun": {
+        "stem": "癸",
+        "branch": "亥",
+        "stemElement": "水",
+        "branchElement": "水",
+        "mainStar": "比肩",
+        "hiddenStems": [
+         {
+          "stem": "壬",
+          "tenGod": "劫财",
+          "element": "水"
+         },
+         {
+          "stem": "甲",
+          "tenGod": "伤官",
+          "element": "木"
+         }
+        ],
+        "lifeStage": "帝旺",
+        "strength": "死",
+        "naYin": "大海水"
+       },
+       "year": {
+        "stem": "癸",
+        "branch": "未",
+        "stemElement": "水",
+        "branchElement": "土",
+        "mainStar": "比肩",
+        "hiddenStems": [
+         {
+          "stem": "己",
+          "tenGod": "七杀",
+          "element": "土"
+         },
+         {
+          "stem": "丁",
+          "tenGod": "偏财",
+          "element": "火"
+         },
+         {
+          "stem": "乙",
+          "tenGod": "食神",
+          "element": "木"
+         }
+        ],
+        "lifeStage": "墓",
+        "strength": "死",
+        "naYin": "杨柳木"
+       },
+       "month": {
+        "stem": "乙",
+        "branch": "丑",
+        "stemElement": "木",
+        "branchElement": "土",
+        "mainStar": "食神",
+        "hiddenStems": [
+         {
+          "stem": "己",
+          "tenGod": "七杀",
+          "element": "土"
+         },
+         {
+          "stem": "癸",
+          "tenGod": "比肩",
+          "element": "水"
+         },
+         {
+          "stem": "辛",
+          "tenGod": "偏印",
+          "element": "金"
+         }
+        ],
+        "lifeStage": "冠带",
+        "strength": "囚",
+        "naYin": "海中金"
+       },
+       "day": {
+        "stem": "癸",
+        "branch": "丑",
+        "stemElement": "水",
+        "branchElement": "土",
+        "mainStar": "日主",
+        "hiddenStems": [
+         {
+          "stem": "己",
+          "tenGod": "七杀",
+          "element": "土"
+         },
+         {
+          "stem": "癸",
+          "tenGod": "比肩",
+          "element": "水"
+         },
+         {
+          "stem": "辛",
+          "tenGod": "偏印",
+          "element": "金"
+         }
+        ],
+        "lifeStage": "冠带",
+        "strength": "死",
+        "naYin": "桑柘木"
+       },
+       "hour": {
+        "stem": "辛",
+        "branch": "酉",
+        "stemElement": "金",
+        "branchElement": "金",
+        "mainStar": "偏印",
+        "hiddenStems": [
+         {
+          "stem": "辛",
+          "tenGod": "偏印",
+          "element": "金"
+         }
+        ],
+        "lifeStage": "病",
+        "strength": "相",
+        "naYin": "石榴木"
+       }
+      },
+      "shenSha": {
+       "liunian": [
+        "元辰"
+       ],
+       "dayun": [
+        "羊刃",
+        "十恶大败"
+       ],
+       "year": [
+        "华盖"
+       ],
+       "month": [
+        "月德合"
+       ],
+       "day": [],
+       "hour": [
+        "沐浴",
+        "灾煞"
+       ]
+      },
+      "qiyun": {
+       "years": 9,
+       "months": 9,
+       "changeYearDigit": 3,
+       "changeMonth": 11,
+       "ageText": "9岁9个月",
+       "changeText": "逢3字年11月换大运"
+      },
+      "year": {
+       "year": 2026,
+       "age": 23,
+       "ganZhi": {
+        "stem": "丙",
+        "branch": "午"
+       },
+       "table": {
+        "liunian": {
+         "stem": "丙",
+         "branch": "午",
+         "stemElement": "火",
+         "branchElement": "火",
+         "mainStar": "正财",
+         "hiddenStems": [
+          {
+           "stem": "丁",
+           "tenGod": "偏财",
+           "element": "火"
+          },
+          {
+           "stem": "己",
+           "tenGod": "七杀",
+           "element": "土"
+          }
+         ],
+         "lifeStage": "绝",
+         "strength": "休",
+         "naYin": "天河水"
+        },
+        "dayun": {
+         "kind": "period",
+         "index": 1
+        },
+        "shenSha": {
+         "liunian": [
+          "元辰"
+         ],
+         "dayun": [
+          "羊刃",
+          "十恶大败"
+         ],
+         "year": [
+          "华盖"
+         ],
+         "month": [
+          "月德合"
+         ],
+         "day": [],
+         "hour": [
+          "沐浴",
+          "灾煞"
+         ]
+        }
+       },
+       "liuyue": [
+        {
+         "stem": "庚",
+         "branch": "寅",
+         "month": 1,
+         "solarTerm": "立春",
+         "dateStr": "2/4"
+        },
+        {
+         "stem": "辛",
+         "branch": "卯",
+         "month": 2,
+         "solarTerm": "惊蛰",
+         "dateStr": "3/5"
+        },
+        {
+         "stem": "壬",
+         "branch": "辰",
+         "month": 3,
+         "solarTerm": "清明",
+         "dateStr": "4/5"
+        },
+        {
+         "stem": "癸",
+         "branch": "巳",
+         "month": 4,
+         "solarTerm": "立夏",
+         "dateStr": "5/5"
+        },
+        {
+         "stem": "甲",
+         "branch": "午",
+         "month": 5,
+         "solarTerm": "芒种",
+         "dateStr": "6/5"
+        },
+        {
+         "stem": "乙",
+         "branch": "未",
+         "month": 6,
+         "solarTerm": "小暑",
+         "dateStr": "7/7"
+        },
+        {
+         "stem": "丙",
+         "branch": "申",
+         "month": 7,
+         "solarTerm": "立秋",
+         "dateStr": "8/7"
+        },
+        {
+         "stem": "丁",
+         "branch": "酉",
+         "month": 8,
+         "solarTerm": "白露",
+         "dateStr": "9/7"
+        },
+        {
+         "stem": "戊",
+         "branch": "戌",
+         "month": 9,
+         "solarTerm": "寒露",
+         "dateStr": "10/8"
+        },
+        {
+         "stem": "己",
+         "branch": "亥",
+         "month": 10,
+         "solarTerm": "立冬",
+         "dateStr": "11/7"
+        },
+        {
+         "stem": "庚",
+         "branch": "子",
+         "month": 11,
+         "solarTerm": "大雪",
+         "dateStr": "12/7"
+        },
+        {
+         "stem": "辛",
+         "branch": "丑",
+         "month": 12,
+         "solarTerm": "小寒",
+         "dateStr": "1/5"
+        }
+       ]
+      }
+     },
+     "rows": [
+      [
+       {
+        "type": "xiaoyun",
+        "label": "1-9",
+        "age": 1,
+        "endAge": 9,
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2013,
+        "age": 10,
+        "endAge": 19,
+        "gan": "甲",
+        "zhi": "子",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2023,
+        "age": 20,
+        "endAge": 29,
+        "gan": "癸",
+        "zhi": "亥",
+        "isActive": true
+       },
+       {
+        "type": "dayun",
+        "year": 2033,
+        "age": 30,
+        "endAge": 39,
+        "gan": "壬",
+        "zhi": "戌",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2043,
+        "age": 40,
+        "endAge": 49,
+        "gan": "辛",
+        "zhi": "酉",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2053,
+        "age": 50,
+        "endAge": 59,
+        "gan": "庚",
+        "zhi": "申",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2063,
+        "age": 60,
+        "endAge": 69,
+        "gan": "己",
+        "zhi": "未",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2073,
+        "age": 70,
+        "endAge": 79,
+        "gan": "戊",
+        "zhi": "午",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2083,
+        "age": 80,
+        "endAge": 89,
+        "gan": "丁",
+        "zhi": "巳",
+        "isActive": false
+       },
+       {
+        "type": "more"
+       }
+      ],
+      [
+       {
+        "type": "liunian",
+        "year": 2023,
+        "age": 20,
+        "gan": "癸",
+        "zhi": "卯",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2024,
+        "age": 21,
+        "gan": "甲",
+        "zhi": "辰",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2025,
+        "age": 22,
+        "gan": "乙",
+        "zhi": "巳",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2026,
+        "age": 23,
+        "gan": "丙",
+        "zhi": "午",
+        "isActive": true
+       },
+       {
+        "type": "liunian",
+        "year": 2027,
+        "age": 24,
+        "gan": "丁",
+        "zhi": "未",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2028,
+        "age": 25,
+        "gan": "戊",
+        "zhi": "申",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2029,
+        "age": 26,
+        "gan": "己",
+        "zhi": "酉",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2030,
+        "age": 27,
+        "gan": "庚",
+        "zhi": "戌",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2031,
+        "age": 28,
+        "gan": "辛",
+        "zhi": "亥",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2032,
+        "age": 29,
+        "gan": "壬",
+        "zhi": "子",
+        "isActive": false
+       }
+      ],
+      [
+       {
+        "type": "liyue_simple",
+        "year": 2026,
+        "month": 1,
+        "gan": "庚",
+        "zhi": "寅",
+        "solarTerm": "立春",
+        "dateStr": "2/4",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2026,
+        "month": 2,
+        "gan": "辛",
+        "zhi": "卯",
+        "solarTerm": "惊蛰",
+        "dateStr": "3/5",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2026,
+        "month": 3,
+        "gan": "壬",
+        "zhi": "辰",
+        "solarTerm": "清明",
+        "dateStr": "4/5",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2026,
+        "month": 4,
+        "gan": "癸",
+        "zhi": "巳",
+        "solarTerm": "立夏",
+        "dateStr": "5/5",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2026,
+        "month": 5,
+        "gan": "甲",
+        "zhi": "午",
+        "solarTerm": "芒种",
+        "dateStr": "6/5",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2026,
+        "month": 6,
+        "gan": "乙",
+        "zhi": "未",
+        "solarTerm": "小暑",
+        "dateStr": "7/7",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2026,
+        "month": 7,
+        "gan": "丙",
+        "zhi": "申",
+        "solarTerm": "立秋",
+        "dateStr": "8/7",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2026,
+        "month": 8,
+        "gan": "丁",
+        "zhi": "酉",
+        "solarTerm": "白露",
+        "dateStr": "9/7",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2026,
+        "month": 9,
+        "gan": "戊",
+        "zhi": "戌",
+        "solarTerm": "寒露",
+        "dateStr": "10/8",
+        "isActive": false
+       },
+       {
+        "type": "more_liyue"
+       }
+      ]
+     ]
+    },
+    {
+     "year": 2132,
+     "selection": {
+      "columns": {
+       "liunian": {
+        "stem": "-",
+        "branch": "-",
+        "stemElement": null,
+        "branchElement": null,
+        "mainStar": "-",
+        "hiddenStems": [],
+        "lifeStage": "-",
+        "strength": "-",
+        "naYin": "-"
+       },
+       "dayun": {
+        "stem": "癸",
+        "branch": "丑",
+        "stemElement": "水",
+        "branchElement": "土",
+        "mainStar": "比肩",
+        "hiddenStems": [
+         {
+          "stem": "己",
+          "tenGod": "七杀",
+          "element": "土"
+         },
+         {
+          "stem": "癸",
+          "tenGod": "比肩",
+          "element": "水"
+         },
+         {
+          "stem": "辛",
+          "tenGod": "偏印",
+          "element": "金"
+         }
+        ],
+        "lifeStage": "冠带",
+        "strength": "死",
+        "naYin": "桑柘木"
+       },
+       "year": {
+        "stem": "癸",
+        "branch": "未",
+        "stemElement": "水",
+        "branchElement": "土",
+        "mainStar": "比肩",
+        "hiddenStems": [
+         {
+          "stem": "己",
+          "tenGod": "七杀",
+          "element": "土"
+         },
+         {
+          "stem": "丁",
+          "tenGod": "偏财",
+          "element": "火"
+         },
+         {
+          "stem": "乙",
+          "tenGod": "食神",
+          "element": "木"
+         }
+        ],
+        "lifeStage": "墓",
+        "strength": "死",
+        "naYin": "杨柳木"
+       },
+       "month": {
+        "stem": "乙",
+        "branch": "丑",
+        "stemElement": "木",
+        "branchElement": "土",
+        "mainStar": "食神",
+        "hiddenStems": [
+         {
+          "stem": "己",
+          "tenGod": "七杀",
+          "element": "土"
+         },
+         {
+          "stem": "癸",
+          "tenGod": "比肩",
+          "element": "水"
+         },
+         {
+          "stem": "辛",
+          "tenGod": "偏印",
+          "element": "金"
+         }
+        ],
+        "lifeStage": "冠带",
+        "strength": "囚",
+        "naYin": "海中金"
+       },
+       "day": {
+        "stem": "癸",
+        "branch": "丑",
+        "stemElement": "水",
+        "branchElement": "土",
+        "mainStar": "日主",
+        "hiddenStems": [
+         {
+          "stem": "己",
+          "tenGod": "七杀",
+          "element": "土"
+         },
+         {
+          "stem": "癸",
+          "tenGod": "比肩",
+          "element": "水"
+         },
+         {
+          "stem": "辛",
+          "tenGod": "偏印",
+          "element": "金"
+         }
+        ],
+        "lifeStage": "冠带",
+        "strength": "死",
+        "naYin": "桑柘木"
+       },
+       "hour": {
+        "stem": "辛",
+        "branch": "酉",
+        "stemElement": "金",
+        "branchElement": "金",
+        "mainStar": "偏印",
+        "hiddenStems": [
+         {
+          "stem": "辛",
+          "tenGod": "偏印",
+          "element": "金"
+         }
+        ],
+        "lifeStage": "病",
+        "strength": "相",
+        "naYin": "石榴木"
+       }
+      },
+      "shenSha": {
+       "liunian": [],
+       "dayun": [],
+       "year": [
+        "华盖"
+       ],
+       "month": [
+        "月德合"
+       ],
+       "day": [],
+       "hour": [
+        "沐浴",
+        "灾煞"
+       ]
+      },
+      "qiyun": {
+       "years": 9,
+       "months": 9,
+       "changeYearDigit": 3,
+       "changeMonth": 11,
+       "ageText": "9岁9个月",
+       "changeText": "逢3字年11月换大运"
+      },
+      "year": {
+       "year": 2132,
+       "age": 129,
+       "ganZhi": {
+        "stem": "壬",
+        "branch": "辰"
+       },
+       "table": {
+        "liunian": {
+         "stem": "-",
+         "branch": "-",
+         "stemElement": null,
+         "branchElement": null,
+         "mainStar": "-",
+         "hiddenStems": [],
+         "lifeStage": "-",
+         "strength": "-",
+         "naYin": "-"
+        },
+        "dayun": {
+         "kind": "projected",
+         "index": 3
+        },
+        "shenSha": {
+         "liunian": [],
+         "dayun": [],
+         "year": [
+          "华盖"
+         ],
+         "month": [
+          "月德合"
+         ],
+         "day": [],
+         "hour": [
+          "沐浴",
+          "灾煞"
+         ]
+        }
+       },
+       "liuyue": [
+        {
+         "stem": "壬",
+         "branch": "寅",
+         "month": 1,
+         "solarTerm": "立春",
+         "dateStr": "2/4"
+        },
+        {
+         "stem": "癸",
+         "branch": "卯",
+         "month": 2,
+         "solarTerm": "惊蛰",
+         "dateStr": "3/5"
+        },
+        {
+         "stem": "甲",
+         "branch": "辰",
+         "month": 3,
+         "solarTerm": "清明",
+         "dateStr": "4/4"
+        },
+        {
+         "stem": "乙",
+         "branch": "巳",
+         "month": 4,
+         "solarTerm": "立夏",
+         "dateStr": "5/5"
+        },
+        {
+         "stem": "丙",
+         "branch": "午",
+         "month": 5,
+         "solarTerm": "芒种",
+         "dateStr": "6/5"
+        },
+        {
+         "stem": "丁",
+         "branch": "未",
+         "month": 6,
+         "solarTerm": "小暑",
+         "dateStr": "7/7"
+        },
+        {
+         "stem": "戊",
+         "branch": "申",
+         "month": 7,
+         "solarTerm": "立秋",
+         "dateStr": "8/7"
+        },
+        {
+         "stem": "己",
+         "branch": "酉",
+         "month": 8,
+         "solarTerm": "白露",
+         "dateStr": "9/7"
+        },
+        {
+         "stem": "庚",
+         "branch": "戌",
+         "month": 9,
+         "solarTerm": "寒露",
+         "dateStr": "10/8"
+        },
+        {
+         "stem": "辛",
+         "branch": "亥",
+         "month": 10,
+         "solarTerm": "立冬",
+         "dateStr": "11/7"
+        },
+        {
+         "stem": "壬",
+         "branch": "子",
+         "month": 11,
+         "solarTerm": "大雪",
+         "dateStr": "12/7"
+        },
+        {
+         "stem": "癸",
+         "branch": "丑",
+         "month": 12,
+         "solarTerm": "小寒",
+         "dateStr": "1/5"
+        }
+       ]
+      }
+     },
+     "rows": [
+      [
+       {
+        "type": "xiaoyun",
+        "label": "1-9",
+        "age": 1,
+        "endAge": 9,
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2013,
+        "age": 10,
+        "endAge": 19,
+        "gan": "甲",
+        "zhi": "子",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2023,
+        "age": 20,
+        "endAge": 29,
+        "gan": "癸",
+        "zhi": "亥",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2033,
+        "age": 30,
+        "endAge": 39,
+        "gan": "壬",
+        "zhi": "戌",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2043,
+        "age": 40,
+        "endAge": 49,
+        "gan": "辛",
+        "zhi": "酉",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2053,
+        "age": 50,
+        "endAge": 59,
+        "gan": "庚",
+        "zhi": "申",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2063,
+        "age": 60,
+        "endAge": 69,
+        "gan": "己",
+        "zhi": "未",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2073,
+        "age": 70,
+        "endAge": 79,
+        "gan": "戊",
+        "zhi": "午",
+        "isActive": false
+       },
+       {
+        "type": "dayun",
+        "year": 2083,
+        "age": 80,
+        "endAge": 89,
+        "gan": "丁",
+        "zhi": "巳",
+        "isActive": false
+       },
+       {
+        "type": "more"
+       }
+      ],
+      [
+       {
+        "type": "liunian",
+        "year": 2123,
+        "age": 120,
+        "gan": "癸",
+        "zhi": "未",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2124,
+        "age": 121,
+        "gan": "甲",
+        "zhi": "申",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2125,
+        "age": 122,
+        "gan": "乙",
+        "zhi": "酉",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2126,
+        "age": 123,
+        "gan": "丙",
+        "zhi": "戌",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2127,
+        "age": 124,
+        "gan": "丁",
+        "zhi": "亥",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2128,
+        "age": 125,
+        "gan": "戊",
+        "zhi": "子",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2129,
+        "age": 126,
+        "gan": "己",
+        "zhi": "丑",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2130,
+        "age": 127,
+        "gan": "庚",
+        "zhi": "寅",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2131,
+        "age": 128,
+        "gan": "辛",
+        "zhi": "卯",
+        "isActive": false
+       },
+       {
+        "type": "liunian",
+        "year": 2132,
+        "age": 129,
+        "gan": "壬",
+        "zhi": "辰",
+        "isActive": true
+       }
+      ],
+      [
+       {
+        "type": "liyue_simple",
+        "year": 2132,
+        "month": 1,
+        "gan": "壬",
+        "zhi": "寅",
+        "solarTerm": "立春",
+        "dateStr": "2/4",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2132,
+        "month": 2,
+        "gan": "癸",
+        "zhi": "卯",
+        "solarTerm": "惊蛰",
+        "dateStr": "3/5",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2132,
+        "month": 3,
+        "gan": "甲",
+        "zhi": "辰",
+        "solarTerm": "清明",
+        "dateStr": "4/4",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2132,
+        "month": 4,
+        "gan": "乙",
+        "zhi": "巳",
+        "solarTerm": "立夏",
+        "dateStr": "5/5",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2132,
+        "month": 5,
+        "gan": "丙",
+        "zhi": "午",
+        "solarTerm": "芒种",
+        "dateStr": "6/5",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2132,
+        "month": 6,
+        "gan": "丁",
+        "zhi": "未",
+        "solarTerm": "小暑",
+        "dateStr": "7/7",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2132,
+        "month": 7,
+        "gan": "戊",
+        "zhi": "申",
+        "solarTerm": "立秋",
+        "dateStr": "8/7",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2132,
+        "month": 8,
+        "gan": "己",
+        "zhi": "酉",
+        "solarTerm": "白露",
+        "dateStr": "9/7",
+        "isActive": false
+       },
+       {
+        "type": "liyue_simple",
+        "year": 2132,
+        "month": 9,
+        "gan": "庚",
+        "zhi": "戌",
+        "solarTerm": "寒露",
+        "dateStr": "10/8",
+        "isActive": false
+       },
+       {
+        "type": "more_liyue"
+       }
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}
