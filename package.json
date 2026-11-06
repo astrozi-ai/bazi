@@ -10,7 +10,8 @@
     "test": "bun test --path-ignore-patterns='**/dist/**' --path-ignore-patterns='apps/**'",
     "check": "bun run typecheck && bun run test && bun run check:public",
     "changeset": "changeset",
-    "check:public": "bun scripts/public-surface/check.ts"
+    "check:public": "bun scripts/public-surface/check.ts",
+    "playground:engine": "bun scripts/build-playground-engine.ts"
   },
   "devDependencies": {
     "@changesets/cli": "2.29.7",
