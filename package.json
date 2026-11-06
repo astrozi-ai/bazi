@@ -8,8 +8,9 @@
   "scripts": {
     "typecheck": "tsc -b packages/bazi packages/mcp",
     "test": "bun test",
-    "check": "bun run typecheck && bun run test",
-    "changeset": "changeset"
+    "check": "bun run typecheck && bun run test && bun run check:public",
+    "changeset": "changeset",
+    "check:public": "bun scripts/public-surface/check.ts"
   },
   "devDependencies": {
     "@changesets/cli": "2.29.7",
