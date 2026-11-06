@@ -5,17 +5,17 @@ import { useSelection, useSheet } from "../engine/hooks";
 import type { Sheet } from "../engine/sheet";
 import { birthLine, CONVENTION_LINE, GENDER_LABELS } from "../model/labels";
 import { nav } from "../nav";
-import { FortuneTable } from "../ui/FortuneTable";
-import { Header } from "../ui/Header";
-import { PaipanGrid } from "../ui/PaipanGrid";
-import type { BirthInput } from "../vendor/iching-bazi";
+import { FortuneTable } from "../../../packages/bazi-ui/src/FortuneTable";
+import { Header } from "../../../packages/ui/src/Header";
+import { PaipanGrid } from "../../../packages/bazi-ui/src/PaipanGrid";
+import type { BirthInput } from "../../../packages/bazi/nsh/iching-bazi";
 
 const TITLE = "八字排盘";
 
 export function ChartPage(props: { input: BirthInput }) {
   const sheet = useSheet(() => props.input);
   return (
-    <NavPage title={TITLE} header={<Header title={TITLE} />}>
+    <NavPage title={TITLE} header={<Header title={TITLE} onBack={() => nav.pop()} />}>
       <View class="flex-1 bg-card">
         <If when={!sheet.error()} else={<Failure error={sheet.error()} />}>
           <If when={sheet()} else={<Loading />}>

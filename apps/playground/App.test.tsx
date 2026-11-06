@@ -56,6 +56,9 @@ test("desktop: a typed moment and Return chart it", async () => {
   await app.submit("id:field-moment");
   await app.waitFor("id:paipan-grid");
   expect(app.texts()).toContain("己卯 丙子 戊午 戊午");
+  await app.press("label:返回");
+  await app.waitFor("id:field-moment");
+  expect(app.shows("id:paipan-grid")).toBe(false);
 });
 
 test("desktop: a moment that is not a date is refused, not guessed", async () => {

@@ -1,0 +1,53 @@
+{
+  "name": "iching base",
+  "cssVars": {
+    "theme": {
+      "radius": "10px",
+      "radius-card": "14px",
+      "text-info": "13px",
+      "text-wheel": "15px"
+    },
+    "light": {
+      "background": "#fffef6",
+      "foreground": "#1f2937",
+      "card": "#ffffff",
+      "card-foreground": "var(--foreground)",
+      "popover": "#ffffff",
+      "popover-foreground": "var(--foreground)",
+      "primary": "#3d0b5b",
+      "primary-foreground": "#fffef6",
+      "secondary": "#f8f5f0",
+      "secondary-foreground": "#374151",
+      "muted": "#f5f0eb",
+      "muted-foreground": "#78716c",
+      "accent": "#f5f0eb",
+      "accent-foreground": "var(--foreground)",
+      "destructive": "#b91c1c",
+      "border": "#e8e0d8",
+      "input": "#e8e0d8",
+      "ring": "#5b1a82",
+      "notice": "#78716c"
+    },
+    "dark": {
+      "background": "#1a2242",
+      "foreground": "#ffffff",
+      "card": "#273261",
+      "card-foreground": "var(--foreground)",
+      "popover": "#273261",
+      "popover-foreground": "var(--foreground)",
+      "primary": "#fbcb0a",
+      "primary-foreground": "#1a2242",
+      "secondary": "#343b6a",
+      "secondary-foreground": "#e5e7eb",
+      "muted": "#343b6a",
+      "muted-foreground": "#a9b4d0",
+      "accent": "#343b6a",
+      "accent-foreground": "var(--foreground)",
+      "destructive": "#f87171",
+      "border": "#ffffff24",
+      "input": "#4a548c",
+      "ring": "#fbcb0a",
+      "notice": "#a9b4d0"
+    }
+  }
+}

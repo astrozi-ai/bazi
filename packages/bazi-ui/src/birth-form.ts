@@ -1,5 +1,5 @@
 // The birth form both layouts edit: one model, one set of rules; only the way it is entered differs.
-import { type BirthInput, type CalendarMonth, monthsOf } from "../vendor/iching-bazi";
+import { type BirthInput, type CalendarMonth, monthsOf } from "./engine";
 
 export type Gender = BirthInput["gender"];
 
@@ -29,12 +29,6 @@ export const START_FORM: BirthForm = {
   minute: 0,
   gender: "male",
 };
-
-/** Made-up moments that belong to no one, to try the sheet with. */
-export const SAMPLES: { id: string; label: string; form: BirthForm }[] = [
-  { id: "a", label: "示例甲", form: { lunar: false, year: 2000, month: 1, isLeapMonth: false, day: 1, hour: 12, minute: 0, gender: "male" } },
-  { id: "b", label: "示例乙", form: { lunar: true, year: 2001, month: 4, isLeapMonth: true, day: 24, hour: 8, minute: 30, gender: "female" } },
-];
 
 /** The months the form offers for its year and calendar (from tyme4ts), or none until a year is set. */
 export function monthsFor(form: BirthForm): CalendarMonth[] {

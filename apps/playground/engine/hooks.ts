@@ -1,6 +1,6 @@
 // The hooks the pages read: the chart as a resource, the selected year's sheet as lookups.
 import { type Accessor, resource, signal } from "nsh";
-import { paipan, type BirthInput } from "../vendor/iching-bazi";
+import { paipan, type BirthInput } from "../../../packages/bazi/nsh/iching-bazi";
 import { loadSheet, type Reference, type Sheet } from "./sheet";
 
 export function today(): Reference {

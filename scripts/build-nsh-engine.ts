@@ -1,11 +1,11 @@
-// Bundles @iching/bazi (with tyme4ts and zod) into one ESM file for the NSH playground, which
-// imports only relative files, and emits its declarations next to it. The output is a build
+// Bundles @iching/bazi (with tyme4ts and zod) into one ESM file for NSH apps and the NSH UI
+// packages, which import only relative files, and emits its declarations next to it. The output is a build
 // product (git-ignored): the package source stays the only authority.
 import { rmSync } from "node:fs";
 import { join } from "node:path";
 
 const root = join(import.meta.dir, "..");
-const out = join(root, "apps/playground/vendor");
+const out = join(root, "packages/bazi/nsh");
 const entry = join(root, "packages/bazi/src/index.ts");
 
 rmSync(out, { recursive: true, force: true });
@@ -44,4 +44,4 @@ const tsc = Bun.spawnSync(
 if (tsc.exitCode !== 0) throw new Error("emitting @iching/bazi declarations failed");
 
 await Bun.write(join(out, "iching-bazi.d.ts"), 'export * from "./types/index";\n');
-console.log(`playground engine: ${join(out, "iching-bazi.js")}`);
+console.log(`nsh engine: ${join(out, "iching-bazi.js")}`);

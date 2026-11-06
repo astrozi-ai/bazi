@@ -4,6 +4,8 @@
     "theme": {
       "radius": "10px",
       "radius-card": "14px",
+      "text-info": "13px",
+      "text-wheel": "15px",
       "text-grid": "11px",
       "text-grid-head": "10px",
       "text-glyph": "18px",
@@ -14,8 +16,6 @@
       "text-fortune-god": "8px",
       "text-fortune-meta": "8px",
       "text-fortune-age": "7px",
-      "text-info": "13px",
-      "text-wheel": "15px",
       "wood": "#4caf50",
       "fire": "#f44336",
       "earth": "#8d6e63",

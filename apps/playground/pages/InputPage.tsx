@@ -1,12 +1,13 @@
 // A page: the birth moment in one card. Phones get wheels, desktops typed fields; both edit one form.
 import { platform, Scroll, signal, Text, View } from "nsh";
 import { Button, NavPage } from "nsh/base";
-import { type BirthForm, birthInputOf, normalizeForm, SAMPLES, START_FORM } from "../engine/form";
+import { type BirthForm, birthInputOf, normalizeForm, START_FORM } from "../../../packages/bazi-ui/src/birth-form";
+import { SAMPLES } from "../engine/samples";
 import { nav } from "../nav";
-import { DesktopBirthForm } from "../ui/DesktopBirthForm";
-import { Header } from "../ui/Header";
-import { MobileBirthForm } from "../ui/MobileBirthForm";
-import { BirthInputError, toChartInput } from "../vendor/iching-bazi";
+import { DesktopBirthForm } from "../../../packages/bazi-ui/src/DesktopBirthForm";
+import { Header } from "../../../packages/ui/src/Header";
+import { MobileBirthForm } from "../../../packages/bazi-ui/src/MobileBirthForm";
+import { BirthInputError, toChartInput } from "../../../packages/bazi/nsh/iching-bazi";
 
 const TITLE = "八字排盘";
 

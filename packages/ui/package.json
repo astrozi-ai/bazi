@@ -1,0 +1,37 @@
+{
+  "name": "@iching/ui",
+  "version": "0.0.0",
+  "private": true,
+  "description": "NSH TSX components for 命理 apps, not tied to one system: snapping wheels, compact number fields, choice pairs, switch rows, a page header, and the theme tokens they read.",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./theme.json": "./theme.json"
+  },
+  "files": [
+    "src",
+    "theme.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astrozi-ai/bazi.git",
+    "directory": "packages/ui"
+  },
+  "homepage": "https://github.com/astrozi-ai/bazi#readme",
+  "bugs": "https://github.com/astrozi-ai/bazi/issues",
+  "keywords": [
+    "nsh",
+    "tsx",
+    "ui",
+    "components",
+    "wheel-picker",
+    "命理"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
+}
