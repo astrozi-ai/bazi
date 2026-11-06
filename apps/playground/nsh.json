@@ -1,0 +1,8 @@
+{
+  "name": "Bazi Playground",
+  "id": "ai.astrozi.bazi.playground",
+  "version": "0.0.0",
+  "build": 1,
+  "appearance": "system",
+  "theme": "theme.json"
+}
