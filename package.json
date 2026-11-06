@@ -11,7 +11,8 @@
     "check": "bun run typecheck && bun run test && bun run check:public",
     "changeset": "changeset",
     "check:public": "bun scripts/public-surface/check.ts",
-    "playground:engine": "bun scripts/build-playground-engine.ts"
+    "engine:nsh": "bun scripts/build-nsh-engine.ts",
+    "theme:playground": "bun scripts/theme/build-playground-theme.ts"
   },
   "devDependencies": {
     "@changesets/cli": "2.29.7",

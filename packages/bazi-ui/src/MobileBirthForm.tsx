@@ -1,11 +1,11 @@
 // Phones and tablets: AstroZi's wheel picker — 年 / 月 / 日 / 时 / 分 wheels, 男 / 女, the 农历 switch.
 import type { Accessor } from "nsh";
 import { View } from "nsh";
-import { type BirthForm, type Gender, monthKey, monthsFor, selectedMonth, YEAR_RANGE } from "../engine/form";
-import { pad2 } from "../model/labels";
-import { shichenOf } from "../vendor/iching-bazi";
-import { ChoicePair, SwitchRow } from "./Fields";
-import { Wheel, type WheelItem } from "./Wheel";
+import { type BirthForm, type Gender, monthKey, monthsFor, selectedMonth, YEAR_RANGE } from "./birth-form";
+import { pad2 } from "./elements";
+import { shichenOf } from "./engine";
+import { ChoicePair, SwitchRow } from "../../ui/src/Fields";
+import { Wheel, type WheelItem } from "../../ui/src/Wheel";
 
 const GENDERS = [
   { value: "male", label: "男" },

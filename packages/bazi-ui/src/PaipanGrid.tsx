@@ -1,8 +1,8 @@
 // The main 排盘 table: 日期 / 流年 / 大运 / 年 / 月 / 日 / 时 across, ten rows down (the first ten of the 7 × 13 sheet).
 import { Text, View } from "nsh";
 import type { JSX } from "nsh";
-import type { paipan } from "../vendor/iching-bazi";
-import { ELEMENT_TEXT, ELEMENT_WASH, type FiveElement } from "../model/labels";
+import type { paipan } from "./engine";
+import { ELEMENT_TEXT, ELEMENT_WASH, type FiveElement } from "./elements";
 
 type Column = paipan.BaziPaipanPillarColumn;
 

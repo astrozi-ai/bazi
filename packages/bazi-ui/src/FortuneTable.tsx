@@ -2,8 +2,8 @@
 import { Text, View } from "nsh";
 import type { JSX } from "nsh";
 import { Button } from "nsh/base";
-import type { paipan } from "../vendor/iching-bazi";
-import { ELEMENT_TEXT, type FiveElement } from "../model/labels";
+import type { paipan } from "./engine";
+import { ELEMENT_TEXT, type FiveElement } from "./elements";
 
 type Cell = paipan.BaziFortuneCell;
 type Glyphs = paipan.BaziPaipanGlyphs;

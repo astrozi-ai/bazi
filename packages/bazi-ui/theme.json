@@ -1,0 +1,58 @@
+{
+  "name": "iching bazi",
+  "cssVars": {
+    "theme": {
+      "text-grid": "11px",
+      "text-grid-head": "10px",
+      "text-glyph": "18px",
+      "text-shensha": "10px",
+      "text-fortune": "10px",
+      "text-fortune-small": "9px",
+      "text-fortune-label": "9px",
+      "text-fortune-god": "8px",
+      "text-fortune-meta": "8px",
+      "text-fortune-age": "7px",
+      "wood": "#4caf50",
+      "fire": "#f44336",
+      "earth": "#8d6e63",
+      "metal": "#ffc107",
+      "water": "#2196f3"
+    },
+    "light": {
+      "grid-cell": "#ffffff",
+      "grid-cell-foreground": "#374151",
+      "grid-header": "#f8f5f0",
+      "grid-header-foreground": "#1f2937",
+      "grid-row-header": "#f5f0eb",
+      "grid-secondary": "#78716c",
+      "fortune-label": "#f5f0eb",
+      "fortune-label-foreground": "#374151",
+      "fortune-cell": "#ffffff",
+      "fortune-border": "#e8e0d8",
+      "fortune-active": "#fbcb0a1f",
+      "fortune-active-foreground": "#78716c",
+      "fortune-body": "#374151",
+      "fortune-muted": "#78716c",
+      "fortune-more": "#fbcb0a",
+      "fortune-more-foreground": "#3d0b5b"
+    },
+    "dark": {
+      "grid-cell": "#2a2f56",
+      "grid-cell-foreground": "#e5e7eb",
+      "grid-header": "#343b6a",
+      "grid-header-foreground": "#f8fafc",
+      "grid-row-header": "#3d4578",
+      "grid-secondary": "#a9b4d0",
+      "fortune-label": "#3d4578",
+      "fortune-label-foreground": "#f8fafc",
+      "fortune-cell": "#2a2f56",
+      "fortune-border": "#4a548c",
+      "fortune-active": "#fbcb0a2e",
+      "fortune-active-foreground": "#fbcb0a",
+      "fortune-body": "#e5e7eb",
+      "fortune-muted": "#a9b4d0",
+      "fortune-more": "#fbcb0a",
+      "fortune-more-foreground": "#1a2242"
+    }
+  }
+}

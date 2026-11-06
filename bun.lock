@@ -18,12 +18,24 @@
         "zod": "^3.25.76",
       },
     },
+    "packages/bazi-ui": {
+      "name": "@iching/bazi-ui",
+      "version": "0.0.0",
+      "dependencies": {
+        "@iching/bazi": "workspace:*",
+        "@iching/ui": "workspace:*",
+      },
+    },
     "packages/mcp": {
       "name": "@astrozi/bazi-mcp",
       "version": "0.0.0",
       "dependencies": {
         "@iching/bazi": "workspace:*",
       },
+    },
+    "packages/ui": {
+      "name": "@iching/ui",
+      "version": "0.0.0",
     },
   },
   "packages": {
@@ -66,6 +78,10 @@
     "@changesets/write": ["@changesets/write@0.4.0", "", { "dependencies": { "@changesets/types": "^6.1.0", "fs-extra": "^7.0.1", "human-id": "^4.1.1", "prettier": "^2.7.1" } }, "sha512-CdTLvIOPiCNuH71pyDu3rA+Q0n65cmAbXnwWH84rKGiFumFzkmHNT8KHTMEchcxN+Kl8I54xGUhJ7l3E7X396Q=="],
 
     "@iching/bazi": ["@iching/bazi@workspace:packages/bazi"],
+
+    "@iching/bazi-ui": ["@iching/bazi-ui@workspace:packages/bazi-ui"],
+
+    "@iching/ui": ["@iching/ui@workspace:packages/ui"],
 
     "@inquirer/external-editor": ["@inquirer/external-editor@1.0.3", "", { "dependencies": { "chardet": "^2.1.1", "iconv-lite": "^0.7.0" }, "peerDependencies": { "@types/node": ">=18" }, "optionalPeers": ["@types/node"] }, "sha512-RWbSrDiYmO4LbejWY7ttpxczuwQyZLBUyygsA9Nsv95hpzUWwnNTVQmAq3xuh7vNwCp07UTmE5i11XAEExx4RA=="],
 

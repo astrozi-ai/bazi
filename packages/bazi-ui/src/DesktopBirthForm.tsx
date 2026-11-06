@@ -3,9 +3,9 @@
 import type { Accessor } from "nsh";
 import { signal, Text, View } from "nsh";
 import { Input, Select } from "nsh/base";
-import { type BirthForm, type Gender, monthKey, monthsFor, parseMoment, selectedMonth, YEAR_RANGE } from "../engine/form";
-import { shichenOf } from "../vendor/iching-bazi";
-import { ChoicePair, NumberColumn, SwitchRow } from "./Fields";
+import { type BirthForm, type Gender, monthKey, monthsFor, parseMoment, selectedMonth, YEAR_RANGE } from "./birth-form";
+import { shichenOf } from "./engine";
+import { ChoicePair, NumberColumn, SwitchRow } from "../../ui/src/Fields";
 
 const GENDERS = [
   { value: "male", label: "男" },

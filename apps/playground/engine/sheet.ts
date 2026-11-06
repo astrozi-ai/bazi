@@ -5,7 +5,7 @@ import {
   lunarLabelOf,
   paipan,
   toChartInput,
-} from "../vendor/iching-bazi";
+} from "../../../packages/bazi/nsh/iching-bazi";
 
 type ChartCalculationInput = ReturnType<typeof toChartInput>;
 

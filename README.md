@@ -15,15 +15,17 @@ Want a full reading of your chart? Try it on [AstroZi](https://astrozi.ai).
 | --- | --- | --- |
 | [`@iching/bazi`](packages/bazi) | Four pillars, luck periods (大运), hidden stems (藏干), ten gods (十神), chart snapshot | planned |
 | [`@astrozi/bazi-mcp`](packages/mcp) | MCP server so AI assistants can calculate BaZi charts | planned |
+| [`@iching/ui`](packages/ui) | NSH TSX components for 命理 apps: wheels, compact fields, page header, theme tokens | planned |
+| [`@iching/bazi-ui`](packages/bazi-ui) | NSH TSX components for 八字: the 7 × 13 排盘 sheet, the fortune table, birth input for phones and desktops | planned |
 
 Shared primitives (干支, 五行, 节气) come from [`@iching/core`](https://github.com/astrozi-ai/iching).
 
 ## Playground
 
-[`apps/playground`](apps/playground) is the chart UI, written in [NSH](https://github.com/longbridge/nsh) TSX for iOS, Android, the desktops and the web. It computes every chart with `@iching/bazi` and lays it out as AstroZi's 7 × 13 排盘 sheet. Its design standards are in [`DESIGN.md`](apps/playground/DESIGN.md).
+[`apps/playground`](apps/playground) is the chart UI, written in [NSH](https://github.com/longbridge/nsh) TSX for iOS, Android, the desktops and the web. It computes every chart with `@iching/bazi` and draws it with `@iching/bazi-ui`, AstroZi's 7 × 13 排盘 sheet. Its design standards are in [`DESIGN.md`](apps/playground/DESIGN.md).
 
 ```sh
-bun run playground:engine   # bundle @iching/bazi for NSH
+bun run engine:nsh          # bundle @iching/bazi for NSH
 cd apps/playground
 nsh test .                  # headless tests
 nsh run .                   # run it with hot reload
