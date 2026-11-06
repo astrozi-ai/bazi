@@ -5,7 +5,9 @@ import { readdirSync, readFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
 
 const root = join(import.meta.dir, "..");
-const packageDirs = readdirSync(join(root, "packages"));
+const packageDirs = readdirSync(join(root, "packages"), { withFileTypes: true })
+  .filter((entry) => entry.isDirectory())
+  .map((entry) => entry.name);
 
 describe.each(packageDirs)("packages/%s", (dir) => {
   const pkgPath = join(root, "packages", dir);

@@ -2,7 +2,7 @@
   "name": "@iching/bazi",
   "version": "0.0.0",
   "private": true,
-  "description": "BaZi (Four Pillars of Destiny / 八字排盘) chart calculation: pillars, luck periods, hidden stems, ten gods, chart snapshot.",
+  "description": "BaZi (Four Pillars of Destiny / 八字排盘) chart facts: four pillars, hidden stems, ten gods, 纳音, 长生, 旬空, relations (刑冲合害穿破), 神煞, luck periods and the 7 × 13 paipan view.",
   "license": "MIT",
   "type": "module",
   "exports": {
@@ -33,5 +33,12 @@
   "publishConfig": {
     "access": "public",
     "provenance": true
+  },
+  "dependencies": {
+    "tyme4ts": "1.4.2",
+    "zod": "^3.25.76"
+  },
+  "scripts": {
+    "test": "bun test"
   }
 }

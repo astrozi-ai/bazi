@@ -1,0 +1,7121 @@
+{
+ "note": "Synthetic boundary inputs (made-up moments that belong to no one). Generated from the chart engine this package was moved from; the package must reproduce every field.",
+ "conventions": {
+  "calendar": "gregorian",
+  "timezone": "Asia/Shanghai",
+  "trueSolarTimePolicy": "none",
+  "dayBoundaryRule": "zi-hour-23",
+  "qiyunMethod": "tyme4ts-child-limit"
+ },
+ "cases": [
+  {
+   "label": "立春前一小时",
+   "input": {
+    "year": 2004,
+    "month": 2,
+    "day": 4,
+    "hour": 18,
+    "minute": 56,
+    "second": 0,
+    "gender": "male"
+   },
+   "solarDate": {
+    "year": 2004,
+    "month": 2,
+    "day": 4,
+    "hour": 18,
+    "minute": 56
+   },
+   "naYin": {
+    "year": "杨柳木",
+    "month": "海中金",
+    "day": "桑柘木",
+    "hour": "石榴木",
+    "dayMasterNaYin": "桑柘木",
+    "element": "木",
+    "characteristics": [
+     "特性未知"
+    ],
+    "compatibility": {
+     "favorable": [
+      "杨柳木",
+      "石榴木"
+     ],
+     "unfavorable": [
+      "海中金"
+     ],
+     "neutral": [],
+     "analysis": "纳音相配分析：整体配置较好，有利纳音2个，不利纳音1个。纳音组合有助于命主发展，能够得到较好的支持。"
+    }
+   },
+   "qiyunDetail": {
+    "years": 9,
+    "months": 9,
+    "days": 23,
+    "hours": 2,
+    "minutes": 54,
+    "endYear": 2013,
+    "endMonth": 11
+   },
+   "snapshot": {
+    "schemaVersion": 1,
+    "calculationConventions": {
+     "calendar": "gregorian",
+     "timezone": "Asia/Shanghai",
+     "trueSolarTimePolicy": "none",
+     "dayBoundaryRule": "zi-hour-23",
+     "qiyunMethod": "tyme4ts-child-limit"
+    },
+    "inputKind": "birth",
+    "birthInput": {
+     "year": 2004,
+     "month": 2,
+     "day": 4,
+     "hour": 18,
+     "minute": 56,
+     "second": 0,
+     "gender": "male"
+    },
+    "dayMaster": "癸",
+    "pillars": [
+     {
+      "pillar": "year",
+      "stem": {
+       "occurrenceId": "year.stem",
+       "stem": "癸",
+       "element": "水",
+       "tenGod": "比肩"
+      },
+      "branch": {
+       "occurrenceId": "year.branch",
+       "branch": "未",
+       "element": "土",
+       "hiddenStems": [
+        {
+         "occurrenceId": "year.branch.hidden.0",
+         "stem": "己",
+         "element": "土",
+         "role": "primary",
+         "tenGod": "七杀"
+        },
+        {
+         "occurrenceId": "year.branch.hidden.1",
+         "stem": "丁",
+         "element": "火",
+         "role": "tertiary",
+         "tenGod": "偏财"
+        },
+        {
+         "occurrenceId": "year.branch.hidden.2",
+         "stem": "乙",
+         "element": "木",
+         "role": "secondary",
+         "tenGod": "食神"
+        }
+       ]
+      }
+     },
+     {
+      "pillar": "month",
+      "stem": {
+       "occurrenceId": "month.stem",
+       "stem": "乙",
+       "element": "木",
+       "tenGod": "食神"
+      },
+      "branch": {
+       "occurrenceId": "month.branch",
+       "branch": "丑",
+       "element": "土",
+       "hiddenStems": [
+        {
+         "occurrenceId": "month.branch.hidden.0",
+         "stem": "己",
+         "element": "土",
+         "role": "primary",
+         "tenGod": "七杀"
+        },
+        {
+         "occurrenceId": "month.branch.hidden.1",
+         "stem": "癸",
+         "element": "水",
+         "role": "tertiary",
+         "tenGod": "比肩"
+        },
+        {
+         "occurrenceId": "month.branch.hidden.2",
+         "stem": "辛",
+         "element": "金",
+         "role": "secondary",
+         "tenGod": "偏印"
+        }
+       ]
+      }
+     },
+     {
+      "pillar": "day",
+      "stem": {
+       "occurrenceId": "day.stem",
+       "stem": "癸",
+       "element": "水",
+       "tenGod": "比肩"
+      },
+      "branch": {
+       "occurrenceId": "day.branch",
+       "branch": "丑",
+       "element": "土",
+       "hiddenStems": [
+        {
+         "occurrenceId": "day.branch.hidden.0",
+         "stem": "己",
+         "element": "土",
+         "role": "primary",
+         "tenGod": "七杀"
+        },
+        {
+         "occurrenceId": "day.branch.hidden.1",
+         "stem": "癸",
+         "element": "水",
+         "role": "tertiary",
+         "tenGod": "比肩"
+        },
+        {
+         "occurrenceId": "day.branch.hidden.2",
+         "stem": "辛",
+         "element": "金",
+         "role": "secondary",
+         "tenGod": "偏印"
+        }
+       ]
+      }
+     },
+     {
+      "pillar": "hour",
+      "stem": {
+       "occurrenceId": "hour.stem",
+       "stem": "辛",
+       "element": "金",
+       "tenGod": "偏印"
+      },
+      "branch": {
+       "occurrenceId": "hour.branch",
+       "branch": "酉",
+       "element": "金",
+       "hiddenStems": [
+        {
+         "occurrenceId": "hour.branch.hidden.0",
+         "stem": "辛",
+         "element": "金",
+         "role": "primary",
+         "tenGod": "偏印"
+        }
+       ]
+      }
+     }
+    ],
+    "roots": [
+     {
+      "stemOccurrenceId": "year.stem",
+      "stem": "癸",
+      "element": "水",
+      "rootedIn": [
+       {
+        "branchOccurrenceId": "month.branch",
+        "hiddenStemOccurrenceId": "month.branch.hidden.1",
+        "branch": "丑",
+        "hiddenStem": "癸",
+        "role": "tertiary",
+        "sameStem": true
+       },
+       {
+        "branchOccurrenceId": "day.branch",
+        "hiddenStemOccurrenceId": "day.branch.hidden.1",
+        "branch": "丑",
+        "hiddenStem": "癸",
+        "role": "tertiary",
+        "sameStem": true
+       }
+      ]
+     },
+     {
+      "stemOccurrenceId": "month.stem",
+      "stem": "乙",
+      "element": "木",
+      "rootedIn": [
+       {
+        "branchOccurrenceId": "year.branch",
+        "hiddenStemOccurrenceId": "year.branch.hidden.2",
+        "branch": "未",
+        "hiddenStem": "乙",
+        "role": "secondary",
+        "sameStem": true
+       }
+      ]
+     },
+     {
+      "stemOccurrenceId": "day.stem",
+      "stem": "癸",
+      "element": "水",
+      "rootedIn": [
+       {
+        "branchOccurrenceId": "month.branch",
+        "hiddenStemOccurrenceId": "month.branch.hidden.1",
+        "branch": "丑",
+        "hiddenStem": "癸",
+        "role": "tertiary",
+        "sameStem": true
+       },
+       {
+        "branchOccurrenceId": "day.branch",
+        "hiddenStemOccurrenceId": "day.branch.hidden.1",
+        "branch": "丑",
+        "hiddenStem": "癸",
+        "role": "tertiary",
+        "sameStem": true
+       }
+      ]
+     },
+     {
+      "stemOccurrenceId": "hour.stem",
+      "stem": "辛",
+      "element": "金",
+      "rootedIn": [
+       {
+        "branchOccurrenceId": "month.branch",
+        "hiddenStemOccurrenceId": "month.branch.hidden.2",
+        "branch": "丑",
+        "hiddenStem": "辛",
+        "role": "secondary",
+        "sameStem": true
+       },
+       {
+        "branchOccurrenceId": "day.branch",
+        "hiddenStemOccurrenceId": "day.branch.hidden.2",
+        "branch": "丑",
+        "hiddenStem": "辛",
+        "role": "secondary",
+        "sameStem": true
+       },
+       {
+        "branchOccurrenceId": "hour.branch",
+        "hiddenStemOccurrenceId": "hour.branch.hidden.0",
+        "branch": "酉",
+        "hiddenStem": "辛",
+        "role": "primary",
+        "sameStem": true
+       }
+      ]
+     }
+    ],
+    "luck": {
+     "direction": "backward",
+     "startAge": 9,
+     "startAgeExact": 9.813,
+     "dayun": [
+      {
+       "index": 1,
+       "startAge": 10,
+       "endAge": 19,
+       "stem": {
+        "occurrenceId": "dayun.1.stem",
+        "stem": "甲",
+        "element": "木",
+        "tenGod": "伤官"
+       },
+       "branch": {
+        "occurrenceId": "dayun.1.branch",
+        "branch": "子",
+        "element": "水",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.1.branch.hidden.0",
+          "stem": "癸",
+          "element": "水",
+          "role": "primary",
+          "tenGod": "比肩"
+         }
+        ]
+       }
+      },
+      {
+       "index": 2,
+       "startAge": 20,
+       "endAge": 29,
+       "stem": {
+        "occurrenceId": "dayun.2.stem",
+        "stem": "癸",
+        "element": "水",
+        "tenGod": "比肩"
+       },
+       "branch": {
+        "occurrenceId": "dayun.2.branch",
+        "branch": "亥",
+        "element": "水",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.2.branch.hidden.0",
+          "stem": "壬",
+          "element": "水",
+          "role": "primary",
+          "tenGod": "劫财"
+         },
+         {
+          "occurrenceId": "dayun.2.branch.hidden.1",
+          "stem": "甲",
+          "element": "木",
+          "role": "tertiary",
+          "tenGod": "伤官"
+         }
+        ]
+       }
+      },
+      {
+       "index": 3,
+       "startAge": 30,
+       "endAge": 39,
+       "stem": {
+        "occurrenceId": "dayun.3.stem",
+        "stem": "壬",
+        "element": "水",
+        "tenGod": "劫财"
+       },
+       "branch": {
+        "occurrenceId": "dayun.3.branch",
+        "branch": "戌",
+        "element": "土",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.3.branch.hidden.0",
+          "stem": "戊",
+          "element": "土",
+          "role": "primary",
+          "tenGod": "正官"
+         },
+         {
+          "occurrenceId": "dayun.3.branch.hidden.1",
+          "stem": "辛",
+          "element": "金",
+          "role": "tertiary",
+          "tenGod": "偏印"
+         },
+         {
+          "occurrenceId": "dayun.3.branch.hidden.2",
+          "stem": "丁",
+          "element": "火",
+          "role": "secondary",
+          "tenGod": "偏财"
+         }
+        ]
+       }
+      },
+      {
+       "index": 4,
+       "startAge": 40,
+       "endAge": 49,
+       "stem": {
+        "occurrenceId": "dayun.4.stem",
+        "stem": "辛",
+        "element": "金",
+        "tenGod": "偏印"
+       },
+       "branch": {
+        "occurrenceId": "dayun.4.branch",
+        "branch": "酉",
+        "element": "金",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.4.branch.hidden.0",
+          "stem": "辛",
+          "element": "金",
+          "role": "primary",
+          "tenGod": "偏印"
+         }
+        ]
+       }
+      },
+      {
+       "index": 5,
+       "startAge": 50,
+       "endAge": 59,
+       "stem": {
+        "occurrenceId": "dayun.5.stem",
+        "stem": "庚",
+        "element": "金",
+        "tenGod": "正印"
+       },
+       "branch": {
+        "occurrenceId": "dayun.5.branch",
+        "branch": "申",
+        "element": "金",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.5.branch.hidden.0",
+          "stem": "庚",
+          "element": "金",
+          "role": "primary",
+          "tenGod": "正印"
+         },
+         {
+          "occurrenceId": "dayun.5.branch.hidden.1",
+          "stem": "壬",
+          "element": "水",
+          "role": "secondary",
+          "tenGod": "劫财"
+         },
+         {
+          "occurrenceId": "dayun.5.branch.hidden.2",
+          "stem": "戊",
+          "element": "土",
+          "role": "tertiary",
+          "tenGod": "正官"
+         }
+        ]
+       }
+      },
+      {
+       "index": 6,
+       "startAge": 60,
+       "endAge": 69,
+       "stem": {
+        "occurrenceId": "dayun.6.stem",
+        "stem": "己",
+        "element": "土",
+        "tenGod": "七杀"
+       },
+       "branch": {
+        "occurrenceId": "dayun.6.branch",
+        "branch": "未",
+        "element": "土",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.6.branch.hidden.0",
+          "stem": "己",
+          "element": "土",
+          "role": "primary",
+          "tenGod": "七杀"
+         },
+         {
+          "occurrenceId": "dayun.6.branch.hidden.1",
+          "stem": "丁",
+          "element": "火",
+          "role": "tertiary",
+          "tenGod": "偏财"
+         },
+         {
+          "occurrenceId": "dayun.6.branch.hidden.2",
+          "stem": "乙",
+          "element": "木",
+          "role": "secondary",
+          "tenGod": "食神"
+         }
+        ]
+       }
+      },
+      {
+       "index": 7,
+       "startAge": 70,
+       "endAge": 79,
+       "stem": {
+        "occurrenceId": "dayun.7.stem",
+        "stem": "戊",
+        "element": "土",
+        "tenGod": "正官"
+       },
+       "branch": {
+        "occurrenceId": "dayun.7.branch",
+        "branch": "午",
+        "element": "火",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.7.branch.hidden.0",
+          "stem": "丁",
+          "element": "火",
+          "role": "primary",
+          "tenGod": "偏财"
+         },
+         {
+          "occurrenceId": "dayun.7.branch.hidden.1",
+          "stem": "己",
+          "element": "土",
+          "role": "tertiary",
+          "tenGod": "七杀"
+         }
+        ]
+       }
+      },
+      {
+       "index": 8,
+       "startAge": 80,
+       "endAge": 89,
+       "stem": {
+        "occurrenceId": "dayun.8.stem",
+        "stem": "丁",
+        "element": "火",
+        "tenGod": "偏财"
+       },
+       "branch": {
+        "occurrenceId": "dayun.8.branch",
+        "branch": "巳",
+        "element": "火",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.8.branch.hidden.0",
+          "stem": "丙",
+          "element": "火",
+          "role": "primary",
+          "tenGod": "正财"
+         },
+         {
+          "occurrenceId": "dayun.8.branch.hidden.1",
+          "stem": "戊",
+          "element": "土",
+          "role": "secondary",
+          "tenGod": "正官"
+         },
+         {
+          "occurrenceId": "dayun.8.branch.hidden.2",
+          "stem": "庚",
+          "element": "金",
+          "role": "tertiary",
+          "tenGod": "正印"
+         }
+        ]
+       }
+      },
+      {
+       "index": 9,
+       "startAge": 90,
+       "endAge": 99,
+       "stem": {
+        "occurrenceId": "dayun.9.stem",
+        "stem": "丙",
+        "element": "火",
+        "tenGod": "正财"
+       },
+       "branch": {
+        "occurrenceId": "dayun.9.branch",
+        "branch": "辰",
+        "element": "土",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.9.branch.hidden.0",
+          "stem": "戊",
+          "element": "土",
+          "role": "primary",
+          "tenGod": "正官"
+         },
+         {
+          "occurrenceId": "dayun.9.branch.hidden.1",
+          "stem": "乙",
+          "element": "木",
+          "role": "tertiary",
+          "tenGod": "食神"
+         },
+         {
+          "occurrenceId": "dayun.9.branch.hidden.2",
+          "stem": "癸",
+          "element": "水",
+          "role": "secondary",
+          "tenGod": "比肩"
+         }
+        ]
+       }
+      },
+      {
+       "index": 10,
+       "startAge": 100,
+       "endAge": 109,
+       "stem": {
+        "occurrenceId": "dayun.10.stem",
+        "stem": "乙",
+        "element": "木",
+        "tenGod": "食神"
+       },
+       "branch": {
+        "occurrenceId": "dayun.10.branch",
+        "branch": "卯",
+        "element": "木",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.10.branch.hidden.0",
+          "stem": "乙",
+          "element": "木",
+          "role": "primary",
+          "tenGod": "食神"
+         }
+        ]
+       }
+      },
+      {
+       "index": 11,
+       "startAge": 110,
+       "endAge": 119,
+       "stem": {
+        "occurrenceId": "dayun.11.stem",
+        "stem": "甲",
+        "element": "木",
+        "tenGod": "伤官"
+       },
+       "branch": {
+        "occurrenceId": "dayun.11.branch",
+        "branch": "寅",
+        "element": "木",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.11.branch.hidden.0",
+          "stem": "甲",
+          "element": "木",
+          "role": "primary",
+          "tenGod": "伤官"
+         },
+         {
+          "occurrenceId": "dayun.11.branch.hidden.1",
+          "stem": "丙",
+          "element": "火",
+          "role": "secondary",
+          "tenGod": "正财"
+         },
+         {
+          "occurrenceId": "dayun.11.branch.hidden.2",
+          "stem": "戊",
+          "element": "土",
+          "role": "tertiary",
+          "tenGod": "正官"
+         }
+        ]
+       }
+      },
+      {
+       "index": 12,
+       "startAge": 120,
+       "endAge": 129,
+       "stem": {
+        "occurrenceId": "dayun.12.stem",
+        "stem": "癸",
+        "element": "水",
+        "tenGod": "比肩"
+       },
+       "branch": {
+        "occurrenceId": "dayun.12.branch",
+        "branch": "丑",
+        "element": "土",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.12.branch.hidden.0",
+          "stem": "己",
+          "element": "土",
+          "role": "primary",
+          "tenGod": "七杀"
+         },
+         {
+          "occurrenceId": "dayun.12.branch.hidden.1",
+          "stem": "癸",
+          "element": "水",
+          "role": "tertiary",
+          "tenGod": "比肩"
+         },
+         {
+          "occurrenceId": "dayun.12.branch.hidden.2",
+          "stem": "辛",
+          "element": "金",
+          "role": "secondary",
+          "tenGod": "偏印"
+         }
+        ]
+       }
+      }
+     ],
+     "annual": null
+    }
+   }
+  },
+  {
+   "label": "立春后一小时",
+   "input": {
+    "year": 2004,
+    "month": 2,
+    "day": 4,
+    "hour": 20,
+    "minute": 56,
+    "second": 0,
+    "gender": "female"
+   },
+   "solarDate": {
+    "year": 2004,
+    "month": 2,
+    "day": 4,
+    "hour": 20,
+    "minute": 56
+   },
+   "naYin": {
+    "year": "泉中水",
+    "month": "炉中火",
+    "day": "桑柘木",
+    "hour": "大海水",
+    "dayMasterNaYin": "桑柘木",
+    "element": "木",
+    "characteristics": [
+     "特性未知"
+    ],
+    "compatibility": {
+     "favorable": [
+      "泉中水",
+      "大海水"
+     ],
+     "unfavorable": [
+      "炉中火"
+     ],
+     "neutral": [],
+     "analysis": "纳音相配分析：整体配置较好，有利纳音2个，不利纳音1个。纳音组合有助于命主发展，能够得到较好的支持。"
+    }
+   },
+   "qiyunDetail": {
+    "years": 0,
+    "months": 0,
+    "days": 4,
+    "hours": 23,
+    "minutes": 34,
+    "endYear": 2004,
+    "endMonth": 2
+   },
+   "snapshot": {
+    "schemaVersion": 1,
+    "calculationConventions": {
+     "calendar": "gregorian",
+     "timezone": "Asia/Shanghai",
+     "trueSolarTimePolicy": "none",
+     "dayBoundaryRule": "zi-hour-23",
+     "qiyunMethod": "tyme4ts-child-limit"
+    },
+    "inputKind": "birth",
+    "birthInput": {
+     "year": 2004,
+     "month": 2,
+     "day": 4,
+     "hour": 20,
+     "minute": 56,
+     "second": 0,
+     "gender": "female"
+    },
+    "dayMaster": "癸",
+    "pillars": [
+     {
+      "pillar": "year",
+      "stem": {
+       "occurrenceId": "year.stem",
+       "stem": "甲",
+       "element": "木",
+       "tenGod": "伤官"
+      },
+      "branch": {
+       "occurrenceId": "year.branch",
+       "branch": "申",
+       "element": "金",
+       "hiddenStems": [
+        {
+         "occurrenceId": "year.branch.hidden.0",
+         "stem": "庚",
+         "element": "金",
+         "role": "primary",
+         "tenGod": "正印"
+        },
+        {
+         "occurrenceId": "year.branch.hidden.1",
+         "stem": "壬",
+         "element": "水",
+         "role": "secondary",
+         "tenGod": "劫财"
+        },
+        {
+         "occurrenceId": "year.branch.hidden.2",
+         "stem": "戊",
+         "element": "土",
+         "role": "tertiary",
+         "tenGod": "正官"
+        }
+       ]
+      }
+     },
+     {
+      "pillar": "month",
+      "stem": {
+       "occurrenceId": "month.stem",
+       "stem": "丙",
+       "element": "火",
+       "tenGod": "正财"
+      },
+      "branch": {
+       "occurrenceId": "month.branch",
+       "branch": "寅",
+       "element": "木",
+       "hiddenStems": [
+        {
+         "occurrenceId": "month.branch.hidden.0",
+         "stem": "甲",
+         "element": "木",
+         "role": "primary",
+         "tenGod": "伤官"
+        },
+        {
+         "occurrenceId": "month.branch.hidden.1",
+         "stem": "丙",
+         "element": "火",
+         "role": "secondary",
+         "tenGod": "正财"
+        },
+        {
+         "occurrenceId": "month.branch.hidden.2",
+         "stem": "戊",
+         "element": "土",
+         "role": "tertiary",
+         "tenGod": "正官"
+        }
+       ]
+      }
+     },
+     {
+      "pillar": "day",
+      "stem": {
+       "occurrenceId": "day.stem",
+       "stem": "癸",
+       "element": "水",
+       "tenGod": "比肩"
+      },
+      "branch": {
+       "occurrenceId": "day.branch",
+       "branch": "丑",
+       "element": "土",
+       "hiddenStems": [
+        {
+         "occurrenceId": "day.branch.hidden.0",
+         "stem": "己",
+         "element": "土",
+         "role": "primary",
+         "tenGod": "七杀"
+        },
+        {
+         "occurrenceId": "day.branch.hidden.1",
+         "stem": "癸",
+         "element": "水",
+         "role": "tertiary",
+         "tenGod": "比肩"
+        },
+        {
+         "occurrenceId": "day.branch.hidden.2",
+         "stem": "辛",
+         "element": "金",
+         "role": "secondary",
+         "tenGod": "偏印"
+        }
+       ]
+      }
+     },
+     {
+      "pillar": "hour",
+      "stem": {
+       "occurrenceId": "hour.stem",
+       "stem": "壬",
+       "element": "水",
+       "tenGod": "劫财"
+      },
+      "branch": {
+       "occurrenceId": "hour.branch",
+       "branch": "戌",
+       "element": "土",
+       "hiddenStems": [
+        {
+         "occurrenceId": "hour.branch.hidden.0",
+         "stem": "戊",
+         "element": "土",
+         "role": "primary",
+         "tenGod": "正官"
+        },
+        {
+         "occurrenceId": "hour.branch.hidden.1",
+         "stem": "辛",
+         "element": "金",
+         "role": "tertiary",
+         "tenGod": "偏印"
+        },
+        {
+         "occurrenceId": "hour.branch.hidden.2",
+         "stem": "丁",
+         "element": "火",
+         "role": "secondary",
+         "tenGod": "偏财"
+        }
+       ]
+      }
+     }
+    ],
+    "roots": [
+     {
+      "stemOccurrenceId": "year.stem",
+      "stem": "甲",
+      "element": "木",
+      "rootedIn": [
+       {
+        "branchOccurrenceId": "month.branch",
+        "hiddenStemOccurrenceId": "month.branch.hidden.0",
+        "branch": "寅",
+        "hiddenStem": "甲",
+        "role": "primary",
+        "sameStem": true
+       }
+      ]
+     },
+     {
+      "stemOccurrenceId": "month.stem",
+      "stem": "丙",
+      "element": "火",
+      "rootedIn": [
+       {
+        "branchOccurrenceId": "month.branch",
+        "hiddenStemOccurrenceId": "month.branch.hidden.1",
+        "branch": "寅",
+        "hiddenStem": "丙",
+        "role": "secondary",
+        "sameStem": true
+       },
+       {
+        "branchOccurrenceId": "hour.branch",
+        "hiddenStemOccurrenceId": "hour.branch.hidden.2",
+        "branch": "戌",
+        "hiddenStem": "丁",
+        "role": "secondary",
+        "sameStem": false
+       }
+      ]
+     },
+     {
+      "stemOccurrenceId": "day.stem",
+      "stem": "癸",
+      "element": "水",
+      "rootedIn": [
+       {
+        "branchOccurrenceId": "year.branch",
+        "hiddenStemOccurrenceId": "year.branch.hidden.1",
+        "branch": "申",
+        "hiddenStem": "壬",
+        "role": "secondary",
+        "sameStem": false
+       },
+       {
+        "branchOccurrenceId": "day.branch",
+        "hiddenStemOccurrenceId": "day.branch.hidden.1",
+        "branch": "丑",
+        "hiddenStem": "癸",
+        "role": "tertiary",
+        "sameStem": true
+       }
+      ]
+     },
+     {
+      "stemOccurrenceId": "hour.stem",
+      "stem": "壬",
+      "element": "水",
+      "rootedIn": [
+       {
+        "branchOccurrenceId": "year.branch",
+        "hiddenStemOccurrenceId": "year.branch.hidden.1",
+        "branch": "申",
+        "hiddenStem": "壬",
+        "role": "secondary",
+        "sameStem": true
+       },
+       {
+        "branchOccurrenceId": "day.branch",
+        "hiddenStemOccurrenceId": "day.branch.hidden.1",
+        "branch": "丑",
+        "hiddenStem": "癸",
+        "role": "tertiary",
+        "sameStem": false
+       }
+      ]
+     }
+    ],
+    "luck": {
+     "direction": "backward",
+     "startAge": 0,
+     "startAgeExact": 0.0136,
+     "dayun": [
+      {
+       "index": 1,
+       "startAge": 0,
+       "endAge": 9,
+       "stem": {
+        "occurrenceId": "dayun.1.stem",
+        "stem": "乙",
+        "element": "木",
+        "tenGod": "食神"
+       },
+       "branch": {
+        "occurrenceId": "dayun.1.branch",
+        "branch": "丑",
+        "element": "土",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.1.branch.hidden.0",
+          "stem": "己",
+          "element": "土",
+          "role": "primary",
+          "tenGod": "七杀"
+         },
+         {
+          "occurrenceId": "dayun.1.branch.hidden.1",
+          "stem": "癸",
+          "element": "水",
+          "role": "tertiary",
+          "tenGod": "比肩"
+         },
+         {
+          "occurrenceId": "dayun.1.branch.hidden.2",
+          "stem": "辛",
+          "element": "金",
+          "role": "secondary",
+          "tenGod": "偏印"
+         }
+        ]
+       }
+      },
+      {
+       "index": 2,
+       "startAge": 10,
+       "endAge": 19,
+       "stem": {
+        "occurrenceId": "dayun.2.stem",
+        "stem": "甲",
+        "element": "木",
+        "tenGod": "伤官"
+       },
+       "branch": {
+        "occurrenceId": "dayun.2.branch",
+        "branch": "子",
+        "element": "水",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.2.branch.hidden.0",
+          "stem": "癸",
+          "element": "水",
+          "role": "primary",
+          "tenGod": "比肩"
+         }
+        ]
+       }
+      },
+      {
+       "index": 3,
+       "startAge": 20,
+       "endAge": 29,
+       "stem": {
+        "occurrenceId": "dayun.3.stem",
+        "stem": "癸",
+        "element": "水",
+        "tenGod": "比肩"
+       },
+       "branch": {
+        "occurrenceId": "dayun.3.branch",
+        "branch": "亥",
+        "element": "水",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.3.branch.hidden.0",
+          "stem": "壬",
+          "element": "水",
+          "role": "primary",
+          "tenGod": "劫财"
+         },
+         {
+          "occurrenceId": "dayun.3.branch.hidden.1",
+          "stem": "甲",
+          "element": "木",
+          "role": "tertiary",
+          "tenGod": "伤官"
+         }
+        ]
+       }
+      },
+      {
+       "index": 4,
+       "startAge": 30,
+       "endAge": 39,
+       "stem": {
+        "occurrenceId": "dayun.4.stem",
+        "stem": "壬",
+        "element": "水",
+        "tenGod": "劫财"
+       },
+       "branch": {
+        "occurrenceId": "dayun.4.branch",
+        "branch": "戌",
+        "element": "土",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.4.branch.hidden.0",
+          "stem": "戊",
+          "element": "土",
+          "role": "primary",
+          "tenGod": "正官"
+         },
+         {
+          "occurrenceId": "dayun.4.branch.hidden.1",
+          "stem": "辛",
+          "element": "金",
+          "role": "tertiary",
+          "tenGod": "偏印"
+         },
+         {
+          "occurrenceId": "dayun.4.branch.hidden.2",
+          "stem": "丁",
+          "element": "火",
+          "role": "secondary",
+          "tenGod": "偏财"
+         }
+        ]
+       }
+      },
+      {
+       "index": 5,
+       "startAge": 40,
+       "endAge": 49,
+       "stem": {
+        "occurrenceId": "dayun.5.stem",
+        "stem": "辛",
+        "element": "金",
+        "tenGod": "偏印"
+       },
+       "branch": {
+        "occurrenceId": "dayun.5.branch",
+        "branch": "酉",
+        "element": "金",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.5.branch.hidden.0",
+          "stem": "辛",
+          "element": "金",
+          "role": "primary",
+          "tenGod": "偏印"
+         }
+        ]
+       }
+      },
+      {
+       "index": 6,
+       "startAge": 50,
+       "endAge": 59,
+       "stem": {
+        "occurrenceId": "dayun.6.stem",
+        "stem": "庚",
+        "element": "金",
+        "tenGod": "正印"
+       },
+       "branch": {
+        "occurrenceId": "dayun.6.branch",
+        "branch": "申",
+        "element": "金",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.6.branch.hidden.0",
+          "stem": "庚",
+          "element": "金",
+          "role": "primary",
+          "tenGod": "正印"
+         },
+         {
+          "occurrenceId": "dayun.6.branch.hidden.1",
+          "stem": "壬",
+          "element": "水",
+          "role": "secondary",
+          "tenGod": "劫财"
+         },
+         {
+          "occurrenceId": "dayun.6.branch.hidden.2",
+          "stem": "戊",
+          "element": "土",
+          "role": "tertiary",
+          "tenGod": "正官"
+         }
+        ]
+       }
+      },
+      {
+       "index": 7,
+       "startAge": 60,
+       "endAge": 69,
+       "stem": {
+        "occurrenceId": "dayun.7.stem",
+        "stem": "己",
+        "element": "土",
+        "tenGod": "七杀"
+       },
+       "branch": {
+        "occurrenceId": "dayun.7.branch",
+        "branch": "未",
+        "element": "土",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.7.branch.hidden.0",
+          "stem": "己",
+          "element": "土",
+          "role": "primary",
+          "tenGod": "七杀"
+         },
+         {
+          "occurrenceId": "dayun.7.branch.hidden.1",
+          "stem": "丁",
+          "element": "火",
+          "role": "tertiary",
+          "tenGod": "偏财"
+         },
+         {
+          "occurrenceId": "dayun.7.branch.hidden.2",
+          "stem": "乙",
+          "element": "木",
+          "role": "secondary",
+          "tenGod": "食神"
+         }
+        ]
+       }
+      },
+      {
+       "index": 8,
+       "startAge": 70,
+       "endAge": 79,
+       "stem": {
+        "occurrenceId": "dayun.8.stem",
+        "stem": "戊",
+        "element": "土",
+        "tenGod": "正官"
+       },
+       "branch": {
+        "occurrenceId": "dayun.8.branch",
+        "branch": "午",
+        "element": "火",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.8.branch.hidden.0",
+          "stem": "丁",
+          "element": "火",
+          "role": "primary",
+          "tenGod": "偏财"
+         },
+         {
+          "occurrenceId": "dayun.8.branch.hidden.1",
+          "stem": "己",
+          "element": "土",
+          "role": "tertiary",
+          "tenGod": "七杀"
+         }
+        ]
+       }
+      },
+      {
+       "index": 9,
+       "startAge": 80,
+       "endAge": 89,
+       "stem": {
+        "occurrenceId": "dayun.9.stem",
+        "stem": "丁",
+        "element": "火",
+        "tenGod": "偏财"
+       },
+       "branch": {
+        "occurrenceId": "dayun.9.branch",
+        "branch": "巳",
+        "element": "火",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.9.branch.hidden.0",
+          "stem": "丙",
+          "element": "火",
+          "role": "primary",
+          "tenGod": "正财"
+         },
+         {
+          "occurrenceId": "dayun.9.branch.hidden.1",
+          "stem": "戊",
+          "element": "土",
+          "role": "secondary",
+          "tenGod": "正官"
+         },
+         {
+          "occurrenceId": "dayun.9.branch.hidden.2",
+          "stem": "庚",
+          "element": "金",
+          "role": "tertiary",
+          "tenGod": "正印"
+         }
+        ]
+       }
+      },
+      {
+       "index": 10,
+       "startAge": 90,
+       "endAge": 99,
+       "stem": {
+        "occurrenceId": "dayun.10.stem",
+        "stem": "丙",
+        "element": "火",
+        "tenGod": "正财"
+       },
+       "branch": {
+        "occurrenceId": "dayun.10.branch",
+        "branch": "辰",
+        "element": "土",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.10.branch.hidden.0",
+          "stem": "戊",
+          "element": "土",
+          "role": "primary",
+          "tenGod": "正官"
+         },
+         {
+          "occurrenceId": "dayun.10.branch.hidden.1",
+          "stem": "乙",
+          "element": "木",
+          "role": "tertiary",
+          "tenGod": "食神"
+         },
+         {
+          "occurrenceId": "dayun.10.branch.hidden.2",
+          "stem": "癸",
+          "element": "水",
+          "role": "secondary",
+          "tenGod": "比肩"
+         }
+        ]
+       }
+      },
+      {
+       "index": 11,
+       "startAge": 100,
+       "endAge": 109,
+       "stem": {
+        "occurrenceId": "dayun.11.stem",
+        "stem": "乙",
+        "element": "木",
+        "tenGod": "食神"
+       },
+       "branch": {
+        "occurrenceId": "dayun.11.branch",
+        "branch": "卯",
+        "element": "木",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.11.branch.hidden.0",
+          "stem": "乙",
+          "element": "木",
+          "role": "primary",
+          "tenGod": "食神"
+         }
+        ]
+       }
+      },
+      {
+       "index": 12,
+       "startAge": 110,
+       "endAge": 119,
+       "stem": {
+        "occurrenceId": "dayun.12.stem",
+        "stem": "甲",
+        "element": "木",
+        "tenGod": "伤官"
+       },
+       "branch": {
+        "occurrenceId": "dayun.12.branch",
+        "branch": "寅",
+        "element": "木",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.12.branch.hidden.0",
+          "stem": "甲",
+          "element": "木",
+          "role": "primary",
+          "tenGod": "伤官"
+         },
+         {
+          "occurrenceId": "dayun.12.branch.hidden.1",
+          "stem": "丙",
+          "element": "火",
+          "role": "secondary",
+          "tenGod": "正财"
+         },
+         {
+          "occurrenceId": "dayun.12.branch.hidden.2",
+          "stem": "戊",
+          "element": "土",
+          "role": "tertiary",
+          "tenGod": "正官"
+         }
+        ]
+       }
+      }
+     ],
+     "annual": null
+    }
+   }
+  },
+  {
+   "label": "惊蛰前五分钟",
+   "input": {
+    "year": 2012,
+    "month": 3,
+    "day": 5,
+    "hour": 12,
+    "minute": 16,
+    "second": 0,
+    "gender": "male"
+   },
+   "solarDate": {
+    "year": 2012,
+    "month": 3,
+    "day": 5,
+    "hour": 12,
+    "minute": 16
+   },
+   "naYin": {
+    "year": "长流水",
+    "month": "金箔金",
+    "day": "海中金",
+    "hour": "杨柳木",
+    "dayMasterNaYin": "海中金",
+    "element": "金",
+    "characteristics": [
+     "深藏不露",
+     "内敛稳重",
+     "大器晚成",
+     "富有潜力"
+    ],
+    "compatibility": {
+     "favorable": [
+      "金箔金"
+     ],
+     "unfavorable": [
+      "长流水"
+     ],
+     "neutral": [
+      "杨柳木"
+     ],
+     "analysis": "纳音相配分析：纳音配置相对平衡，各种关系并存。整体比较平和，需要综合考虑其他因素。另有中性纳音1个，影响相对较小。"
+    }
+   },
+   "qiyunDetail": {
+    "years": 0,
+    "months": 0,
+    "days": 0,
+    "hours": 10,
+    "minutes": 6,
+    "endYear": 2012,
+    "endMonth": 3
+   },
+   "snapshot": {
+    "schemaVersion": 1,
+    "calculationConventions": {
+     "calendar": "gregorian",
+     "timezone": "Asia/Shanghai",
+     "trueSolarTimePolicy": "none",
+     "dayBoundaryRule": "zi-hour-23",
+     "qiyunMethod": "tyme4ts-child-limit"
+    },
+    "inputKind": "birth",
+    "birthInput": {
+     "year": 2012,
+     "month": 3,
+     "day": 5,
+     "hour": 12,
+     "minute": 16,
+     "second": 0,
+     "gender": "male"
+    },
+    "dayMaster": "乙",
+    "pillars": [
+     {
+      "pillar": "year",
+      "stem": {
+       "occurrenceId": "year.stem",
+       "stem": "壬",
+       "element": "水",
+       "tenGod": "正印"
+      },
+      "branch": {
+       "occurrenceId": "year.branch",
+       "branch": "辰",
+       "element": "土",
+       "hiddenStems": [
+        {
+         "occurrenceId": "year.branch.hidden.0",
+         "stem": "戊",
+         "element": "土",
+         "role": "primary",
+         "tenGod": "正财"
+        },
+        {
+         "occurrenceId": "year.branch.hidden.1",
+         "stem": "乙",
+         "element": "木",
+         "role": "tertiary",
+         "tenGod": "比肩"
+        },
+        {
+         "occurrenceId": "year.branch.hidden.2",
+         "stem": "癸",
+         "element": "水",
+         "role": "secondary",
+         "tenGod": "偏印"
+        }
+       ]
+      }
+     },
+     {
+      "pillar": "month",
+      "stem": {
+       "occurrenceId": "month.stem",
+       "stem": "壬",
+       "element": "水",
+       "tenGod": "正印"
+      },
+      "branch": {
+       "occurrenceId": "month.branch",
+       "branch": "寅",
+       "element": "木",
+       "hiddenStems": [
+        {
+         "occurrenceId": "month.branch.hidden.0",
+         "stem": "甲",
+         "element": "木",
+         "role": "primary",
+         "tenGod": "劫财"
+        },
+        {
+         "occurrenceId": "month.branch.hidden.1",
+         "stem": "丙",
+         "element": "火",
+         "role": "secondary",
+         "tenGod": "伤官"
+        },
+        {
+         "occurrenceId": "month.branch.hidden.2",
+         "stem": "戊",
+         "element": "土",
+         "role": "tertiary",
+         "tenGod": "正财"
+        }
+       ]
+      }
+     },
+     {
+      "pillar": "day",
+      "stem": {
+       "occurrenceId": "day.stem",
+       "stem": "乙",
+       "element": "木",
+       "tenGod": "比肩"
+      },
+      "branch": {
+       "occurrenceId": "day.branch",
+       "branch": "丑",
+       "element": "土",
+       "hiddenStems": [
+        {
+         "occurrenceId": "day.branch.hidden.0",
+         "stem": "己",
+         "element": "土",
+         "role": "primary",
+         "tenGod": "偏财"
+        },
+        {
+         "occurrenceId": "day.branch.hidden.1",
+         "stem": "癸",
+         "element": "水",
+         "role": "tertiary",
+         "tenGod": "偏印"
+        },
+        {
+         "occurrenceId": "day.branch.hidden.2",
+         "stem": "辛",
+         "element": "金",
+         "role": "secondary",
+         "tenGod": "七杀"
+        }
+       ]
+      }
+     },
+     {
+      "pillar": "hour",
+      "stem": {
+       "occurrenceId": "hour.stem",
+       "stem": "壬",
+       "element": "水",
+       "tenGod": "正印"
+      },
+      "branch": {
+       "occurrenceId": "hour.branch",
+       "branch": "午",
+       "element": "火",
+       "hiddenStems": [
+        {
+         "occurrenceId": "hour.branch.hidden.0",
+         "stem": "丁",
+         "element": "火",
+         "role": "primary",
+         "tenGod": "食神"
+        },
+        {
+         "occurrenceId": "hour.branch.hidden.1",
+         "stem": "己",
+         "element": "土",
+         "role": "tertiary",
+         "tenGod": "偏财"
+        }
+       ]
+      }
+     }
+    ],
+    "roots": [
+     {
+      "stemOccurrenceId": "year.stem",
+      "stem": "壬",
+      "element": "水",
+      "rootedIn": [
+       {
+        "branchOccurrenceId": "year.branch",
+        "hiddenStemOccurrenceId": "year.branch.hidden.2",
+        "branch": "辰",
+        "hiddenStem": "癸",
+        "role": "secondary",
+        "sameStem": false
+       },
+       {
+        "branchOccurrenceId": "day.branch",
+        "hiddenStemOccurrenceId": "day.branch.hidden.1",
+        "branch": "丑",
+        "hiddenStem": "癸",
+        "role": "tertiary",
+        "sameStem": false
+       }
+      ]
+     },
+     {
+      "stemOccurrenceId": "month.stem",
+      "stem": "壬",
+      "element": "水",
+      "rootedIn": [
+       {
+        "branchOccurrenceId": "year.branch",
+        "hiddenStemOccurrenceId": "year.branch.hidden.2",
+        "branch": "辰",
+        "hiddenStem": "癸",
+        "role": "secondary",
+        "sameStem": false
+       },
+       {
+        "branchOccurrenceId": "day.branch",
+        "hiddenStemOccurrenceId": "day.branch.hidden.1",
+        "branch": "丑",
+        "hiddenStem": "癸",
+        "role": "tertiary",
+        "sameStem": false
+       }
+      ]
+     },
+     {
+      "stemOccurrenceId": "day.stem",
+      "stem": "乙",
+      "element": "木",
+      "rootedIn": [
+       {
+        "branchOccurrenceId": "year.branch",
+        "hiddenStemOccurrenceId": "year.branch.hidden.1",
+        "branch": "辰",
+        "hiddenStem": "乙",
+        "role": "tertiary",
+        "sameStem": true
+       },
+       {
+        "branchOccurrenceId": "month.branch",
+        "hiddenStemOccurrenceId": "month.branch.hidden.0",
+        "branch": "寅",
+        "hiddenStem": "甲",
+        "role": "primary",
+        "sameStem": false
+       }
+      ]
+     },
+     {
+      "stemOccurrenceId": "hour.stem",
+      "stem": "壬",
+      "element": "水",
+      "rootedIn": [
+       {
+        "branchOccurrenceId": "year.branch",
+        "hiddenStemOccurrenceId": "year.branch.hidden.2",
+        "branch": "辰",
+        "hiddenStem": "癸",
+        "role": "secondary",
+        "sameStem": false
+       },
+       {
+        "branchOccurrenceId": "day.branch",
+        "hiddenStemOccurrenceId": "day.branch.hidden.1",
+        "branch": "丑",
+        "hiddenStem": "癸",
+        "role": "tertiary",
+        "sameStem": false
+       }
+      ]
+     }
+    ],
+    "luck": {
+     "direction": "forward",
+     "startAge": 0,
+     "startAgeExact": 0.0012,
+     "dayun": [
+      {
+       "index": 1,
+       "startAge": 0,
+       "endAge": 9,
+       "stem": {
+        "occurrenceId": "dayun.1.stem",
+        "stem": "癸",
+        "element": "水",
+        "tenGod": "偏印"
+       },
+       "branch": {
+        "occurrenceId": "dayun.1.branch",
+        "branch": "卯",
+        "element": "木",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.1.branch.hidden.0",
+          "stem": "乙",
+          "element": "木",
+          "role": "primary",
+          "tenGod": "比肩"
+         }
+        ]
+       }
+      },
+      {
+       "index": 2,
+       "startAge": 10,
+       "endAge": 19,
+       "stem": {
+        "occurrenceId": "dayun.2.stem",
+        "stem": "甲",
+        "element": "木",
+        "tenGod": "劫财"
+       },
+       "branch": {
+        "occurrenceId": "dayun.2.branch",
+        "branch": "辰",
+        "element": "土",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.2.branch.hidden.0",
+          "stem": "戊",
+          "element": "土",
+          "role": "primary",
+          "tenGod": "正财"
+         },
+         {
+          "occurrenceId": "dayun.2.branch.hidden.1",
+          "stem": "乙",
+          "element": "木",
+          "role": "tertiary",
+          "tenGod": "比肩"
+         },
+         {
+          "occurrenceId": "dayun.2.branch.hidden.2",
+          "stem": "癸",
+          "element": "水",
+          "role": "secondary",
+          "tenGod": "偏印"
+         }
+        ]
+       }
+      },
+      {
+       "index": 3,
+       "startAge": 20,
+       "endAge": 29,
+       "stem": {
+        "occurrenceId": "dayun.3.stem",
+        "stem": "乙",
+        "element": "木",
+        "tenGod": "比肩"
+       },
+       "branch": {
+        "occurrenceId": "dayun.3.branch",
+        "branch": "巳",
+        "element": "火",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.3.branch.hidden.0",
+          "stem": "丙",
+          "element": "火",
+          "role": "primary",
+          "tenGod": "伤官"
+         },
+         {
+          "occurrenceId": "dayun.3.branch.hidden.1",
+          "stem": "戊",
+          "element": "土",
+          "role": "secondary",
+          "tenGod": "正财"
+         },
+         {
+          "occurrenceId": "dayun.3.branch.hidden.2",
+          "stem": "庚",
+          "element": "金",
+          "role": "tertiary",
+          "tenGod": "正官"
+         }
+        ]
+       }
+      },
+      {
+       "index": 4,
+       "startAge": 30,
+       "endAge": 39,
+       "stem": {
+        "occurrenceId": "dayun.4.stem",
+        "stem": "丙",
+        "element": "火",
+        "tenGod": "伤官"
+       },
+       "branch": {
+        "occurrenceId": "dayun.4.branch",
+        "branch": "午",
+        "element": "火",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.4.branch.hidden.0",
+          "stem": "丁",
+          "element": "火",
+          "role": "primary",
+          "tenGod": "食神"
+         },
+         {
+          "occurrenceId": "dayun.4.branch.hidden.1",
+          "stem": "己",
+          "element": "土",
+          "role": "tertiary",
+          "tenGod": "偏财"
+         }
+        ]
+       }
+      },
+      {
+       "index": 5,
+       "startAge": 40,
+       "endAge": 49,
+       "stem": {
+        "occurrenceId": "dayun.5.stem",
+        "stem": "丁",
+        "element": "火",
+        "tenGod": "食神"
+       },
+       "branch": {
+        "occurrenceId": "dayun.5.branch",
+        "branch": "未",
+        "element": "土",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.5.branch.hidden.0",
+          "stem": "己",
+          "element": "土",
+          "role": "primary",
+          "tenGod": "偏财"
+         },
+         {
+          "occurrenceId": "dayun.5.branch.hidden.1",
+          "stem": "丁",
+          "element": "火",
+          "role": "tertiary",
+          "tenGod": "食神"
+         },
+         {
+          "occurrenceId": "dayun.5.branch.hidden.2",
+          "stem": "乙",
+          "element": "木",
+          "role": "secondary",
+          "tenGod": "比肩"
+         }
+        ]
+       }
+      },
+      {
+       "index": 6,
+       "startAge": 50,
+       "endAge": 59,
+       "stem": {
+        "occurrenceId": "dayun.6.stem",
+        "stem": "戊",
+        "element": "土",
+        "tenGod": "正财"
+       },
+       "branch": {
+        "occurrenceId": "dayun.6.branch",
+        "branch": "申",
+        "element": "金",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.6.branch.hidden.0",
+          "stem": "庚",
+          "element": "金",
+          "role": "primary",
+          "tenGod": "正官"
+         },
+         {
+          "occurrenceId": "dayun.6.branch.hidden.1",
+          "stem": "壬",
+          "element": "水",
+          "role": "secondary",
+          "tenGod": "正印"
+         },
+         {
+          "occurrenceId": "dayun.6.branch.hidden.2",
+          "stem": "戊",
+          "element": "土",
+          "role": "tertiary",
+          "tenGod": "正财"
+         }
+        ]
+       }
+      },
+      {
+       "index": 7,
+       "startAge": 60,
+       "endAge": 69,
+       "stem": {
+        "occurrenceId": "dayun.7.stem",
+        "stem": "己",
+        "element": "土",
+        "tenGod": "偏财"
+       },
+       "branch": {
+        "occurrenceId": "dayun.7.branch",
+        "branch": "酉",
+        "element": "金",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.7.branch.hidden.0",
+          "stem": "辛",
+          "element": "金",
+          "role": "primary",
+          "tenGod": "七杀"
+         }
+        ]
+       }
+      },
+      {
+       "index": 8,
+       "startAge": 70,
+       "endAge": 79,
+       "stem": {
+        "occurrenceId": "dayun.8.stem",
+        "stem": "庚",
+        "element": "金",
+        "tenGod": "正官"
+       },
+       "branch": {
+        "occurrenceId": "dayun.8.branch",
+        "branch": "戌",
+        "element": "土",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.8.branch.hidden.0",
+          "stem": "戊",
+          "element": "土",
+          "role": "primary",
+          "tenGod": "正财"
+         },
+         {
+          "occurrenceId": "dayun.8.branch.hidden.1",
+          "stem": "辛",
+          "element": "金",
+          "role": "tertiary",
+          "tenGod": "七杀"
+         },
+         {
+          "occurrenceId": "dayun.8.branch.hidden.2",
+          "stem": "丁",
+          "element": "火",
+          "role": "secondary",
+          "tenGod": "食神"
+         }
+        ]
+       }
+      },
+      {
+       "index": 9,
+       "startAge": 80,
+       "endAge": 89,
+       "stem": {
+        "occurrenceId": "dayun.9.stem",
+        "stem": "辛",
+        "element": "金",
+        "tenGod": "七杀"
+       },
+       "branch": {
+        "occurrenceId": "dayun.9.branch",
+        "branch": "亥",
+        "element": "水",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.9.branch.hidden.0",
+          "stem": "壬",
+          "element": "水",
+          "role": "primary",
+          "tenGod": "正印"
+         },
+         {
+          "occurrenceId": "dayun.9.branch.hidden.1",
+          "stem": "甲",
+          "element": "木",
+          "role": "tertiary",
+          "tenGod": "劫财"
+         }
+        ]
+       }
+      },
+      {
+       "index": 10,
+       "startAge": 90,
+       "endAge": 99,
+       "stem": {
+        "occurrenceId": "dayun.10.stem",
+        "stem": "壬",
+        "element": "水",
+        "tenGod": "正印"
+       },
+       "branch": {
+        "occurrenceId": "dayun.10.branch",
+        "branch": "子",
+        "element": "水",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.10.branch.hidden.0",
+          "stem": "癸",
+          "element": "水",
+          "role": "primary",
+          "tenGod": "偏印"
+         }
+        ]
+       }
+      },
+      {
+       "index": 11,
+       "startAge": 100,
+       "endAge": 109,
+       "stem": {
+        "occurrenceId": "dayun.11.stem",
+        "stem": "癸",
+        "element": "水",
+        "tenGod": "偏印"
+       },
+       "branch": {
+        "occurrenceId": "dayun.11.branch",
+        "branch": "丑",
+        "element": "土",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.11.branch.hidden.0",
+          "stem": "己",
+          "element": "土",
+          "role": "primary",
+          "tenGod": "偏财"
+         },
+         {
+          "occurrenceId": "dayun.11.branch.hidden.1",
+          "stem": "癸",
+          "element": "水",
+          "role": "tertiary",
+          "tenGod": "偏印"
+         },
+         {
+          "occurrenceId": "dayun.11.branch.hidden.2",
+          "stem": "辛",
+          "element": "金",
+          "role": "secondary",
+          "tenGod": "七杀"
+         }
+        ]
+       }
+      },
+      {
+       "index": 12,
+       "startAge": 110,
+       "endAge": 119,
+       "stem": {
+        "occurrenceId": "dayun.12.stem",
+        "stem": "甲",
+        "element": "木",
+        "tenGod": "劫财"
+       },
+       "branch": {
+        "occurrenceId": "dayun.12.branch",
+        "branch": "寅",
+        "element": "木",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.12.branch.hidden.0",
+          "stem": "甲",
+          "element": "木",
+          "role": "primary",
+          "tenGod": "劫财"
+         },
+         {
+          "occurrenceId": "dayun.12.branch.hidden.1",
+          "stem": "丙",
+          "element": "火",
+          "role": "secondary",
+          "tenGod": "伤官"
+         },
+         {
+          "occurrenceId": "dayun.12.branch.hidden.2",
+          "stem": "戊",
+          "element": "土",
+          "role": "tertiary",
+          "tenGod": "正财"
+         }
+        ]
+       }
+      }
+     ],
+     "annual": null
+    }
+   }
+  },
+  {
+   "label": "大雪后五分钟",
+   "input": {
+    "year": 2018,
+    "month": 12,
+    "day": 7,
+    "hour": 12,
+    "minute": 30,
+    "second": 0,
+    "gender": "female"
+   },
+   "solarDate": {
+    "year": 2018,
+    "month": 12,
+    "day": 7,
+    "hour": 12,
+    "minute": 30
+   },
+   "naYin": {
+    "year": "平地木",
+    "month": "海中金",
+    "day": "剑锋金",
+    "hour": "天上火",
+    "dayMasterNaYin": "剑锋金",
+    "element": "金",
+    "characteristics": [
+     "锋芒毕露",
+     "果断刚毅",
+     "切削有力",
+     "威力强劲"
+    ],
+    "compatibility": {
+     "favorable": [
+      "海中金"
+     ],
+     "unfavorable": [
+      "天上火"
+     ],
+     "neutral": [
+      "平地木"
+     ],
+     "analysis": "纳音相配分析：纳音配置相对平衡，各种关系并存。整体比较平和，需要综合考虑其他因素。另有中性纳音1个，影响相对较小。"
+    }
+   },
+   "qiyunDetail": {
+    "years": 0,
+    "months": 0,
+    "days": 0,
+    "hours": 8,
+    "minutes": 10,
+    "endYear": 2018,
+    "endMonth": 12
+   },
+   "snapshot": {
+    "schemaVersion": 1,
+    "calculationConventions": {
+     "calendar": "gregorian",
+     "timezone": "Asia/Shanghai",
+     "trueSolarTimePolicy": "none",
+     "dayBoundaryRule": "zi-hour-23",
+     "qiyunMethod": "tyme4ts-child-limit"
+    },
+    "inputKind": "birth",
+    "birthInput": {
+     "year": 2018,
+     "month": 12,
+     "day": 7,
+     "hour": 12,
+     "minute": 30,
+     "second": 0,
+     "gender": "female"
+    },
+    "dayMaster": "癸",
+    "pillars": [
+     {
+      "pillar": "year",
+      "stem": {
+       "occurrenceId": "year.stem",
+       "stem": "戊",
+       "element": "土",
+       "tenGod": "正官"
+      },
+      "branch": {
+       "occurrenceId": "year.branch",
+       "branch": "戌",
+       "element": "土",
+       "hiddenStems": [
+        {
+         "occurrenceId": "year.branch.hidden.0",
+         "stem": "戊",
+         "element": "土",
+         "role": "primary",
+         "tenGod": "正官"
+        },
+        {
+         "occurrenceId": "year.branch.hidden.1",
+         "stem": "辛",
+         "element": "金",
+         "role": "tertiary",
+         "tenGod": "偏印"
+        },
+        {
+         "occurrenceId": "year.branch.hidden.2",
+         "stem": "丁",
+         "element": "火",
+         "role": "secondary",
+         "tenGod": "偏财"
+        }
+       ]
+      }
+     },
+     {
+      "pillar": "month",
+      "stem": {
+       "occurrenceId": "month.stem",
+       "stem": "甲",
+       "element": "木",
+       "tenGod": "伤官"
+      },
+      "branch": {
+       "occurrenceId": "month.branch",
+       "branch": "子",
+       "element": "水",
+       "hiddenStems": [
+        {
+         "occurrenceId": "month.branch.hidden.0",
+         "stem": "癸",
+         "element": "水",
+         "role": "primary",
+         "tenGod": "比肩"
+        }
+       ]
+      }
+     },
+     {
+      "pillar": "day",
+      "stem": {
+       "occurrenceId": "day.stem",
+       "stem": "癸",
+       "element": "水",
+       "tenGod": "比肩"
+      },
+      "branch": {
+       "occurrenceId": "day.branch",
+       "branch": "酉",
+       "element": "金",
+       "hiddenStems": [
+        {
+         "occurrenceId": "day.branch.hidden.0",
+         "stem": "辛",
+         "element": "金",
+         "role": "primary",
+         "tenGod": "偏印"
+        }
+       ]
+      }
+     },
+     {
+      "pillar": "hour",
+      "stem": {
+       "occurrenceId": "hour.stem",
+       "stem": "戊",
+       "element": "土",
+       "tenGod": "正官"
+      },
+      "branch": {
+       "occurrenceId": "hour.branch",
+       "branch": "午",
+       "element": "火",
+       "hiddenStems": [
+        {
+         "occurrenceId": "hour.branch.hidden.0",
+         "stem": "丁",
+         "element": "火",
+         "role": "primary",
+         "tenGod": "偏财"
+        },
+        {
+         "occurrenceId": "hour.branch.hidden.1",
+         "stem": "己",
+         "element": "土",
+         "role": "tertiary",
+         "tenGod": "七杀"
+        }
+       ]
+      }
+     }
+    ],
+    "roots": [
+     {
+      "stemOccurrenceId": "year.stem",
+      "stem": "戊",
+      "element": "土",
+      "rootedIn": [
+       {
+        "branchOccurrenceId": "year.branch",
+        "hiddenStemOccurrenceId": "year.branch.hidden.0",
+        "branch": "戌",
+        "hiddenStem": "戊",
+        "role": "primary",
+        "sameStem": true
+       },
+       {
+        "branchOccurrenceId": "hour.branch",
+        "hiddenStemOccurrenceId": "hour.branch.hidden.1",
+        "branch": "午",
+        "hiddenStem": "己",
+        "role": "tertiary",
+        "sameStem": false
+       }
+      ]
+     },
+     {
+      "stemOccurrenceId": "month.stem",
+      "stem": "甲",
+      "element": "木",
+      "rootedIn": []
+     },
+     {
+      "stemOccurrenceId": "day.stem",
+      "stem": "癸",
+      "element": "水",
+      "rootedIn": [
+       {
+        "branchOccurrenceId": "month.branch",
+        "hiddenStemOccurrenceId": "month.branch.hidden.0",
+        "branch": "子",
+        "hiddenStem": "癸",
+        "role": "primary",
+        "sameStem": true
+       }
+      ]
+     },
+     {
+      "stemOccurrenceId": "hour.stem",
+      "stem": "戊",
+      "element": "土",
+      "rootedIn": [
+       {
+        "branchOccurrenceId": "year.branch",
+        "hiddenStemOccurrenceId": "year.branch.hidden.0",
+        "branch": "戌",
+        "hiddenStem": "戊",
+        "role": "primary",
+        "sameStem": true
+       },
+       {
+        "branchOccurrenceId": "hour.branch",
+        "hiddenStemOccurrenceId": "hour.branch.hidden.1",
+        "branch": "午",
+        "hiddenStem": "己",
+        "role": "tertiary",
+        "sameStem": false
+       }
+      ]
+     }
+    ],
+    "luck": {
+     "direction": "backward",
+     "startAge": 0,
+     "startAgeExact": 0.0009,
+     "dayun": [
+      {
+       "index": 1,
+       "startAge": 0,
+       "endAge": 9,
+       "stem": {
+        "occurrenceId": "dayun.1.stem",
+        "stem": "癸",
+        "element": "水",
+        "tenGod": "比肩"
+       },
+       "branch": {
+        "occurrenceId": "dayun.1.branch",
+        "branch": "亥",
+        "element": "水",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.1.branch.hidden.0",
+          "stem": "壬",
+          "element": "水",
+          "role": "primary",
+          "tenGod": "劫财"
+         },
+         {
+          "occurrenceId": "dayun.1.branch.hidden.1",
+          "stem": "甲",
+          "element": "木",
+          "role": "tertiary",
+          "tenGod": "伤官"
+         }
+        ]
+       }
+      },
+      {
+       "index": 2,
+       "startAge": 10,
+       "endAge": 19,
+       "stem": {
+        "occurrenceId": "dayun.2.stem",
+        "stem": "壬",
+        "element": "水",
+        "tenGod": "劫财"
+       },
+       "branch": {
+        "occurrenceId": "dayun.2.branch",
+        "branch": "戌",
+        "element": "土",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.2.branch.hidden.0",
+          "stem": "戊",
+          "element": "土",
+          "role": "primary",
+          "tenGod": "正官"
+         },
+         {
+          "occurrenceId": "dayun.2.branch.hidden.1",
+          "stem": "辛",
+          "element": "金",
+          "role": "tertiary",
+          "tenGod": "偏印"
+         },
+         {
+          "occurrenceId": "dayun.2.branch.hidden.2",
+          "stem": "丁",
+          "element": "火",
+          "role": "secondary",
+          "tenGod": "偏财"
+         }
+        ]
+       }
+      },
+      {
+       "index": 3,
+       "startAge": 20,
+       "endAge": 29,
+       "stem": {
+        "occurrenceId": "dayun.3.stem",
+        "stem": "辛",
+        "element": "金",
+        "tenGod": "偏印"
+       },
+       "branch": {
+        "occurrenceId": "dayun.3.branch",
+        "branch": "酉",
+        "element": "金",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.3.branch.hidden.0",
+          "stem": "辛",
+          "element": "金",
+          "role": "primary",
+          "tenGod": "偏印"
+         }
+        ]
+       }
+      },
+      {
+       "index": 4,
+       "startAge": 30,
+       "endAge": 39,
+       "stem": {
+        "occurrenceId": "dayun.4.stem",
+        "stem": "庚",
+        "element": "金",
+        "tenGod": "正印"
+       },
+       "branch": {
+        "occurrenceId": "dayun.4.branch",
+        "branch": "申",
+        "element": "金",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.4.branch.hidden.0",
+          "stem": "庚",
+          "element": "金",
+          "role": "primary",
+          "tenGod": "正印"
+         },
+         {
+          "occurrenceId": "dayun.4.branch.hidden.1",
+          "stem": "壬",
+          "element": "水",
+          "role": "secondary",
+          "tenGod": "劫财"
+         },
+         {
+          "occurrenceId": "dayun.4.branch.hidden.2",
+          "stem": "戊",
+          "element": "土",
+          "role": "tertiary",
+          "tenGod": "正官"
+         }
+        ]
+       }
+      },
+      {
+       "index": 5,
+       "startAge": 40,
+       "endAge": 49,
+       "stem": {
+        "occurrenceId": "dayun.5.stem",
+        "stem": "己",
+        "element": "土",
+        "tenGod": "七杀"
+       },
+       "branch": {
+        "occurrenceId": "dayun.5.branch",
+        "branch": "未",
+        "element": "土",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.5.branch.hidden.0",
+          "stem": "己",
+          "element": "土",
+          "role": "primary",
+          "tenGod": "七杀"
+         },
+         {
+          "occurrenceId": "dayun.5.branch.hidden.1",
+          "stem": "丁",
+          "element": "火",
+          "role": "tertiary",
+          "tenGod": "偏财"
+         },
+         {
+          "occurrenceId": "dayun.5.branch.hidden.2",
+          "stem": "乙",
+          "element": "木",
+          "role": "secondary",
+          "tenGod": "食神"
+         }
+        ]
+       }
+      },
+      {
+       "index": 6,
+       "startAge": 50,
+       "endAge": 59,
+       "stem": {
+        "occurrenceId": "dayun.6.stem",
+        "stem": "戊",
+        "element": "土",
+        "tenGod": "正官"
+       },
+       "branch": {
+        "occurrenceId": "dayun.6.branch",
+        "branch": "午",
+        "element": "火",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.6.branch.hidden.0",
+          "stem": "丁",
+          "element": "火",
+          "role": "primary",
+          "tenGod": "偏财"
+         },
+         {
+          "occurrenceId": "dayun.6.branch.hidden.1",
+          "stem": "己",
+          "element": "土",
+          "role": "tertiary",
+          "tenGod": "七杀"
+         }
+        ]
+       }
+      },
+      {
+       "index": 7,
+       "startAge": 60,
+       "endAge": 69,
+       "stem": {
+        "occurrenceId": "dayun.7.stem",
+        "stem": "丁",
+        "element": "火",
+        "tenGod": "偏财"
+       },
+       "branch": {
+        "occurrenceId": "dayun.7.branch",
+        "branch": "巳",
+        "element": "火",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.7.branch.hidden.0",
+          "stem": "丙",
+          "element": "火",
+          "role": "primary",
+          "tenGod": "正财"
+         },
+         {
+          "occurrenceId": "dayun.7.branch.hidden.1",
+          "stem": "戊",
+          "element": "土",
+          "role": "secondary",
+          "tenGod": "正官"
+         },
+         {
+          "occurrenceId": "dayun.7.branch.hidden.2",
+          "stem": "庚",
+          "element": "金",
+          "role": "tertiary",
+          "tenGod": "正印"
+         }
+        ]
+       }
+      },
+      {
+       "index": 8,
+       "startAge": 70,
+       "endAge": 79,
+       "stem": {
+        "occurrenceId": "dayun.8.stem",
+        "stem": "丙",
+        "element": "火",
+        "tenGod": "正财"
+       },
+       "branch": {
+        "occurrenceId": "dayun.8.branch",
+        "branch": "辰",
+        "element": "土",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.8.branch.hidden.0",
+          "stem": "戊",
+          "element": "土",
+          "role": "primary",
+          "tenGod": "正官"
+         },
+         {
+          "occurrenceId": "dayun.8.branch.hidden.1",
+          "stem": "乙",
+          "element": "木",
+          "role": "tertiary",
+          "tenGod": "食神"
+         },
+         {
+          "occurrenceId": "dayun.8.branch.hidden.2",
+          "stem": "癸",
+          "element": "水",
+          "role": "secondary",
+          "tenGod": "比肩"
+         }
+        ]
+       }
+      },
+      {
+       "index": 9,
+       "startAge": 80,
+       "endAge": 89,
+       "stem": {
+        "occurrenceId": "dayun.9.stem",
+        "stem": "乙",
+        "element": "木",
+        "tenGod": "食神"
+       },
+       "branch": {
+        "occurrenceId": "dayun.9.branch",
+        "branch": "卯",
+        "element": "木",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.9.branch.hidden.0",
+          "stem": "乙",
+          "element": "木",
+          "role": "primary",
+          "tenGod": "食神"
+         }
+        ]
+       }
+      },
+      {
+       "index": 10,
+       "startAge": 90,
+       "endAge": 99,
+       "stem": {
+        "occurrenceId": "dayun.10.stem",
+        "stem": "甲",
+        "element": "木",
+        "tenGod": "伤官"
+       },
+       "branch": {
+        "occurrenceId": "dayun.10.branch",
+        "branch": "寅",
+        "element": "木",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.10.branch.hidden.0",
+          "stem": "甲",
+          "element": "木",
+          "role": "primary",
+          "tenGod": "伤官"
+         },
+         {
+          "occurrenceId": "dayun.10.branch.hidden.1",
+          "stem": "丙",
+          "element": "火",
+          "role": "secondary",
+          "tenGod": "正财"
+         },
+         {
+          "occurrenceId": "dayun.10.branch.hidden.2",
+          "stem": "戊",
+          "element": "土",
+          "role": "tertiary",
+          "tenGod": "正官"
+         }
+        ]
+       }
+      },
+      {
+       "index": 11,
+       "startAge": 100,
+       "endAge": 109,
+       "stem": {
+        "occurrenceId": "dayun.11.stem",
+        "stem": "癸",
+        "element": "水",
+        "tenGod": "比肩"
+       },
+       "branch": {
+        "occurrenceId": "dayun.11.branch",
+        "branch": "丑",
+        "element": "土",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.11.branch.hidden.0",
+          "stem": "己",
+          "element": "土",
+          "role": "primary",
+          "tenGod": "七杀"
+         },
+         {
+          "occurrenceId": "dayun.11.branch.hidden.1",
+          "stem": "癸",
+          "element": "水",
+          "role": "tertiary",
+          "tenGod": "比肩"
+         },
+         {
+          "occurrenceId": "dayun.11.branch.hidden.2",
+          "stem": "辛",
+          "element": "金",
+          "role": "secondary",
+          "tenGod": "偏印"
+         }
+        ]
+       }
+      },
+      {
+       "index": 12,
+       "startAge": 110,
+       "endAge": 119,
+       "stem": {
+        "occurrenceId": "dayun.12.stem",
+        "stem": "壬",
+        "element": "水",
+        "tenGod": "劫财"
+       },
+       "branch": {
+        "occurrenceId": "dayun.12.branch",
+        "branch": "子",
+        "element": "水",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.12.branch.hidden.0",
+          "stem": "癸",
+          "element": "水",
+          "role": "primary",
+          "tenGod": "比肩"
+         }
+        ]
+       }
+      }
+     ],
+     "annual": null
+    }
+   }
+  },
+  {
+   "label": "23 点换日",
+   "input": {
+    "year": 2010,
+    "month": 10,
+    "day": 10,
+    "hour": 23,
+    "minute": 0,
+    "second": 0,
+    "gender": "male"
+   },
+   "solarDate": {
+    "year": 2010,
+    "month": 10,
+    "day": 10,
+    "hour": 23,
+    "minute": 0
+   },
+   "naYin": {
+    "year": "松柏木",
+    "month": "屋上土",
+    "day": "砂中金",
+    "hour": "海中金",
+    "dayMasterNaYin": "砂中金",
+    "element": "金",
+    "characteristics": [
+     "蕴藏丰富",
+     "需要发掘",
+     "价值潜在",
+     "机会无限"
+    ],
+    "compatibility": {
+     "favorable": [
+      "屋上土",
+      "海中金"
+     ],
+     "unfavorable": [],
+     "neutral": [
+      "松柏木"
+     ],
+     "analysis": "纳音相配分析：整体配置较好，有利纳音2个，不利纳音0个。纳音组合有助于命主发展，能够得到较好的支持。另有中性纳音1个，影响相对较小。"
+    }
+   },
+   "qiyunDetail": {
+    "years": 9,
+    "months": 3,
+    "days": 18,
+    "hours": 13,
+    "minutes": 0,
+    "endYear": 2020,
+    "endMonth": 1
+   },
+   "snapshot": {
+    "schemaVersion": 1,
+    "calculationConventions": {
+     "calendar": "gregorian",
+     "timezone": "Asia/Shanghai",
+     "trueSolarTimePolicy": "none",
+     "dayBoundaryRule": "zi-hour-23",
+     "qiyunMethod": "tyme4ts-child-limit"
+    },
+    "inputKind": "birth",
+    "birthInput": {
+     "year": 2010,
+     "month": 10,
+     "day": 10,
+     "hour": 23,
+     "minute": 0,
+     "second": 0,
+     "gender": "male"
+    },
+    "dayMaster": "甲",
+    "pillars": [
+     {
+      "pillar": "year",
+      "stem": {
+       "occurrenceId": "year.stem",
+       "stem": "庚",
+       "element": "金",
+       "tenGod": "七杀"
+      },
+      "branch": {
+       "occurrenceId": "year.branch",
+       "branch": "寅",
+       "element": "木",
+       "hiddenStems": [
+        {
+         "occurrenceId": "year.branch.hidden.0",
+         "stem": "甲",
+         "element": "木",
+         "role": "primary",
+         "tenGod": "比肩"
+        },
+        {
+         "occurrenceId": "year.branch.hidden.1",
+         "stem": "丙",
+         "element": "火",
+         "role": "secondary",
+         "tenGod": "食神"
+        },
+        {
+         "occurrenceId": "year.branch.hidden.2",
+         "stem": "戊",
+         "element": "土",
+         "role": "tertiary",
+         "tenGod": "偏财"
+        }
+       ]
+      }
+     },
+     {
+      "pillar": "month",
+      "stem": {
+       "occurrenceId": "month.stem",
+       "stem": "丙",
+       "element": "火",
+       "tenGod": "食神"
+      },
+      "branch": {
+       "occurrenceId": "month.branch",
+       "branch": "戌",
+       "element": "土",
+       "hiddenStems": [
+        {
+         "occurrenceId": "month.branch.hidden.0",
+         "stem": "戊",
+         "element": "土",
+         "role": "primary",
+         "tenGod": "偏财"
+        },
+        {
+         "occurrenceId": "month.branch.hidden.1",
+         "stem": "辛",
+         "element": "金",
+         "role": "tertiary",
+         "tenGod": "正官"
+        },
+        {
+         "occurrenceId": "month.branch.hidden.2",
+         "stem": "丁",
+         "element": "火",
+         "role": "secondary",
+         "tenGod": "伤官"
+        }
+       ]
+      }
+     },
+     {
+      "pillar": "day",
+      "stem": {
+       "occurrenceId": "day.stem",
+       "stem": "甲",
+       "element": "木",
+       "tenGod": "比肩"
+      },
+      "branch": {
+       "occurrenceId": "day.branch",
+       "branch": "午",
+       "element": "火",
+       "hiddenStems": [
+        {
+         "occurrenceId": "day.branch.hidden.0",
+         "stem": "丁",
+         "element": "火",
+         "role": "primary",
+         "tenGod": "伤官"
+        },
+        {
+         "occurrenceId": "day.branch.hidden.1",
+         "stem": "己",
+         "element": "土",
+         "role": "tertiary",
+         "tenGod": "正财"
+        }
+       ]
+      }
+     },
+     {
+      "pillar": "hour",
+      "stem": {
+       "occurrenceId": "hour.stem",
+       "stem": "甲",
+       "element": "木",
+       "tenGod": "比肩"
+      },
+      "branch": {
+       "occurrenceId": "hour.branch",
+       "branch": "子",
+       "element": "水",
+       "hiddenStems": [
+        {
+         "occurrenceId": "hour.branch.hidden.0",
+         "stem": "癸",
+         "element": "水",
+         "role": "primary",
+         "tenGod": "正印"
+        }
+       ]
+      }
+     }
+    ],
+    "roots": [
+     {
+      "stemOccurrenceId": "year.stem",
+      "stem": "庚",
+      "element": "金",
+      "rootedIn": [
+       {
+        "branchOccurrenceId": "month.branch",
+        "hiddenStemOccurrenceId": "month.branch.hidden.1",
+        "branch": "戌",
+        "hiddenStem": "辛",
+        "role": "tertiary",
+        "sameStem": false
+       }
+      ]
+     },
+     {
+      "stemOccurrenceId": "month.stem",
+      "stem": "丙",
+      "element": "火",
+      "rootedIn": [
+       {
+        "branchOccurrenceId": "year.branch",
+        "hiddenStemOccurrenceId": "year.branch.hidden.1",
+        "branch": "寅",
+        "hiddenStem": "丙",
+        "role": "secondary",
+        "sameStem": true
+       },
+       {
+        "branchOccurrenceId": "month.branch",
+        "hiddenStemOccurrenceId": "month.branch.hidden.2",
+        "branch": "戌",
+        "hiddenStem": "丁",
+        "role": "secondary",
+        "sameStem": false
+       },
+       {
+        "branchOccurrenceId": "day.branch",
+        "hiddenStemOccurrenceId": "day.branch.hidden.0",
+        "branch": "午",
+        "hiddenStem": "丁",
+        "role": "primary",
+        "sameStem": false
+       }
+      ]
+     },
+     {
+      "stemOccurrenceId": "day.stem",
+      "stem": "甲",
+      "element": "木",
+      "rootedIn": [
+       {
+        "branchOccurrenceId": "year.branch",
+        "hiddenStemOccurrenceId": "year.branch.hidden.0",
+        "branch": "寅",
+        "hiddenStem": "甲",
+        "role": "primary",
+        "sameStem": true
+       }
+      ]
+     },
+     {
+      "stemOccurrenceId": "hour.stem",
+      "stem": "甲",
+      "element": "木",
+      "rootedIn": [
+       {
+        "branchOccurrenceId": "year.branch",
+        "hiddenStemOccurrenceId": "year.branch.hidden.0",
+        "branch": "寅",
+        "hiddenStem": "甲",
+        "role": "primary",
+        "sameStem": true
+       }
+      ]
+     }
+    ],
+    "luck": {
+     "direction": "forward",
+     "startAge": 9,
+     "startAgeExact": 9.3022,
+     "dayun": [
+      {
+       "index": 1,
+       "startAge": 9,
+       "endAge": 18,
+       "stem": {
+        "occurrenceId": "dayun.1.stem",
+        "stem": "丁",
+        "element": "火",
+        "tenGod": "伤官"
+       },
+       "branch": {
+        "occurrenceId": "dayun.1.branch",
+        "branch": "亥",
+        "element": "水",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.1.branch.hidden.0",
+          "stem": "壬",
+          "element": "水",
+          "role": "primary",
+          "tenGod": "偏印"
+         },
+         {
+          "occurrenceId": "dayun.1.branch.hidden.1",
+          "stem": "甲",
+          "element": "木",
+          "role": "tertiary",
+          "tenGod": "比肩"
+         }
+        ]
+       }
+      },
+      {
+       "index": 2,
+       "startAge": 19,
+       "endAge": 28,
+       "stem": {
+        "occurrenceId": "dayun.2.stem",
+        "stem": "戊",
+        "element": "土",
+        "tenGod": "偏财"
+       },
+       "branch": {
+        "occurrenceId": "dayun.2.branch",
+        "branch": "子",
+        "element": "水",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.2.branch.hidden.0",
+          "stem": "癸",
+          "element": "水",
+          "role": "primary",
+          "tenGod": "正印"
+         }
+        ]
+       }
+      },
+      {
+       "index": 3,
+       "startAge": 29,
+       "endAge": 38,
+       "stem": {
+        "occurrenceId": "dayun.3.stem",
+        "stem": "己",
+        "element": "土",
+        "tenGod": "正财"
+       },
+       "branch": {
+        "occurrenceId": "dayun.3.branch",
+        "branch": "丑",
+        "element": "土",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.3.branch.hidden.0",
+          "stem": "己",
+          "element": "土",
+          "role": "primary",
+          "tenGod": "正财"
+         },
+         {
+          "occurrenceId": "dayun.3.branch.hidden.1",
+          "stem": "癸",
+          "element": "水",
+          "role": "tertiary",
+          "tenGod": "正印"
+         },
+         {
+          "occurrenceId": "dayun.3.branch.hidden.2",
+          "stem": "辛",
+          "element": "金",
+          "role": "secondary",
+          "tenGod": "正官"
+         }
+        ]
+       }
+      },
+      {
+       "index": 4,
+       "startAge": 39,
+       "endAge": 48,
+       "stem": {
+        "occurrenceId": "dayun.4.stem",
+        "stem": "庚",
+        "element": "金",
+        "tenGod": "七杀"
+       },
+       "branch": {
+        "occurrenceId": "dayun.4.branch",
+        "branch": "寅",
+        "element": "木",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.4.branch.hidden.0",
+          "stem": "甲",
+          "element": "木",
+          "role": "primary",
+          "tenGod": "比肩"
+         },
+         {
+          "occurrenceId": "dayun.4.branch.hidden.1",
+          "stem": "丙",
+          "element": "火",
+          "role": "secondary",
+          "tenGod": "食神"
+         },
+         {
+          "occurrenceId": "dayun.4.branch.hidden.2",
+          "stem": "戊",
+          "element": "土",
+          "role": "tertiary",
+          "tenGod": "偏财"
+         }
+        ]
+       }
+      },
+      {
+       "index": 5,
+       "startAge": 49,
+       "endAge": 58,
+       "stem": {
+        "occurrenceId": "dayun.5.stem",
+        "stem": "辛",
+        "element": "金",
+        "tenGod": "正官"
+       },
+       "branch": {
+        "occurrenceId": "dayun.5.branch",
+        "branch": "卯",
+        "element": "木",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.5.branch.hidden.0",
+          "stem": "乙",
+          "element": "木",
+          "role": "primary",
+          "tenGod": "劫财"
+         }
+        ]
+       }
+      },
+      {
+       "index": 6,
+       "startAge": 59,
+       "endAge": 68,
+       "stem": {
+        "occurrenceId": "dayun.6.stem",
+        "stem": "壬",
+        "element": "水",
+        "tenGod": "偏印"
+       },
+       "branch": {
+        "occurrenceId": "dayun.6.branch",
+        "branch": "辰",
+        "element": "土",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.6.branch.hidden.0",
+          "stem": "戊",
+          "element": "土",
+          "role": "primary",
+          "tenGod": "偏财"
+         },
+         {
+          "occurrenceId": "dayun.6.branch.hidden.1",
+          "stem": "乙",
+          "element": "木",
+          "role": "tertiary",
+          "tenGod": "劫财"
+         },
+         {
+          "occurrenceId": "dayun.6.branch.hidden.2",
+          "stem": "癸",
+          "element": "水",
+          "role": "secondary",
+          "tenGod": "正印"
+         }
+        ]
+       }
+      },
+      {
+       "index": 7,
+       "startAge": 69,
+       "endAge": 78,
+       "stem": {
+        "occurrenceId": "dayun.7.stem",
+        "stem": "癸",
+        "element": "水",
+        "tenGod": "正印"
+       },
+       "branch": {
+        "occurrenceId": "dayun.7.branch",
+        "branch": "巳",
+        "element": "火",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.7.branch.hidden.0",
+          "stem": "丙",
+          "element": "火",
+          "role": "primary",
+          "tenGod": "食神"
+         },
+         {
+          "occurrenceId": "dayun.7.branch.hidden.1",
+          "stem": "戊",
+          "element": "土",
+          "role": "secondary",
+          "tenGod": "偏财"
+         },
+         {
+          "occurrenceId": "dayun.7.branch.hidden.2",
+          "stem": "庚",
+          "element": "金",
+          "role": "tertiary",
+          "tenGod": "七杀"
+         }
+        ]
+       }
+      },
+      {
+       "index": 8,
+       "startAge": 79,
+       "endAge": 88,
+       "stem": {
+        "occurrenceId": "dayun.8.stem",
+        "stem": "甲",
+        "element": "木",
+        "tenGod": "比肩"
+       },
+       "branch": {
+        "occurrenceId": "dayun.8.branch",
+        "branch": "午",
+        "element": "火",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.8.branch.hidden.0",
+          "stem": "丁",
+          "element": "火",
+          "role": "primary",
+          "tenGod": "伤官"
+         },
+         {
+          "occurrenceId": "dayun.8.branch.hidden.1",
+          "stem": "己",
+          "element": "土",
+          "role": "tertiary",
+          "tenGod": "正财"
+         }
+        ]
+       }
+      },
+      {
+       "index": 9,
+       "startAge": 89,
+       "endAge": 98,
+       "stem": {
+        "occurrenceId": "dayun.9.stem",
+        "stem": "乙",
+        "element": "木",
+        "tenGod": "劫财"
+       },
+       "branch": {
+        "occurrenceId": "dayun.9.branch",
+        "branch": "未",
+        "element": "土",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.9.branch.hidden.0",
+          "stem": "己",
+          "element": "土",
+          "role": "primary",
+          "tenGod": "正财"
+         },
+         {
+          "occurrenceId": "dayun.9.branch.hidden.1",
+          "stem": "丁",
+          "element": "火",
+          "role": "tertiary",
+          "tenGod": "伤官"
+         },
+         {
+          "occurrenceId": "dayun.9.branch.hidden.2",
+          "stem": "乙",
+          "element": "木",
+          "role": "secondary",
+          "tenGod": "劫财"
+         }
+        ]
+       }
+      },
+      {
+       "index": 10,
+       "startAge": 99,
+       "endAge": 108,
+       "stem": {
+        "occurrenceId": "dayun.10.stem",
+        "stem": "丙",
+        "element": "火",
+        "tenGod": "食神"
+       },
+       "branch": {
+        "occurrenceId": "dayun.10.branch",
+        "branch": "申",
+        "element": "金",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.10.branch.hidden.0",
+          "stem": "庚",
+          "element": "金",
+          "role": "primary",
+          "tenGod": "七杀"
+         },
+         {
+          "occurrenceId": "dayun.10.branch.hidden.1",
+          "stem": "壬",
+          "element": "水",
+          "role": "secondary",
+          "tenGod": "偏印"
+         },
+         {
+          "occurrenceId": "dayun.10.branch.hidden.2",
+          "stem": "戊",
+          "element": "土",
+          "role": "tertiary",
+          "tenGod": "偏财"
+         }
+        ]
+       }
+      },
+      {
+       "index": 11,
+       "startAge": 109,
+       "endAge": 118,
+       "stem": {
+        "occurrenceId": "dayun.11.stem",
+        "stem": "丁",
+        "element": "火",
+        "tenGod": "伤官"
+       },
+       "branch": {
+        "occurrenceId": "dayun.11.branch",
+        "branch": "酉",
+        "element": "金",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.11.branch.hidden.0",
+          "stem": "辛",
+          "element": "金",
+          "role": "primary",
+          "tenGod": "正官"
+         }
+        ]
+       }
+      },
+      {
+       "index": 12,
+       "startAge": 119,
+       "endAge": 128,
+       "stem": {
+        "occurrenceId": "dayun.12.stem",
+        "stem": "戊",
+        "element": "土",
+        "tenGod": "偏财"
+       },
+       "branch": {
+        "occurrenceId": "dayun.12.branch",
+        "branch": "戌",
+        "element": "土",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.12.branch.hidden.0",
+          "stem": "戊",
+          "element": "土",
+          "role": "primary",
+          "tenGod": "偏财"
+         },
+         {
+          "occurrenceId": "dayun.12.branch.hidden.1",
+          "stem": "辛",
+          "element": "金",
+          "role": "tertiary",
+          "tenGod": "正官"
+         },
+         {
+          "occurrenceId": "dayun.12.branch.hidden.2",
+          "stem": "丁",
+          "element": "火",
+          "role": "secondary",
+          "tenGod": "伤官"
+         }
+        ]
+       }
+      }
+     ],
+     "annual": null
+    }
+   }
+  },
+  {
+   "label": "子正前",
+   "input": {
+    "year": 2010,
+    "month": 10,
+    "day": 10,
+    "hour": 23,
+    "minute": 59,
+    "second": 0,
+    "gender": "female"
+   },
+   "solarDate": {
+    "year": 2010,
+    "month": 10,
+    "day": 10,
+    "hour": 23,
+    "minute": 59
+   },
+   "naYin": {
+    "year": "松柏木",
+    "month": "屋上土",
+    "day": "砂中金",
+    "hour": "海中金",
+    "dayMasterNaYin": "砂中金",
+    "element": "金",
+    "characteristics": [
+     "蕴藏丰富",
+     "需要发掘",
+     "价值潜在",
+     "机会无限"
+    ],
+    "compatibility": {
+     "favorable": [
+      "屋上土",
+      "海中金"
+     ],
+     "unfavorable": [],
+     "neutral": [
+      "松柏木"
+     ],
+     "analysis": "纳音相配分析：整体配置较好，有利纳音2个，不利纳音0个。纳音组合有助于命主发展，能够得到较好的支持。另有中性纳音1个，影响相对较小。"
+    }
+   },
+   "qiyunDetail": {
+    "years": 0,
+    "months": 9,
+    "days": 2,
+    "hours": 17,
+    "minutes": 2,
+    "endYear": 2011,
+    "endMonth": 7
+   },
+   "snapshot": {
+    "schemaVersion": 1,
+    "calculationConventions": {
+     "calendar": "gregorian",
+     "timezone": "Asia/Shanghai",
+     "trueSolarTimePolicy": "none",
+     "dayBoundaryRule": "zi-hour-23",
+     "qiyunMethod": "tyme4ts-child-limit"
+    },
+    "inputKind": "birth",
+    "birthInput": {
+     "year": 2010,
+     "month": 10,
+     "day": 10,
+     "hour": 23,
+     "minute": 59,
+     "second": 0,
+     "gender": "female"
+    },
+    "dayMaster": "甲",
+    "pillars": [
+     {
+      "pillar": "year",
+      "stem": {
+       "occurrenceId": "year.stem",
+       "stem": "庚",
+       "element": "金",
+       "tenGod": "七杀"
+      },
+      "branch": {
+       "occurrenceId": "year.branch",
+       "branch": "寅",
+       "element": "木",
+       "hiddenStems": [
+        {
+         "occurrenceId": "year.branch.hidden.0",
+         "stem": "甲",
+         "element": "木",
+         "role": "primary",
+         "tenGod": "比肩"
+        },
+        {
+         "occurrenceId": "year.branch.hidden.1",
+         "stem": "丙",
+         "element": "火",
+         "role": "secondary",
+         "tenGod": "食神"
+        },
+        {
+         "occurrenceId": "year.branch.hidden.2",
+         "stem": "戊",
+         "element": "土",
+         "role": "tertiary",
+         "tenGod": "偏财"
+        }
+       ]
+      }
+     },
+     {
+      "pillar": "month",
+      "stem": {
+       "occurrenceId": "month.stem",
+       "stem": "丙",
+       "element": "火",
+       "tenGod": "食神"
+      },
+      "branch": {
+       "occurrenceId": "month.branch",
+       "branch": "戌",
+       "element": "土",
+       "hiddenStems": [
+        {
+         "occurrenceId": "month.branch.hidden.0",
+         "stem": "戊",
+         "element": "土",
+         "role": "primary",
+         "tenGod": "偏财"
+        },
+        {
+         "occurrenceId": "month.branch.hidden.1",
+         "stem": "辛",
+         "element": "金",
+         "role": "tertiary",
+         "tenGod": "正官"
+        },
+        {
+         "occurrenceId": "month.branch.hidden.2",
+         "stem": "丁",
+         "element": "火",
+         "role": "secondary",
+         "tenGod": "伤官"
+        }
+       ]
+      }
+     },
+     {
+      "pillar": "day",
+      "stem": {
+       "occurrenceId": "day.stem",
+       "stem": "甲",
+       "element": "木",
+       "tenGod": "比肩"
+      },
+      "branch": {
+       "occurrenceId": "day.branch",
+       "branch": "午",
+       "element": "火",
+       "hiddenStems": [
+        {
+         "occurrenceId": "day.branch.hidden.0",
+         "stem": "丁",
+         "element": "火",
+         "role": "primary",
+         "tenGod": "伤官"
+        },
+        {
+         "occurrenceId": "day.branch.hidden.1",
+         "stem": "己",
+         "element": "土",
+         "role": "tertiary",
+         "tenGod": "正财"
+        }
+       ]
+      }
+     },
+     {
+      "pillar": "hour",
+      "stem": {
+       "occurrenceId": "hour.stem",
+       "stem": "甲",
+       "element": "木",
+       "tenGod": "比肩"
+      },
+      "branch": {
+       "occurrenceId": "hour.branch",
+       "branch": "子",
+       "element": "水",
+       "hiddenStems": [
+        {
+         "occurrenceId": "hour.branch.hidden.0",
+         "stem": "癸",
+         "element": "水",
+         "role": "primary",
+         "tenGod": "正印"
+        }
+       ]
+      }
+     }
+    ],
+    "roots": [
+     {
+      "stemOccurrenceId": "year.stem",
+      "stem": "庚",
+      "element": "金",
+      "rootedIn": [
+       {
+        "branchOccurrenceId": "month.branch",
+        "hiddenStemOccurrenceId": "month.branch.hidden.1",
+        "branch": "戌",
+        "hiddenStem": "辛",
+        "role": "tertiary",
+        "sameStem": false
+       }
+      ]
+     },
+     {
+      "stemOccurrenceId": "month.stem",
+      "stem": "丙",
+      "element": "火",
+      "rootedIn": [
+       {
+        "branchOccurrenceId": "year.branch",
+        "hiddenStemOccurrenceId": "year.branch.hidden.1",
+        "branch": "寅",
+        "hiddenStem": "丙",
+        "role": "secondary",
+        "sameStem": true
+       },
+       {
+        "branchOccurrenceId": "month.branch",
+        "hiddenStemOccurrenceId": "month.branch.hidden.2",
+        "branch": "戌",
+        "hiddenStem": "丁",
+        "role": "secondary",
+        "sameStem": false
+       },
+       {
+        "branchOccurrenceId": "day.branch",
+        "hiddenStemOccurrenceId": "day.branch.hidden.0",
+        "branch": "午",
+        "hiddenStem": "丁",
+        "role": "primary",
+        "sameStem": false
+       }
+      ]
+     },
+     {
+      "stemOccurrenceId": "day.stem",
+      "stem": "甲",
+      "element": "木",
+      "rootedIn": [
+       {
+        "branchOccurrenceId": "year.branch",
+        "hiddenStemOccurrenceId": "year.branch.hidden.0",
+        "branch": "寅",
+        "hiddenStem": "甲",
+        "role": "primary",
+        "sameStem": true
+       }
+      ]
+     },
+     {
+      "stemOccurrenceId": "hour.stem",
+      "stem": "甲",
+      "element": "木",
+      "rootedIn": [
+       {
+        "branchOccurrenceId": "year.branch",
+        "hiddenStemOccurrenceId": "year.branch.hidden.0",
+        "branch": "寅",
+        "hiddenStem": "甲",
+        "role": "primary",
+        "sameStem": true
+       }
+      ]
+     }
+    ],
+    "luck": {
+     "direction": "backward",
+     "startAge": 0,
+     "startAgeExact": 0.7549,
+     "dayun": [
+      {
+       "index": 1,
+       "startAge": 1,
+       "endAge": 10,
+       "stem": {
+        "occurrenceId": "dayun.1.stem",
+        "stem": "乙",
+        "element": "木",
+        "tenGod": "劫财"
+       },
+       "branch": {
+        "occurrenceId": "dayun.1.branch",
+        "branch": "酉",
+        "element": "金",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.1.branch.hidden.0",
+          "stem": "辛",
+          "element": "金",
+          "role": "primary",
+          "tenGod": "正官"
+         }
+        ]
+       }
+      },
+      {
+       "index": 2,
+       "startAge": 11,
+       "endAge": 20,
+       "stem": {
+        "occurrenceId": "dayun.2.stem",
+        "stem": "甲",
+        "element": "木",
+        "tenGod": "比肩"
+       },
+       "branch": {
+        "occurrenceId": "dayun.2.branch",
+        "branch": "申",
+        "element": "金",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.2.branch.hidden.0",
+          "stem": "庚",
+          "element": "金",
+          "role": "primary",
+          "tenGod": "七杀"
+         },
+         {
+          "occurrenceId": "dayun.2.branch.hidden.1",
+          "stem": "壬",
+          "element": "水",
+          "role": "secondary",
+          "tenGod": "偏印"
+         },
+         {
+          "occurrenceId": "dayun.2.branch.hidden.2",
+          "stem": "戊",
+          "element": "土",
+          "role": "tertiary",
+          "tenGod": "偏财"
+         }
+        ]
+       }
+      },
+      {
+       "index": 3,
+       "startAge": 21,
+       "endAge": 30,
+       "stem": {
+        "occurrenceId": "dayun.3.stem",
+        "stem": "癸",
+        "element": "水",
+        "tenGod": "正印"
+       },
+       "branch": {
+        "occurrenceId": "dayun.3.branch",
+        "branch": "未",
+        "element": "土",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.3.branch.hidden.0",
+          "stem": "己",
+          "element": "土",
+          "role": "primary",
+          "tenGod": "正财"
+         },
+         {
+          "occurrenceId": "dayun.3.branch.hidden.1",
+          "stem": "丁",
+          "element": "火",
+          "role": "tertiary",
+          "tenGod": "伤官"
+         },
+         {
+          "occurrenceId": "dayun.3.branch.hidden.2",
+          "stem": "乙",
+          "element": "木",
+          "role": "secondary",
+          "tenGod": "劫财"
+         }
+        ]
+       }
+      },
+      {
+       "index": 4,
+       "startAge": 31,
+       "endAge": 40,
+       "stem": {
+        "occurrenceId": "dayun.4.stem",
+        "stem": "壬",
+        "element": "水",
+        "tenGod": "偏印"
+       },
+       "branch": {
+        "occurrenceId": "dayun.4.branch",
+        "branch": "午",
+        "element": "火",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.4.branch.hidden.0",
+          "stem": "丁",
+          "element": "火",
+          "role": "primary",
+          "tenGod": "伤官"
+         },
+         {
+          "occurrenceId": "dayun.4.branch.hidden.1",
+          "stem": "己",
+          "element": "土",
+          "role": "tertiary",
+          "tenGod": "正财"
+         }
+        ]
+       }
+      },
+      {
+       "index": 5,
+       "startAge": 41,
+       "endAge": 50,
+       "stem": {
+        "occurrenceId": "dayun.5.stem",
+        "stem": "辛",
+        "element": "金",
+        "tenGod": "正官"
+       },
+       "branch": {
+        "occurrenceId": "dayun.5.branch",
+        "branch": "巳",
+        "element": "火",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.5.branch.hidden.0",
+          "stem": "丙",
+          "element": "火",
+          "role": "primary",
+          "tenGod": "食神"
+         },
+         {
+          "occurrenceId": "dayun.5.branch.hidden.1",
+          "stem": "戊",
+          "element": "土",
+          "role": "secondary",
+          "tenGod": "偏财"
+         },
+         {
+          "occurrenceId": "dayun.5.branch.hidden.2",
+          "stem": "庚",
+          "element": "金",
+          "role": "tertiary",
+          "tenGod": "七杀"
+         }
+        ]
+       }
+      },
+      {
+       "index": 6,
+       "startAge": 51,
+       "endAge": 60,
+       "stem": {
+        "occurrenceId": "dayun.6.stem",
+        "stem": "庚",
+        "element": "金",
+        "tenGod": "七杀"
+       },
+       "branch": {
+        "occurrenceId": "dayun.6.branch",
+        "branch": "辰",
+        "element": "土",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.6.branch.hidden.0",
+          "stem": "戊",
+          "element": "土",
+          "role": "primary",
+          "tenGod": "偏财"
+         },
+         {
+          "occurrenceId": "dayun.6.branch.hidden.1",
+          "stem": "乙",
+          "element": "木",
+          "role": "tertiary",
+          "tenGod": "劫财"
+         },
+         {
+          "occurrenceId": "dayun.6.branch.hidden.2",
+          "stem": "癸",
+          "element": "水",
+          "role": "secondary",
+          "tenGod": "正印"
+         }
+        ]
+       }
+      },
+      {
+       "index": 7,
+       "startAge": 61,
+       "endAge": 70,
+       "stem": {
+        "occurrenceId": "dayun.7.stem",
+        "stem": "己",
+        "element": "土",
+        "tenGod": "正财"
+       },
+       "branch": {
+        "occurrenceId": "dayun.7.branch",
+        "branch": "卯",
+        "element": "木",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.7.branch.hidden.0",
+          "stem": "乙",
+          "element": "木",
+          "role": "primary",
+          "tenGod": "劫财"
+         }
+        ]
+       }
+      },
+      {
+       "index": 8,
+       "startAge": 71,
+       "endAge": 80,
+       "stem": {
+        "occurrenceId": "dayun.8.stem",
+        "stem": "戊",
+        "element": "土",
+        "tenGod": "偏财"
+       },
+       "branch": {
+        "occurrenceId": "dayun.8.branch",
+        "branch": "寅",
+        "element": "木",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.8.branch.hidden.0",
+          "stem": "甲",
+          "element": "木",
+          "role": "primary",
+          "tenGod": "比肩"
+         },
+         {
+          "occurrenceId": "dayun.8.branch.hidden.1",
+          "stem": "丙",
+          "element": "火",
+          "role": "secondary",
+          "tenGod": "食神"
+         },
+         {
+          "occurrenceId": "dayun.8.branch.hidden.2",
+          "stem": "戊",
+          "element": "土",
+          "role": "tertiary",
+          "tenGod": "偏财"
+         }
+        ]
+       }
+      },
+      {
+       "index": 9,
+       "startAge": 81,
+       "endAge": 90,
+       "stem": {
+        "occurrenceId": "dayun.9.stem",
+        "stem": "丁",
+        "element": "火",
+        "tenGod": "伤官"
+       },
+       "branch": {
+        "occurrenceId": "dayun.9.branch",
+        "branch": "丑",
+        "element": "土",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.9.branch.hidden.0",
+          "stem": "己",
+          "element": "土",
+          "role": "primary",
+          "tenGod": "正财"
+         },
+         {
+          "occurrenceId": "dayun.9.branch.hidden.1",
+          "stem": "癸",
+          "element": "水",
+          "role": "tertiary",
+          "tenGod": "正印"
+         },
+         {
+          "occurrenceId": "dayun.9.branch.hidden.2",
+          "stem": "辛",
+          "element": "金",
+          "role": "secondary",
+          "tenGod": "正官"
+         }
+        ]
+       }
+      },
+      {
+       "index": 10,
+       "startAge": 91,
+       "endAge": 100,
+       "stem": {
+        "occurrenceId": "dayun.10.stem",
+        "stem": "丙",
+        "element": "火",
+        "tenGod": "食神"
+       },
+       "branch": {
+        "occurrenceId": "dayun.10.branch",
+        "branch": "子",
+        "element": "水",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.10.branch.hidden.0",
+          "stem": "癸",
+          "element": "水",
+          "role": "primary",
+          "tenGod": "正印"
+         }
+        ]
+       }
+      },
+      {
+       "index": 11,
+       "startAge": 101,
+       "endAge": 110,
+       "stem": {
+        "occurrenceId": "dayun.11.stem",
+        "stem": "乙",
+        "element": "木",
+        "tenGod": "劫财"
+       },
+       "branch": {
+        "occurrenceId": "dayun.11.branch",
+        "branch": "亥",
+        "element": "水",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.11.branch.hidden.0",
+          "stem": "壬",
+          "element": "水",
+          "role": "primary",
+          "tenGod": "偏印"
+         },
+         {
+          "occurrenceId": "dayun.11.branch.hidden.1",
+          "stem": "甲",
+          "element": "木",
+          "role": "tertiary",
+          "tenGod": "比肩"
+         }
+        ]
+       }
+      },
+      {
+       "index": 12,
+       "startAge": 111,
+       "endAge": 120,
+       "stem": {
+        "occurrenceId": "dayun.12.stem",
+        "stem": "甲",
+        "element": "木",
+        "tenGod": "比肩"
+       },
+       "branch": {
+        "occurrenceId": "dayun.12.branch",
+        "branch": "戌",
+        "element": "土",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.12.branch.hidden.0",
+          "stem": "戊",
+          "element": "土",
+          "role": "primary",
+          "tenGod": "偏财"
+         },
+         {
+          "occurrenceId": "dayun.12.branch.hidden.1",
+          "stem": "辛",
+          "element": "金",
+          "role": "tertiary",
+          "tenGod": "正官"
+         },
+         {
+          "occurrenceId": "dayun.12.branch.hidden.2",
+          "stem": "丁",
+          "element": "火",
+          "role": "secondary",
+          "tenGod": "伤官"
+         }
+        ]
+       }
+      }
+     ],
+     "annual": null
+    }
+   }
+  },
+  {
+   "label": "子正后",
+   "input": {
+    "year": 2010,
+    "month": 10,
+    "day": 11,
+    "hour": 0,
+    "minute": 1,
+    "second": 0,
+    "gender": "male"
+   },
+   "solarDate": {
+    "year": 2010,
+    "month": 10,
+    "day": 11,
+    "hour": 0,
+    "minute": 1
+   },
+   "naYin": {
+    "year": "松柏木",
+    "month": "屋上土",
+    "day": "砂中金",
+    "hour": "海中金",
+    "dayMasterNaYin": "砂中金",
+    "element": "金",
+    "characteristics": [
+     "蕴藏丰富",
+     "需要发掘",
+     "价值潜在",
+     "机会无限"
+    ],
+    "compatibility": {
+     "favorable": [
+      "屋上土",
+      "海中金"
+     ],
+     "unfavorable": [],
+     "neutral": [
+      "松柏木"
+     ],
+     "analysis": "纳音相配分析：整体配置较好，有利纳音2个，不利纳音0个。纳音组合有助于命主发展，能够得到较好的支持。另有中性纳音1个，影响相对较小。"
+    }
+   },
+   "qiyunDetail": {
+    "years": 9,
+    "months": 3,
+    "days": 13,
+    "hours": 11,
+    "minutes": 0,
+    "endYear": 2020,
+    "endMonth": 1
+   },
+   "snapshot": {
+    "schemaVersion": 1,
+    "calculationConventions": {
+     "calendar": "gregorian",
+     "timezone": "Asia/Shanghai",
+     "trueSolarTimePolicy": "none",
+     "dayBoundaryRule": "zi-hour-23",
+     "qiyunMethod": "tyme4ts-child-limit"
+    },
+    "inputKind": "birth",
+    "birthInput": {
+     "year": 2010,
+     "month": 10,
+     "day": 11,
+     "hour": 0,
+     "minute": 1,
+     "second": 0,
+     "gender": "male"
+    },
+    "dayMaster": "甲",
+    "pillars": [
+     {
+      "pillar": "year",
+      "stem": {
+       "occurrenceId": "year.stem",
+       "stem": "庚",
+       "element": "金",
+       "tenGod": "七杀"
+      },
+      "branch": {
+       "occurrenceId": "year.branch",
+       "branch": "寅",
+       "element": "木",
+       "hiddenStems": [
+        {
+         "occurrenceId": "year.branch.hidden.0",
+         "stem": "甲",
+         "element": "木",
+         "role": "primary",
+         "tenGod": "比肩"
+        },
+        {
+         "occurrenceId": "year.branch.hidden.1",
+         "stem": "丙",
+         "element": "火",
+         "role": "secondary",
+         "tenGod": "食神"
+        },
+        {
+         "occurrenceId": "year.branch.hidden.2",
+         "stem": "戊",
+         "element": "土",
+         "role": "tertiary",
+         "tenGod": "偏财"
+        }
+       ]
+      }
+     },
+     {
+      "pillar": "month",
+      "stem": {
+       "occurrenceId": "month.stem",
+       "stem": "丙",
+       "element": "火",
+       "tenGod": "食神"
+      },
+      "branch": {
+       "occurrenceId": "month.branch",
+       "branch": "戌",
+       "element": "土",
+       "hiddenStems": [
+        {
+         "occurrenceId": "month.branch.hidden.0",
+         "stem": "戊",
+         "element": "土",
+         "role": "primary",
+         "tenGod": "偏财"
+        },
+        {
+         "occurrenceId": "month.branch.hidden.1",
+         "stem": "辛",
+         "element": "金",
+         "role": "tertiary",
+         "tenGod": "正官"
+        },
+        {
+         "occurrenceId": "month.branch.hidden.2",
+         "stem": "丁",
+         "element": "火",
+         "role": "secondary",
+         "tenGod": "伤官"
+        }
+       ]
+      }
+     },
+     {
+      "pillar": "day",
+      "stem": {
+       "occurrenceId": "day.stem",
+       "stem": "甲",
+       "element": "木",
+       "tenGod": "比肩"
+      },
+      "branch": {
+       "occurrenceId": "day.branch",
+       "branch": "午",
+       "element": "火",
+       "hiddenStems": [
+        {
+         "occurrenceId": "day.branch.hidden.0",
+         "stem": "丁",
+         "element": "火",
+         "role": "primary",
+         "tenGod": "伤官"
+        },
+        {
+         "occurrenceId": "day.branch.hidden.1",
+         "stem": "己",
+         "element": "土",
+         "role": "tertiary",
+         "tenGod": "正财"
+        }
+       ]
+      }
+     },
+     {
+      "pillar": "hour",
+      "stem": {
+       "occurrenceId": "hour.stem",
+       "stem": "甲",
+       "element": "木",
+       "tenGod": "比肩"
+      },
+      "branch": {
+       "occurrenceId": "hour.branch",
+       "branch": "子",
+       "element": "水",
+       "hiddenStems": [
+        {
+         "occurrenceId": "hour.branch.hidden.0",
+         "stem": "癸",
+         "element": "水",
+         "role": "primary",
+         "tenGod": "正印"
+        }
+       ]
+      }
+     }
+    ],
+    "roots": [
+     {
+      "stemOccurrenceId": "year.stem",
+      "stem": "庚",
+      "element": "金",
+      "rootedIn": [
+       {
+        "branchOccurrenceId": "month.branch",
+        "hiddenStemOccurrenceId": "month.branch.hidden.1",
+        "branch": "戌",
+        "hiddenStem": "辛",
+        "role": "tertiary",
+        "sameStem": false
+       }
+      ]
+     },
+     {
+      "stemOccurrenceId": "month.stem",
+      "stem": "丙",
+      "element": "火",
+      "rootedIn": [
+       {
+        "branchOccurrenceId": "year.branch",
+        "hiddenStemOccurrenceId": "year.branch.hidden.1",
+        "branch": "寅",
+        "hiddenStem": "丙",
+        "role": "secondary",
+        "sameStem": true
+       },
+       {
+        "branchOccurrenceId": "month.branch",
+        "hiddenStemOccurrenceId": "month.branch.hidden.2",
+        "branch": "戌",
+        "hiddenStem": "丁",
+        "role": "secondary",
+        "sameStem": false
+       },
+       {
+        "branchOccurrenceId": "day.branch",
+        "hiddenStemOccurrenceId": "day.branch.hidden.0",
+        "branch": "午",
+        "hiddenStem": "丁",
+        "role": "primary",
+        "sameStem": false
+       }
+      ]
+     },
+     {
+      "stemOccurrenceId": "day.stem",
+      "stem": "甲",
+      "element": "木",
+      "rootedIn": [
+       {
+        "branchOccurrenceId": "year.branch",
+        "hiddenStemOccurrenceId": "year.branch.hidden.0",
+        "branch": "寅",
+        "hiddenStem": "甲",
+        "role": "primary",
+        "sameStem": true
+       }
+      ]
+     },
+     {
+      "stemOccurrenceId": "hour.stem",
+      "stem": "甲",
+      "element": "木",
+      "rootedIn": [
+       {
+        "branchOccurrenceId": "year.branch",
+        "hiddenStemOccurrenceId": "year.branch.hidden.0",
+        "branch": "寅",
+        "hiddenStem": "甲",
+        "role": "primary",
+        "sameStem": true
+       }
+      ]
+     }
+    ],
+    "luck": {
+     "direction": "forward",
+     "startAge": 9,
+     "startAgeExact": 9.2882,
+     "dayun": [
+      {
+       "index": 1,
+       "startAge": 9,
+       "endAge": 18,
+       "stem": {
+        "occurrenceId": "dayun.1.stem",
+        "stem": "丁",
+        "element": "火",
+        "tenGod": "伤官"
+       },
+       "branch": {
+        "occurrenceId": "dayun.1.branch",
+        "branch": "亥",
+        "element": "水",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.1.branch.hidden.0",
+          "stem": "壬",
+          "element": "水",
+          "role": "primary",
+          "tenGod": "偏印"
+         },
+         {
+          "occurrenceId": "dayun.1.branch.hidden.1",
+          "stem": "甲",
+          "element": "木",
+          "role": "tertiary",
+          "tenGod": "比肩"
+         }
+        ]
+       }
+      },
+      {
+       "index": 2,
+       "startAge": 19,
+       "endAge": 28,
+       "stem": {
+        "occurrenceId": "dayun.2.stem",
+        "stem": "戊",
+        "element": "土",
+        "tenGod": "偏财"
+       },
+       "branch": {
+        "occurrenceId": "dayun.2.branch",
+        "branch": "子",
+        "element": "水",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.2.branch.hidden.0",
+          "stem": "癸",
+          "element": "水",
+          "role": "primary",
+          "tenGod": "正印"
+         }
+        ]
+       }
+      },
+      {
+       "index": 3,
+       "startAge": 29,
+       "endAge": 38,
+       "stem": {
+        "occurrenceId": "dayun.3.stem",
+        "stem": "己",
+        "element": "土",
+        "tenGod": "正财"
+       },
+       "branch": {
+        "occurrenceId": "dayun.3.branch",
+        "branch": "丑",
+        "element": "土",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.3.branch.hidden.0",
+          "stem": "己",
+          "element": "土",
+          "role": "primary",
+          "tenGod": "正财"
+         },
+         {
+          "occurrenceId": "dayun.3.branch.hidden.1",
+          "stem": "癸",
+          "element": "水",
+          "role": "tertiary",
+          "tenGod": "正印"
+         },
+         {
+          "occurrenceId": "dayun.3.branch.hidden.2",
+          "stem": "辛",
+          "element": "金",
+          "role": "secondary",
+          "tenGod": "正官"
+         }
+        ]
+       }
+      },
+      {
+       "index": 4,
+       "startAge": 39,
+       "endAge": 48,
+       "stem": {
+        "occurrenceId": "dayun.4.stem",
+        "stem": "庚",
+        "element": "金",
+        "tenGod": "七杀"
+       },
+       "branch": {
+        "occurrenceId": "dayun.4.branch",
+        "branch": "寅",
+        "element": "木",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.4.branch.hidden.0",
+          "stem": "甲",
+          "element": "木",
+          "role": "primary",
+          "tenGod": "比肩"
+         },
+         {
+          "occurrenceId": "dayun.4.branch.hidden.1",
+          "stem": "丙",
+          "element": "火",
+          "role": "secondary",
+          "tenGod": "食神"
+         },
+         {
+          "occurrenceId": "dayun.4.branch.hidden.2",
+          "stem": "戊",
+          "element": "土",
+          "role": "tertiary",
+          "tenGod": "偏财"
+         }
+        ]
+       }
+      },
+      {
+       "index": 5,
+       "startAge": 49,
+       "endAge": 58,
+       "stem": {
+        "occurrenceId": "dayun.5.stem",
+        "stem": "辛",
+        "element": "金",
+        "tenGod": "正官"
+       },
+       "branch": {
+        "occurrenceId": "dayun.5.branch",
+        "branch": "卯",
+        "element": "木",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.5.branch.hidden.0",
+          "stem": "乙",
+          "element": "木",
+          "role": "primary",
+          "tenGod": "劫财"
+         }
+        ]
+       }
+      },
+      {
+       "index": 6,
+       "startAge": 59,
+       "endAge": 68,
+       "stem": {
+        "occurrenceId": "dayun.6.stem",
+        "stem": "壬",
+        "element": "水",
+        "tenGod": "偏印"
+       },
+       "branch": {
+        "occurrenceId": "dayun.6.branch",
+        "branch": "辰",
+        "element": "土",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.6.branch.hidden.0",
+          "stem": "戊",
+          "element": "土",
+          "role": "primary",
+          "tenGod": "偏财"
+         },
+         {
+          "occurrenceId": "dayun.6.branch.hidden.1",
+          "stem": "乙",
+          "element": "木",
+          "role": "tertiary",
+          "tenGod": "劫财"
+         },
+         {
+          "occurrenceId": "dayun.6.branch.hidden.2",
+          "stem": "癸",
+          "element": "水",
+          "role": "secondary",
+          "tenGod": "正印"
+         }
+        ]
+       }
+      },
+      {
+       "index": 7,
+       "startAge": 69,
+       "endAge": 78,
+       "stem": {
+        "occurrenceId": "dayun.7.stem",
+        "stem": "癸",
+        "element": "水",
+        "tenGod": "正印"
+       },
+       "branch": {
+        "occurrenceId": "dayun.7.branch",
+        "branch": "巳",
+        "element": "火",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.7.branch.hidden.0",
+          "stem": "丙",
+          "element": "火",
+          "role": "primary",
+          "tenGod": "食神"
+         },
+         {
+          "occurrenceId": "dayun.7.branch.hidden.1",
+          "stem": "戊",
+          "element": "土",
+          "role": "secondary",
+          "tenGod": "偏财"
+         },
+         {
+          "occurrenceId": "dayun.7.branch.hidden.2",
+          "stem": "庚",
+          "element": "金",
+          "role": "tertiary",
+          "tenGod": "七杀"
+         }
+        ]
+       }
+      },
+      {
+       "index": 8,
+       "startAge": 79,
+       "endAge": 88,
+       "stem": {
+        "occurrenceId": "dayun.8.stem",
+        "stem": "甲",
+        "element": "木",
+        "tenGod": "比肩"
+       },
+       "branch": {
+        "occurrenceId": "dayun.8.branch",
+        "branch": "午",
+        "element": "火",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.8.branch.hidden.0",
+          "stem": "丁",
+          "element": "火",
+          "role": "primary",
+          "tenGod": "伤官"
+         },
+         {
+          "occurrenceId": "dayun.8.branch.hidden.1",
+          "stem": "己",
+          "element": "土",
+          "role": "tertiary",
+          "tenGod": "正财"
+         }
+        ]
+       }
+      },
+      {
+       "index": 9,
+       "startAge": 89,
+       "endAge": 98,
+       "stem": {
+        "occurrenceId": "dayun.9.stem",
+        "stem": "乙",
+        "element": "木",
+        "tenGod": "劫财"
+       },
+       "branch": {
+        "occurrenceId": "dayun.9.branch",
+        "branch": "未",
+        "element": "土",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.9.branch.hidden.0",
+          "stem": "己",
+          "element": "土",
+          "role": "primary",
+          "tenGod": "正财"
+         },
+         {
+          "occurrenceId": "dayun.9.branch.hidden.1",
+          "stem": "丁",
+          "element": "火",
+          "role": "tertiary",
+          "tenGod": "伤官"
+         },
+         {
+          "occurrenceId": "dayun.9.branch.hidden.2",
+          "stem": "乙",
+          "element": "木",
+          "role": "secondary",
+          "tenGod": "劫财"
+         }
+        ]
+       }
+      },
+      {
+       "index": 10,
+       "startAge": 99,
+       "endAge": 108,
+       "stem": {
+        "occurrenceId": "dayun.10.stem",
+        "stem": "丙",
+        "element": "火",
+        "tenGod": "食神"
+       },
+       "branch": {
+        "occurrenceId": "dayun.10.branch",
+        "branch": "申",
+        "element": "金",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.10.branch.hidden.0",
+          "stem": "庚",
+          "element": "金",
+          "role": "primary",
+          "tenGod": "七杀"
+         },
+         {
+          "occurrenceId": "dayun.10.branch.hidden.1",
+          "stem": "壬",
+          "element": "水",
+          "role": "secondary",
+          "tenGod": "偏印"
+         },
+         {
+          "occurrenceId": "dayun.10.branch.hidden.2",
+          "stem": "戊",
+          "element": "土",
+          "role": "tertiary",
+          "tenGod": "偏财"
+         }
+        ]
+       }
+      },
+      {
+       "index": 11,
+       "startAge": 109,
+       "endAge": 118,
+       "stem": {
+        "occurrenceId": "dayun.11.stem",
+        "stem": "丁",
+        "element": "火",
+        "tenGod": "伤官"
+       },
+       "branch": {
+        "occurrenceId": "dayun.11.branch",
+        "branch": "酉",
+        "element": "金",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.11.branch.hidden.0",
+          "stem": "辛",
+          "element": "金",
+          "role": "primary",
+          "tenGod": "正官"
+         }
+        ]
+       }
+      },
+      {
+       "index": 12,
+       "startAge": 119,
+       "endAge": 128,
+       "stem": {
+        "occurrenceId": "dayun.12.stem",
+        "stem": "戊",
+        "element": "土",
+        "tenGod": "偏财"
+       },
+       "branch": {
+        "occurrenceId": "dayun.12.branch",
+        "branch": "戌",
+        "element": "土",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.12.branch.hidden.0",
+          "stem": "戊",
+          "element": "土",
+          "role": "primary",
+          "tenGod": "偏财"
+         },
+         {
+          "occurrenceId": "dayun.12.branch.hidden.1",
+          "stem": "辛",
+          "element": "金",
+          "role": "tertiary",
+          "tenGod": "正官"
+         },
+         {
+          "occurrenceId": "dayun.12.branch.hidden.2",
+          "stem": "丁",
+          "element": "火",
+          "role": "secondary",
+          "tenGod": "伤官"
+         }
+        ]
+       }
+      }
+     ],
+     "annual": null
+    }
+   }
+  },
+  {
+   "label": "闰四月（农历 2001 闰四月廿四）",
+   "input": {
+    "year": 2001,
+    "month": 6,
+    "day": 15,
+    "hour": 8,
+    "minute": 30,
+    "second": 0,
+    "gender": "female"
+   },
+   "solarDate": {
+    "year": 2001,
+    "month": 6,
+    "day": 15,
+    "hour": 8,
+    "minute": 30
+   },
+   "naYin": {
+    "year": "白蜡金",
+    "month": "砂中金",
+    "day": "大驿土",
+    "hour": "大林木",
+    "dayMasterNaYin": "大驿土",
+    "element": "土",
+    "characteristics": [
+     "交通要道",
+     "沟通桥梁",
+     "实用价值",
+     "承载功能"
+    ],
+    "compatibility": {
+     "favorable": [],
+     "unfavorable": [
+      "白蜡金",
+      "砂中金",
+      "大林木"
+     ],
+     "neutral": [],
+     "analysis": "纳音相配分析：纳音配置存在挑战，不利纳音3个，有利纳音0个。需要注意纳音冲突带来的影响，宜化解不利因素。"
+    }
+   },
+   "qiyunDetail": {
+    "years": 7,
+    "months": 4,
+    "days": 3,
+    "hours": 1,
+    "minutes": 24,
+    "endYear": 2008,
+    "endMonth": 10
+   },
+   "snapshot": {
+    "schemaVersion": 1,
+    "calculationConventions": {
+     "calendar": "gregorian",
+     "timezone": "Asia/Shanghai",
+     "trueSolarTimePolicy": "none",
+     "dayBoundaryRule": "zi-hour-23",
+     "qiyunMethod": "tyme4ts-child-limit"
+    },
+    "inputKind": "birth",
+    "birthInput": {
+     "year": 2001,
+     "month": 6,
+     "day": 15,
+     "hour": 8,
+     "minute": 30,
+     "second": 0,
+     "gender": "female"
+    },
+    "dayMaster": "己",
+    "pillars": [
+     {
+      "pillar": "year",
+      "stem": {
+       "occurrenceId": "year.stem",
+       "stem": "辛",
+       "element": "金",
+       "tenGod": "食神"
+      },
+      "branch": {
+       "occurrenceId": "year.branch",
+       "branch": "巳",
+       "element": "火",
+       "hiddenStems": [
+        {
+         "occurrenceId": "year.branch.hidden.0",
+         "stem": "丙",
+         "element": "火",
+         "role": "primary",
+         "tenGod": "正印"
+        },
+        {
+         "occurrenceId": "year.branch.hidden.1",
+         "stem": "戊",
+         "element": "土",
+         "role": "secondary",
+         "tenGod": "劫财"
+        },
+        {
+         "occurrenceId": "year.branch.hidden.2",
+         "stem": "庚",
+         "element": "金",
+         "role": "tertiary",
+         "tenGod": "伤官"
+        }
+       ]
+      }
+     },
+     {
+      "pillar": "month",
+      "stem": {
+       "occurrenceId": "month.stem",
+       "stem": "甲",
+       "element": "木",
+       "tenGod": "正官"
+      },
+      "branch": {
+       "occurrenceId": "month.branch",
+       "branch": "午",
+       "element": "火",
+       "hiddenStems": [
+        {
+         "occurrenceId": "month.branch.hidden.0",
+         "stem": "丁",
+         "element": "火",
+         "role": "primary",
+         "tenGod": "偏印"
+        },
+        {
+         "occurrenceId": "month.branch.hidden.1",
+         "stem": "己",
+         "element": "土",
+         "role": "tertiary",
+         "tenGod": "比肩"
+        }
+       ]
+      }
+     },
+     {
+      "pillar": "day",
+      "stem": {
+       "occurrenceId": "day.stem",
+       "stem": "己",
+       "element": "土",
+       "tenGod": "比肩"
+      },
+      "branch": {
+       "occurrenceId": "day.branch",
+       "branch": "酉",
+       "element": "金",
+       "hiddenStems": [
+        {
+         "occurrenceId": "day.branch.hidden.0",
+         "stem": "辛",
+         "element": "金",
+         "role": "primary",
+         "tenGod": "食神"
+        }
+       ]
+      }
+     },
+     {
+      "pillar": "hour",
+      "stem": {
+       "occurrenceId": "hour.stem",
+       "stem": "戊",
+       "element": "土",
+       "tenGod": "劫财"
+      },
+      "branch": {
+       "occurrenceId": "hour.branch",
+       "branch": "辰",
+       "element": "土",
+       "hiddenStems": [
+        {
+         "occurrenceId": "hour.branch.hidden.0",
+         "stem": "戊",
+         "element": "土",
+         "role": "primary",
+         "tenGod": "劫财"
+        },
+        {
+         "occurrenceId": "hour.branch.hidden.1",
+         "stem": "乙",
+         "element": "木",
+         "role": "tertiary",
+         "tenGod": "七杀"
+        },
+        {
+         "occurrenceId": "hour.branch.hidden.2",
+         "stem": "癸",
+         "element": "水",
+         "role": "secondary",
+         "tenGod": "偏财"
+        }
+       ]
+      }
+     }
+    ],
+    "roots": [
+     {
+      "stemOccurrenceId": "year.stem",
+      "stem": "辛",
+      "element": "金",
+      "rootedIn": [
+       {
+        "branchOccurrenceId": "year.branch",
+        "hiddenStemOccurrenceId": "year.branch.hidden.2",
+        "branch": "巳",
+        "hiddenStem": "庚",
+        "role": "tertiary",
+        "sameStem": false
+       },
+       {
+        "branchOccurrenceId": "day.branch",
+        "hiddenStemOccurrenceId": "day.branch.hidden.0",
+        "branch": "酉",
+        "hiddenStem": "辛",
+        "role": "primary",
+        "sameStem": true
+       }
+      ]
+     },
+     {
+      "stemOccurrenceId": "month.stem",
+      "stem": "甲",
+      "element": "木",
+      "rootedIn": [
+       {
+        "branchOccurrenceId": "hour.branch",
+        "hiddenStemOccurrenceId": "hour.branch.hidden.1",
+        "branch": "辰",
+        "hiddenStem": "乙",
+        "role": "tertiary",
+        "sameStem": false
+       }
+      ]
+     },
+     {
+      "stemOccurrenceId": "day.stem",
+      "stem": "己",
+      "element": "土",
+      "rootedIn": [
+       {
+        "branchOccurrenceId": "year.branch",
+        "hiddenStemOccurrenceId": "year.branch.hidden.1",
+        "branch": "巳",
+        "hiddenStem": "戊",
+        "role": "secondary",
+        "sameStem": false
+       },
+       {
+        "branchOccurrenceId": "month.branch",
+        "hiddenStemOccurrenceId": "month.branch.hidden.1",
+        "branch": "午",
+        "hiddenStem": "己",
+        "role": "tertiary",
+        "sameStem": true
+       },
+       {
+        "branchOccurrenceId": "hour.branch",
+        "hiddenStemOccurrenceId": "hour.branch.hidden.0",
+        "branch": "辰",
+        "hiddenStem": "戊",
+        "role": "primary",
+        "sameStem": false
+       }
+      ]
+     },
+     {
+      "stemOccurrenceId": "hour.stem",
+      "stem": "戊",
+      "element": "土",
+      "rootedIn": [
+       {
+        "branchOccurrenceId": "year.branch",
+        "hiddenStemOccurrenceId": "year.branch.hidden.1",
+        "branch": "巳",
+        "hiddenStem": "戊",
+        "role": "secondary",
+        "sameStem": true
+       },
+       {
+        "branchOccurrenceId": "month.branch",
+        "hiddenStemOccurrenceId": "month.branch.hidden.1",
+        "branch": "午",
+        "hiddenStem": "己",
+        "role": "tertiary",
+        "sameStem": false
+       },
+       {
+        "branchOccurrenceId": "hour.branch",
+        "hiddenStemOccurrenceId": "hour.branch.hidden.0",
+        "branch": "辰",
+        "hiddenStem": "戊",
+        "role": "primary",
+        "sameStem": true
+       }
+      ]
+     }
+    ],
+    "luck": {
+     "direction": "forward",
+     "startAge": 7,
+     "startAgeExact": 7.3432,
+     "dayun": [
+      {
+       "index": 1,
+       "startAge": 7,
+       "endAge": 16,
+       "stem": {
+        "occurrenceId": "dayun.1.stem",
+        "stem": "乙",
+        "element": "木",
+        "tenGod": "七杀"
+       },
+       "branch": {
+        "occurrenceId": "dayun.1.branch",
+        "branch": "未",
+        "element": "土",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.1.branch.hidden.0",
+          "stem": "己",
+          "element": "土",
+          "role": "primary",
+          "tenGod": "比肩"
+         },
+         {
+          "occurrenceId": "dayun.1.branch.hidden.1",
+          "stem": "丁",
+          "element": "火",
+          "role": "tertiary",
+          "tenGod": "偏印"
+         },
+         {
+          "occurrenceId": "dayun.1.branch.hidden.2",
+          "stem": "乙",
+          "element": "木",
+          "role": "secondary",
+          "tenGod": "七杀"
+         }
+        ]
+       }
+      },
+      {
+       "index": 2,
+       "startAge": 17,
+       "endAge": 26,
+       "stem": {
+        "occurrenceId": "dayun.2.stem",
+        "stem": "丙",
+        "element": "火",
+        "tenGod": "正印"
+       },
+       "branch": {
+        "occurrenceId": "dayun.2.branch",
+        "branch": "申",
+        "element": "金",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.2.branch.hidden.0",
+          "stem": "庚",
+          "element": "金",
+          "role": "primary",
+          "tenGod": "伤官"
+         },
+         {
+          "occurrenceId": "dayun.2.branch.hidden.1",
+          "stem": "壬",
+          "element": "水",
+          "role": "secondary",
+          "tenGod": "正财"
+         },
+         {
+          "occurrenceId": "dayun.2.branch.hidden.2",
+          "stem": "戊",
+          "element": "土",
+          "role": "tertiary",
+          "tenGod": "劫财"
+         }
+        ]
+       }
+      },
+      {
+       "index": 3,
+       "startAge": 27,
+       "endAge": 36,
+       "stem": {
+        "occurrenceId": "dayun.3.stem",
+        "stem": "丁",
+        "element": "火",
+        "tenGod": "偏印"
+       },
+       "branch": {
+        "occurrenceId": "dayun.3.branch",
+        "branch": "酉",
+        "element": "金",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.3.branch.hidden.0",
+          "stem": "辛",
+          "element": "金",
+          "role": "primary",
+          "tenGod": "食神"
+         }
+        ]
+       }
+      },
+      {
+       "index": 4,
+       "startAge": 37,
+       "endAge": 46,
+       "stem": {
+        "occurrenceId": "dayun.4.stem",
+        "stem": "戊",
+        "element": "土",
+        "tenGod": "劫财"
+       },
+       "branch": {
+        "occurrenceId": "dayun.4.branch",
+        "branch": "戌",
+        "element": "土",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.4.branch.hidden.0",
+          "stem": "戊",
+          "element": "土",
+          "role": "primary",
+          "tenGod": "劫财"
+         },
+         {
+          "occurrenceId": "dayun.4.branch.hidden.1",
+          "stem": "辛",
+          "element": "金",
+          "role": "tertiary",
+          "tenGod": "食神"
+         },
+         {
+          "occurrenceId": "dayun.4.branch.hidden.2",
+          "stem": "丁",
+          "element": "火",
+          "role": "secondary",
+          "tenGod": "偏印"
+         }
+        ]
+       }
+      },
+      {
+       "index": 5,
+       "startAge": 47,
+       "endAge": 56,
+       "stem": {
+        "occurrenceId": "dayun.5.stem",
+        "stem": "己",
+        "element": "土",
+        "tenGod": "比肩"
+       },
+       "branch": {
+        "occurrenceId": "dayun.5.branch",
+        "branch": "亥",
+        "element": "水",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.5.branch.hidden.0",
+          "stem": "壬",
+          "element": "水",
+          "role": "primary",
+          "tenGod": "正财"
+         },
+         {
+          "occurrenceId": "dayun.5.branch.hidden.1",
+          "stem": "甲",
+          "element": "木",
+          "role": "tertiary",
+          "tenGod": "正官"
+         }
+        ]
+       }
+      },
+      {
+       "index": 6,
+       "startAge": 57,
+       "endAge": 66,
+       "stem": {
+        "occurrenceId": "dayun.6.stem",
+        "stem": "庚",
+        "element": "金",
+        "tenGod": "伤官"
+       },
+       "branch": {
+        "occurrenceId": "dayun.6.branch",
+        "branch": "子",
+        "element": "水",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.6.branch.hidden.0",
+          "stem": "癸",
+          "element": "水",
+          "role": "primary",
+          "tenGod": "偏财"
+         }
+        ]
+       }
+      },
+      {
+       "index": 7,
+       "startAge": 67,
+       "endAge": 76,
+       "stem": {
+        "occurrenceId": "dayun.7.stem",
+        "stem": "辛",
+        "element": "金",
+        "tenGod": "食神"
+       },
+       "branch": {
+        "occurrenceId": "dayun.7.branch",
+        "branch": "丑",
+        "element": "土",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.7.branch.hidden.0",
+          "stem": "己",
+          "element": "土",
+          "role": "primary",
+          "tenGod": "比肩"
+         },
+         {
+          "occurrenceId": "dayun.7.branch.hidden.1",
+          "stem": "癸",
+          "element": "水",
+          "role": "tertiary",
+          "tenGod": "偏财"
+         },
+         {
+          "occurrenceId": "dayun.7.branch.hidden.2",
+          "stem": "辛",
+          "element": "金",
+          "role": "secondary",
+          "tenGod": "食神"
+         }
+        ]
+       }
+      },
+      {
+       "index": 8,
+       "startAge": 77,
+       "endAge": 86,
+       "stem": {
+        "occurrenceId": "dayun.8.stem",
+        "stem": "壬",
+        "element": "水",
+        "tenGod": "正财"
+       },
+       "branch": {
+        "occurrenceId": "dayun.8.branch",
+        "branch": "寅",
+        "element": "木",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.8.branch.hidden.0",
+          "stem": "甲",
+          "element": "木",
+          "role": "primary",
+          "tenGod": "正官"
+         },
+         {
+          "occurrenceId": "dayun.8.branch.hidden.1",
+          "stem": "丙",
+          "element": "火",
+          "role": "secondary",
+          "tenGod": "正印"
+         },
+         {
+          "occurrenceId": "dayun.8.branch.hidden.2",
+          "stem": "戊",
+          "element": "土",
+          "role": "tertiary",
+          "tenGod": "劫财"
+         }
+        ]
+       }
+      },
+      {
+       "index": 9,
+       "startAge": 87,
+       "endAge": 96,
+       "stem": {
+        "occurrenceId": "dayun.9.stem",
+        "stem": "癸",
+        "element": "水",
+        "tenGod": "偏财"
+       },
+       "branch": {
+        "occurrenceId": "dayun.9.branch",
+        "branch": "卯",
+        "element": "木",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.9.branch.hidden.0",
+          "stem": "乙",
+          "element": "木",
+          "role": "primary",
+          "tenGod": "七杀"
+         }
+        ]
+       }
+      },
+      {
+       "index": 10,
+       "startAge": 97,
+       "endAge": 106,
+       "stem": {
+        "occurrenceId": "dayun.10.stem",
+        "stem": "甲",
+        "element": "木",
+        "tenGod": "正官"
+       },
+       "branch": {
+        "occurrenceId": "dayun.10.branch",
+        "branch": "辰",
+        "element": "土",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.10.branch.hidden.0",
+          "stem": "戊",
+          "element": "土",
+          "role": "primary",
+          "tenGod": "劫财"
+         },
+         {
+          "occurrenceId": "dayun.10.branch.hidden.1",
+          "stem": "乙",
+          "element": "木",
+          "role": "tertiary",
+          "tenGod": "七杀"
+         },
+         {
+          "occurrenceId": "dayun.10.branch.hidden.2",
+          "stem": "癸",
+          "element": "水",
+          "role": "secondary",
+          "tenGod": "偏财"
+         }
+        ]
+       }
+      },
+      {
+       "index": 11,
+       "startAge": 107,
+       "endAge": 116,
+       "stem": {
+        "occurrenceId": "dayun.11.stem",
+        "stem": "乙",
+        "element": "木",
+        "tenGod": "七杀"
+       },
+       "branch": {
+        "occurrenceId": "dayun.11.branch",
+        "branch": "巳",
+        "element": "火",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.11.branch.hidden.0",
+          "stem": "丙",
+          "element": "火",
+          "role": "primary",
+          "tenGod": "正印"
+         },
+         {
+          "occurrenceId": "dayun.11.branch.hidden.1",
+          "stem": "戊",
+          "element": "土",
+          "role": "secondary",
+          "tenGod": "劫财"
+         },
+         {
+          "occurrenceId": "dayun.11.branch.hidden.2",
+          "stem": "庚",
+          "element": "金",
+          "role": "tertiary",
+          "tenGod": "伤官"
+         }
+        ]
+       }
+      },
+      {
+       "index": 12,
+       "startAge": 117,
+       "endAge": 126,
+       "stem": {
+        "occurrenceId": "dayun.12.stem",
+        "stem": "丙",
+        "element": "火",
+        "tenGod": "正印"
+       },
+       "branch": {
+        "occurrenceId": "dayun.12.branch",
+        "branch": "午",
+        "element": "火",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.12.branch.hidden.0",
+          "stem": "丁",
+          "element": "火",
+          "role": "primary",
+          "tenGod": "偏印"
+         },
+         {
+          "occurrenceId": "dayun.12.branch.hidden.1",
+          "stem": "己",
+          "element": "土",
+          "role": "tertiary",
+          "tenGod": "比肩"
+         }
+        ]
+       }
+      }
+     ],
+     "annual": null
+    }
+   }
+  },
+  {
+   "label": "下限 1901",
+   "input": {
+    "year": 1901,
+    "month": 3,
+    "day": 3,
+    "hour": 3,
+    "minute": 3,
+    "second": 0,
+    "gender": "male"
+   },
+   "solarDate": {
+    "year": 1901,
+    "month": 3,
+    "day": 3,
+    "hour": 3,
+    "minute": 3
+   },
+   "naYin": {
+    "year": "壁上土",
+    "month": "松柏木",
+    "day": "白蜡金",
+    "hour": "城头土",
+    "dayMasterNaYin": "白蜡金",
+    "element": "金",
+    "characteristics": [
+     "纯净光洁",
+     "装饰美化",
+     "细腻精致",
+     "艺术天赋"
+    ],
+    "compatibility": {
+     "favorable": [
+      "壁上土",
+      "城头土"
+     ],
+     "unfavorable": [],
+     "neutral": [
+      "松柏木"
+     ],
+     "analysis": "纳音相配分析：整体配置较好，有利纳音2个，不利纳音0个。纳音组合有助于命主发展，能够得到较好的支持。另有中性纳音1个，影响相对较小。"
+    }
+   },
+   "qiyunDetail": {
+    "years": 8,
+    "months": 9,
+    "days": 6,
+    "hours": 22,
+    "minutes": 16,
+    "endYear": 1909,
+    "endMonth": 12
+   },
+   "snapshot": {
+    "schemaVersion": 1,
+    "calculationConventions": {
+     "calendar": "gregorian",
+     "timezone": "Asia/Shanghai",
+     "trueSolarTimePolicy": "none",
+     "dayBoundaryRule": "zi-hour-23",
+     "qiyunMethod": "tyme4ts-child-limit"
+    },
+    "inputKind": "birth",
+    "birthInput": {
+     "year": 1901,
+     "month": 3,
+     "day": 3,
+     "hour": 3,
+     "minute": 3,
+     "second": 0,
+     "gender": "male"
+    },
+    "dayMaster": "庚",
+    "pillars": [
+     {
+      "pillar": "year",
+      "stem": {
+       "occurrenceId": "year.stem",
+       "stem": "辛",
+       "element": "金",
+       "tenGod": "劫财"
+      },
+      "branch": {
+       "occurrenceId": "year.branch",
+       "branch": "丑",
+       "element": "土",
+       "hiddenStems": [
+        {
+         "occurrenceId": "year.branch.hidden.0",
+         "stem": "己",
+         "element": "土",
+         "role": "primary",
+         "tenGod": "正印"
+        },
+        {
+         "occurrenceId": "year.branch.hidden.1",
+         "stem": "癸",
+         "element": "水",
+         "role": "tertiary",
+         "tenGod": "伤官"
+        },
+        {
+         "occurrenceId": "year.branch.hidden.2",
+         "stem": "辛",
+         "element": "金",
+         "role": "secondary",
+         "tenGod": "劫财"
+        }
+       ]
+      }
+     },
+     {
+      "pillar": "month",
+      "stem": {
+       "occurrenceId": "month.stem",
+       "stem": "庚",
+       "element": "金",
+       "tenGod": "比肩"
+      },
+      "branch": {
+       "occurrenceId": "month.branch",
+       "branch": "寅",
+       "element": "木",
+       "hiddenStems": [
+        {
+         "occurrenceId": "month.branch.hidden.0",
+         "stem": "甲",
+         "element": "木",
+         "role": "primary",
+         "tenGod": "偏财"
+        },
+        {
+         "occurrenceId": "month.branch.hidden.1",
+         "stem": "丙",
+         "element": "火",
+         "role": "secondary",
+         "tenGod": "七杀"
+        },
+        {
+         "occurrenceId": "month.branch.hidden.2",
+         "stem": "戊",
+         "element": "土",
+         "role": "tertiary",
+         "tenGod": "偏印"
+        }
+       ]
+      }
+     },
+     {
+      "pillar": "day",
+      "stem": {
+       "occurrenceId": "day.stem",
+       "stem": "庚",
+       "element": "金",
+       "tenGod": "比肩"
+      },
+      "branch": {
+       "occurrenceId": "day.branch",
+       "branch": "辰",
+       "element": "土",
+       "hiddenStems": [
+        {
+         "occurrenceId": "day.branch.hidden.0",
+         "stem": "戊",
+         "element": "土",
+         "role": "primary",
+         "tenGod": "偏印"
+        },
+        {
+         "occurrenceId": "day.branch.hidden.1",
+         "stem": "乙",
+         "element": "木",
+         "role": "tertiary",
+         "tenGod": "正财"
+        },
+        {
+         "occurrenceId": "day.branch.hidden.2",
+         "stem": "癸",
+         "element": "水",
+         "role": "secondary",
+         "tenGod": "伤官"
+        }
+       ]
+      }
+     },
+     {
+      "pillar": "hour",
+      "stem": {
+       "occurrenceId": "hour.stem",
+       "stem": "戊",
+       "element": "土",
+       "tenGod": "偏印"
+      },
+      "branch": {
+       "occurrenceId": "hour.branch",
+       "branch": "寅",
+       "element": "木",
+       "hiddenStems": [
+        {
+         "occurrenceId": "hour.branch.hidden.0",
+         "stem": "甲",
+         "element": "木",
+         "role": "primary",
+         "tenGod": "偏财"
+        },
+        {
+         "occurrenceId": "hour.branch.hidden.1",
+         "stem": "丙",
+         "element": "火",
+         "role": "secondary",
+         "tenGod": "七杀"
+        },
+        {
+         "occurrenceId": "hour.branch.hidden.2",
+         "stem": "戊",
+         "element": "土",
+         "role": "tertiary",
+         "tenGod": "偏印"
+        }
+       ]
+      }
+     }
+    ],
+    "roots": [
+     {
+      "stemOccurrenceId": "year.stem",
+      "stem": "辛",
+      "element": "金",
+      "rootedIn": [
+       {
+        "branchOccurrenceId": "year.branch",
+        "hiddenStemOccurrenceId": "year.branch.hidden.2",
+        "branch": "丑",
+        "hiddenStem": "辛",
+        "role": "secondary",
+        "sameStem": true
+       }
+      ]
+     },
+     {
+      "stemOccurrenceId": "month.stem",
+      "stem": "庚",
+      "element": "金",
+      "rootedIn": [
+       {
+        "branchOccurrenceId": "year.branch",
+        "hiddenStemOccurrenceId": "year.branch.hidden.2",
+        "branch": "丑",
+        "hiddenStem": "辛",
+        "role": "secondary",
+        "sameStem": false
+       }
+      ]
+     },
+     {
+      "stemOccurrenceId": "day.stem",
+      "stem": "庚",
+      "element": "金",
+      "rootedIn": [
+       {
+        "branchOccurrenceId": "year.branch",
+        "hiddenStemOccurrenceId": "year.branch.hidden.2",
+        "branch": "丑",
+        "hiddenStem": "辛",
+        "role": "secondary",
+        "sameStem": false
+       }
+      ]
+     },
+     {
+      "stemOccurrenceId": "hour.stem",
+      "stem": "戊",
+      "element": "土",
+      "rootedIn": [
+       {
+        "branchOccurrenceId": "year.branch",
+        "hiddenStemOccurrenceId": "year.branch.hidden.0",
+        "branch": "丑",
+        "hiddenStem": "己",
+        "role": "primary",
+        "sameStem": false
+       },
+       {
+        "branchOccurrenceId": "month.branch",
+        "hiddenStemOccurrenceId": "month.branch.hidden.2",
+        "branch": "寅",
+        "hiddenStem": "戊",
+        "role": "tertiary",
+        "sameStem": true
+       },
+       {
+        "branchOccurrenceId": "day.branch",
+        "hiddenStemOccurrenceId": "day.branch.hidden.0",
+        "branch": "辰",
+        "hiddenStem": "戊",
+        "role": "primary",
+        "sameStem": true
+       },
+       {
+        "branchOccurrenceId": "hour.branch",
+        "hiddenStemOccurrenceId": "hour.branch.hidden.2",
+        "branch": "寅",
+        "hiddenStem": "戊",
+        "role": "tertiary",
+        "sameStem": true
+       }
+      ]
+     }
+    ],
+    "luck": {
+     "direction": "backward",
+     "startAge": 8,
+     "startAgeExact": 8.7721,
+     "dayun": [
+      {
+       "index": 1,
+       "startAge": 9,
+       "endAge": 18,
+       "stem": {
+        "occurrenceId": "dayun.1.stem",
+        "stem": "己",
+        "element": "土",
+        "tenGod": "正印"
+       },
+       "branch": {
+        "occurrenceId": "dayun.1.branch",
+        "branch": "丑",
+        "element": "土",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.1.branch.hidden.0",
+          "stem": "己",
+          "element": "土",
+          "role": "primary",
+          "tenGod": "正印"
+         },
+         {
+          "occurrenceId": "dayun.1.branch.hidden.1",
+          "stem": "癸",
+          "element": "水",
+          "role": "tertiary",
+          "tenGod": "伤官"
+         },
+         {
+          "occurrenceId": "dayun.1.branch.hidden.2",
+          "stem": "辛",
+          "element": "金",
+          "role": "secondary",
+          "tenGod": "劫财"
+         }
+        ]
+       }
+      },
+      {
+       "index": 2,
+       "startAge": 19,
+       "endAge": 28,
+       "stem": {
+        "occurrenceId": "dayun.2.stem",
+        "stem": "戊",
+        "element": "土",
+        "tenGod": "偏印"
+       },
+       "branch": {
+        "occurrenceId": "dayun.2.branch",
+        "branch": "子",
+        "element": "水",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.2.branch.hidden.0",
+          "stem": "癸",
+          "element": "水",
+          "role": "primary",
+          "tenGod": "伤官"
+         }
+        ]
+       }
+      },
+      {
+       "index": 3,
+       "startAge": 29,
+       "endAge": 38,
+       "stem": {
+        "occurrenceId": "dayun.3.stem",
+        "stem": "丁",
+        "element": "火",
+        "tenGod": "正官"
+       },
+       "branch": {
+        "occurrenceId": "dayun.3.branch",
+        "branch": "亥",
+        "element": "水",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.3.branch.hidden.0",
+          "stem": "壬",
+          "element": "水",
+          "role": "primary",
+          "tenGod": "食神"
+         },
+         {
+          "occurrenceId": "dayun.3.branch.hidden.1",
+          "stem": "甲",
+          "element": "木",
+          "role": "tertiary",
+          "tenGod": "偏财"
+         }
+        ]
+       }
+      },
+      {
+       "index": 4,
+       "startAge": 39,
+       "endAge": 48,
+       "stem": {
+        "occurrenceId": "dayun.4.stem",
+        "stem": "丙",
+        "element": "火",
+        "tenGod": "七杀"
+       },
+       "branch": {
+        "occurrenceId": "dayun.4.branch",
+        "branch": "戌",
+        "element": "土",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.4.branch.hidden.0",
+          "stem": "戊",
+          "element": "土",
+          "role": "primary",
+          "tenGod": "偏印"
+         },
+         {
+          "occurrenceId": "dayun.4.branch.hidden.1",
+          "stem": "辛",
+          "element": "金",
+          "role": "tertiary",
+          "tenGod": "劫财"
+         },
+         {
+          "occurrenceId": "dayun.4.branch.hidden.2",
+          "stem": "丁",
+          "element": "火",
+          "role": "secondary",
+          "tenGod": "正官"
+         }
+        ]
+       }
+      },
+      {
+       "index": 5,
+       "startAge": 49,
+       "endAge": 58,
+       "stem": {
+        "occurrenceId": "dayun.5.stem",
+        "stem": "乙",
+        "element": "木",
+        "tenGod": "正财"
+       },
+       "branch": {
+        "occurrenceId": "dayun.5.branch",
+        "branch": "酉",
+        "element": "金",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.5.branch.hidden.0",
+          "stem": "辛",
+          "element": "金",
+          "role": "primary",
+          "tenGod": "劫财"
+         }
+        ]
+       }
+      },
+      {
+       "index": 6,
+       "startAge": 59,
+       "endAge": 68,
+       "stem": {
+        "occurrenceId": "dayun.6.stem",
+        "stem": "甲",
+        "element": "木",
+        "tenGod": "偏财"
+       },
+       "branch": {
+        "occurrenceId": "dayun.6.branch",
+        "branch": "申",
+        "element": "金",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.6.branch.hidden.0",
+          "stem": "庚",
+          "element": "金",
+          "role": "primary",
+          "tenGod": "比肩"
+         },
+         {
+          "occurrenceId": "dayun.6.branch.hidden.1",
+          "stem": "壬",
+          "element": "水",
+          "role": "secondary",
+          "tenGod": "食神"
+         },
+         {
+          "occurrenceId": "dayun.6.branch.hidden.2",
+          "stem": "戊",
+          "element": "土",
+          "role": "tertiary",
+          "tenGod": "偏印"
+         }
+        ]
+       }
+      },
+      {
+       "index": 7,
+       "startAge": 69,
+       "endAge": 78,
+       "stem": {
+        "occurrenceId": "dayun.7.stem",
+        "stem": "癸",
+        "element": "水",
+        "tenGod": "伤官"
+       },
+       "branch": {
+        "occurrenceId": "dayun.7.branch",
+        "branch": "未",
+        "element": "土",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.7.branch.hidden.0",
+          "stem": "己",
+          "element": "土",
+          "role": "primary",
+          "tenGod": "正印"
+         },
+         {
+          "occurrenceId": "dayun.7.branch.hidden.1",
+          "stem": "丁",
+          "element": "火",
+          "role": "tertiary",
+          "tenGod": "正官"
+         },
+         {
+          "occurrenceId": "dayun.7.branch.hidden.2",
+          "stem": "乙",
+          "element": "木",
+          "role": "secondary",
+          "tenGod": "正财"
+         }
+        ]
+       }
+      },
+      {
+       "index": 8,
+       "startAge": 79,
+       "endAge": 88,
+       "stem": {
+        "occurrenceId": "dayun.8.stem",
+        "stem": "壬",
+        "element": "水",
+        "tenGod": "食神"
+       },
+       "branch": {
+        "occurrenceId": "dayun.8.branch",
+        "branch": "午",
+        "element": "火",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.8.branch.hidden.0",
+          "stem": "丁",
+          "element": "火",
+          "role": "primary",
+          "tenGod": "正官"
+         },
+         {
+          "occurrenceId": "dayun.8.branch.hidden.1",
+          "stem": "己",
+          "element": "土",
+          "role": "tertiary",
+          "tenGod": "正印"
+         }
+        ]
+       }
+      },
+      {
+       "index": 9,
+       "startAge": 89,
+       "endAge": 98,
+       "stem": {
+        "occurrenceId": "dayun.9.stem",
+        "stem": "辛",
+        "element": "金",
+        "tenGod": "劫财"
+       },
+       "branch": {
+        "occurrenceId": "dayun.9.branch",
+        "branch": "巳",
+        "element": "火",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.9.branch.hidden.0",
+          "stem": "丙",
+          "element": "火",
+          "role": "primary",
+          "tenGod": "七杀"
+         },
+         {
+          "occurrenceId": "dayun.9.branch.hidden.1",
+          "stem": "戊",
+          "element": "土",
+          "role": "secondary",
+          "tenGod": "偏印"
+         },
+         {
+          "occurrenceId": "dayun.9.branch.hidden.2",
+          "stem": "庚",
+          "element": "金",
+          "role": "tertiary",
+          "tenGod": "比肩"
+         }
+        ]
+       }
+      },
+      {
+       "index": 10,
+       "startAge": 99,
+       "endAge": 108,
+       "stem": {
+        "occurrenceId": "dayun.10.stem",
+        "stem": "庚",
+        "element": "金",
+        "tenGod": "比肩"
+       },
+       "branch": {
+        "occurrenceId": "dayun.10.branch",
+        "branch": "辰",
+        "element": "土",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.10.branch.hidden.0",
+          "stem": "戊",
+          "element": "土",
+          "role": "primary",
+          "tenGod": "偏印"
+         },
+         {
+          "occurrenceId": "dayun.10.branch.hidden.1",
+          "stem": "乙",
+          "element": "木",
+          "role": "tertiary",
+          "tenGod": "正财"
+         },
+         {
+          "occurrenceId": "dayun.10.branch.hidden.2",
+          "stem": "癸",
+          "element": "水",
+          "role": "secondary",
+          "tenGod": "伤官"
+         }
+        ]
+       }
+      },
+      {
+       "index": 11,
+       "startAge": 109,
+       "endAge": 118,
+       "stem": {
+        "occurrenceId": "dayun.11.stem",
+        "stem": "己",
+        "element": "土",
+        "tenGod": "正印"
+       },
+       "branch": {
+        "occurrenceId": "dayun.11.branch",
+        "branch": "卯",
+        "element": "木",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.11.branch.hidden.0",
+          "stem": "乙",
+          "element": "木",
+          "role": "primary",
+          "tenGod": "正财"
+         }
+        ]
+       }
+      },
+      {
+       "index": 12,
+       "startAge": 119,
+       "endAge": 128,
+       "stem": {
+        "occurrenceId": "dayun.12.stem",
+        "stem": "戊",
+        "element": "土",
+        "tenGod": "偏印"
+       },
+       "branch": {
+        "occurrenceId": "dayun.12.branch",
+        "branch": "寅",
+        "element": "木",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.12.branch.hidden.0",
+          "stem": "甲",
+          "element": "木",
+          "role": "primary",
+          "tenGod": "偏财"
+         },
+         {
+          "occurrenceId": "dayun.12.branch.hidden.1",
+          "stem": "丙",
+          "element": "火",
+          "role": "secondary",
+          "tenGod": "七杀"
+         },
+         {
+          "occurrenceId": "dayun.12.branch.hidden.2",
+          "stem": "戊",
+          "element": "土",
+          "role": "tertiary",
+          "tenGod": "偏印"
+         }
+        ]
+       }
+      }
+     ],
+     "annual": null
+    }
+   }
+  },
+  {
+   "label": "上限 2099",
+   "input": {
+    "year": 2099,
+    "month": 9,
+    "day": 9,
+    "hour": 9,
+    "minute": 9,
+    "second": 0,
+    "gender": "female"
+   },
+   "solarDate": {
+    "year": 2099,
+    "month": 9,
+    "day": 9,
+    "hour": 9,
+    "minute": 9
+   },
+   "naYin": {
+    "year": "天上火",
+    "month": "剑锋金",
+    "day": "大驿土",
+    "hour": "大林木",
+    "dayMasterNaYin": "大驿土",
+    "element": "土",
+    "characteristics": [
+     "交通要道",
+     "沟通桥梁",
+     "实用价值",
+     "承载功能"
+    ],
+    "compatibility": {
+     "favorable": [
+      "天上火"
+     ],
+     "unfavorable": [
+      "剑锋金",
+      "大林木"
+     ],
+     "neutral": [],
+     "analysis": "纳音相配分析：纳音配置存在挑战，不利纳音2个，有利纳音1个。需要注意纳音冲突带来的影响，宜化解不利因素。"
+    }
+   },
+   "qiyunDetail": {
+    "years": 9,
+    "months": 7,
+    "days": 18,
+    "hours": 14,
+    "minutes": 20,
+    "endYear": 2109,
+    "endMonth": 4
+   },
+   "snapshot": {
+    "schemaVersion": 1,
+    "calculationConventions": {
+     "calendar": "gregorian",
+     "timezone": "Asia/Shanghai",
+     "trueSolarTimePolicy": "none",
+     "dayBoundaryRule": "zi-hour-23",
+     "qiyunMethod": "tyme4ts-child-limit"
+    },
+    "inputKind": "birth",
+    "birthInput": {
+     "year": 2099,
+     "month": 9,
+     "day": 9,
+     "hour": 9,
+     "minute": 9,
+     "second": 0,
+     "gender": "female"
+    },
+    "dayMaster": "己",
+    "pillars": [
+     {
+      "pillar": "year",
+      "stem": {
+       "occurrenceId": "year.stem",
+       "stem": "己",
+       "element": "土",
+       "tenGod": "比肩"
+      },
+      "branch": {
+       "occurrenceId": "year.branch",
+       "branch": "未",
+       "element": "土",
+       "hiddenStems": [
+        {
+         "occurrenceId": "year.branch.hidden.0",
+         "stem": "己",
+         "element": "土",
+         "role": "primary",
+         "tenGod": "比肩"
+        },
+        {
+         "occurrenceId": "year.branch.hidden.1",
+         "stem": "丁",
+         "element": "火",
+         "role": "tertiary",
+         "tenGod": "偏印"
+        },
+        {
+         "occurrenceId": "year.branch.hidden.2",
+         "stem": "乙",
+         "element": "木",
+         "role": "secondary",
+         "tenGod": "七杀"
+        }
+       ]
+      }
+     },
+     {
+      "pillar": "month",
+      "stem": {
+       "occurrenceId": "month.stem",
+       "stem": "癸",
+       "element": "水",
+       "tenGod": "偏财"
+      },
+      "branch": {
+       "occurrenceId": "month.branch",
+       "branch": "酉",
+       "element": "金",
+       "hiddenStems": [
+        {
+         "occurrenceId": "month.branch.hidden.0",
+         "stem": "辛",
+         "element": "金",
+         "role": "primary",
+         "tenGod": "食神"
+        }
+       ]
+      }
+     },
+     {
+      "pillar": "day",
+      "stem": {
+       "occurrenceId": "day.stem",
+       "stem": "己",
+       "element": "土",
+       "tenGod": "比肩"
+      },
+      "branch": {
+       "occurrenceId": "day.branch",
+       "branch": "酉",
+       "element": "金",
+       "hiddenStems": [
+        {
+         "occurrenceId": "day.branch.hidden.0",
+         "stem": "辛",
+         "element": "金",
+         "role": "primary",
+         "tenGod": "食神"
+        }
+       ]
+      }
+     },
+     {
+      "pillar": "hour",
+      "stem": {
+       "occurrenceId": "hour.stem",
+       "stem": "己",
+       "element": "土",
+       "tenGod": "比肩"
+      },
+      "branch": {
+       "occurrenceId": "hour.branch",
+       "branch": "巳",
+       "element": "火",
+       "hiddenStems": [
+        {
+         "occurrenceId": "hour.branch.hidden.0",
+         "stem": "丙",
+         "element": "火",
+         "role": "primary",
+         "tenGod": "正印"
+        },
+        {
+         "occurrenceId": "hour.branch.hidden.1",
+         "stem": "戊",
+         "element": "土",
+         "role": "secondary",
+         "tenGod": "劫财"
+        },
+        {
+         "occurrenceId": "hour.branch.hidden.2",
+         "stem": "庚",
+         "element": "金",
+         "role": "tertiary",
+         "tenGod": "伤官"
+        }
+       ]
+      }
+     }
+    ],
+    "roots": [
+     {
+      "stemOccurrenceId": "year.stem",
+      "stem": "己",
+      "element": "土",
+      "rootedIn": [
+       {
+        "branchOccurrenceId": "year.branch",
+        "hiddenStemOccurrenceId": "year.branch.hidden.0",
+        "branch": "未",
+        "hiddenStem": "己",
+        "role": "primary",
+        "sameStem": true
+       },
+       {
+        "branchOccurrenceId": "hour.branch",
+        "hiddenStemOccurrenceId": "hour.branch.hidden.1",
+        "branch": "巳",
+        "hiddenStem": "戊",
+        "role": "secondary",
+        "sameStem": false
+       }
+      ]
+     },
+     {
+      "stemOccurrenceId": "month.stem",
+      "stem": "癸",
+      "element": "水",
+      "rootedIn": []
+     },
+     {
+      "stemOccurrenceId": "day.stem",
+      "stem": "己",
+      "element": "土",
+      "rootedIn": [
+       {
+        "branchOccurrenceId": "year.branch",
+        "hiddenStemOccurrenceId": "year.branch.hidden.0",
+        "branch": "未",
+        "hiddenStem": "己",
+        "role": "primary",
+        "sameStem": true
+       },
+       {
+        "branchOccurrenceId": "hour.branch",
+        "hiddenStemOccurrenceId": "hour.branch.hidden.1",
+        "branch": "巳",
+        "hiddenStem": "戊",
+        "role": "secondary",
+        "sameStem": false
+       }
+      ]
+     },
+     {
+      "stemOccurrenceId": "hour.stem",
+      "stem": "己",
+      "element": "土",
+      "rootedIn": [
+       {
+        "branchOccurrenceId": "year.branch",
+        "hiddenStemOccurrenceId": "year.branch.hidden.0",
+        "branch": "未",
+        "hiddenStem": "己",
+        "role": "primary",
+        "sameStem": true
+       },
+       {
+        "branchOccurrenceId": "hour.branch",
+        "hiddenStemOccurrenceId": "hour.branch.hidden.1",
+        "branch": "巳",
+        "hiddenStem": "戊",
+        "role": "secondary",
+        "sameStem": false
+       }
+      ]
+     }
+    ],
+    "luck": {
+     "direction": "forward",
+     "startAge": 9,
+     "startAgeExact": 9.6309,
+     "dayun": [
+      {
+       "index": 1,
+       "startAge": 10,
+       "endAge": 19,
+       "stem": {
+        "occurrenceId": "dayun.1.stem",
+        "stem": "甲",
+        "element": "木",
+        "tenGod": "正官"
+       },
+       "branch": {
+        "occurrenceId": "dayun.1.branch",
+        "branch": "戌",
+        "element": "土",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.1.branch.hidden.0",
+          "stem": "戊",
+          "element": "土",
+          "role": "primary",
+          "tenGod": "劫财"
+         },
+         {
+          "occurrenceId": "dayun.1.branch.hidden.1",
+          "stem": "辛",
+          "element": "金",
+          "role": "tertiary",
+          "tenGod": "食神"
+         },
+         {
+          "occurrenceId": "dayun.1.branch.hidden.2",
+          "stem": "丁",
+          "element": "火",
+          "role": "secondary",
+          "tenGod": "偏印"
+         }
+        ]
+       }
+      },
+      {
+       "index": 2,
+       "startAge": 20,
+       "endAge": 29,
+       "stem": {
+        "occurrenceId": "dayun.2.stem",
+        "stem": "乙",
+        "element": "木",
+        "tenGod": "七杀"
+       },
+       "branch": {
+        "occurrenceId": "dayun.2.branch",
+        "branch": "亥",
+        "element": "水",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.2.branch.hidden.0",
+          "stem": "壬",
+          "element": "水",
+          "role": "primary",
+          "tenGod": "正财"
+         },
+         {
+          "occurrenceId": "dayun.2.branch.hidden.1",
+          "stem": "甲",
+          "element": "木",
+          "role": "tertiary",
+          "tenGod": "正官"
+         }
+        ]
+       }
+      },
+      {
+       "index": 3,
+       "startAge": 30,
+       "endAge": 39,
+       "stem": {
+        "occurrenceId": "dayun.3.stem",
+        "stem": "丙",
+        "element": "火",
+        "tenGod": "正印"
+       },
+       "branch": {
+        "occurrenceId": "dayun.3.branch",
+        "branch": "子",
+        "element": "水",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.3.branch.hidden.0",
+          "stem": "癸",
+          "element": "水",
+          "role": "primary",
+          "tenGod": "偏财"
+         }
+        ]
+       }
+      },
+      {
+       "index": 4,
+       "startAge": 40,
+       "endAge": 49,
+       "stem": {
+        "occurrenceId": "dayun.4.stem",
+        "stem": "丁",
+        "element": "火",
+        "tenGod": "偏印"
+       },
+       "branch": {
+        "occurrenceId": "dayun.4.branch",
+        "branch": "丑",
+        "element": "土",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.4.branch.hidden.0",
+          "stem": "己",
+          "element": "土",
+          "role": "primary",
+          "tenGod": "比肩"
+         },
+         {
+          "occurrenceId": "dayun.4.branch.hidden.1",
+          "stem": "癸",
+          "element": "水",
+          "role": "tertiary",
+          "tenGod": "偏财"
+         },
+         {
+          "occurrenceId": "dayun.4.branch.hidden.2",
+          "stem": "辛",
+          "element": "金",
+          "role": "secondary",
+          "tenGod": "食神"
+         }
+        ]
+       }
+      },
+      {
+       "index": 5,
+       "startAge": 50,
+       "endAge": 59,
+       "stem": {
+        "occurrenceId": "dayun.5.stem",
+        "stem": "戊",
+        "element": "土",
+        "tenGod": "劫财"
+       },
+       "branch": {
+        "occurrenceId": "dayun.5.branch",
+        "branch": "寅",
+        "element": "木",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.5.branch.hidden.0",
+          "stem": "甲",
+          "element": "木",
+          "role": "primary",
+          "tenGod": "正官"
+         },
+         {
+          "occurrenceId": "dayun.5.branch.hidden.1",
+          "stem": "丙",
+          "element": "火",
+          "role": "secondary",
+          "tenGod": "正印"
+         },
+         {
+          "occurrenceId": "dayun.5.branch.hidden.2",
+          "stem": "戊",
+          "element": "土",
+          "role": "tertiary",
+          "tenGod": "劫财"
+         }
+        ]
+       }
+      },
+      {
+       "index": 6,
+       "startAge": 60,
+       "endAge": 69,
+       "stem": {
+        "occurrenceId": "dayun.6.stem",
+        "stem": "己",
+        "element": "土",
+        "tenGod": "比肩"
+       },
+       "branch": {
+        "occurrenceId": "dayun.6.branch",
+        "branch": "卯",
+        "element": "木",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.6.branch.hidden.0",
+          "stem": "乙",
+          "element": "木",
+          "role": "primary",
+          "tenGod": "七杀"
+         }
+        ]
+       }
+      },
+      {
+       "index": 7,
+       "startAge": 70,
+       "endAge": 79,
+       "stem": {
+        "occurrenceId": "dayun.7.stem",
+        "stem": "庚",
+        "element": "金",
+        "tenGod": "伤官"
+       },
+       "branch": {
+        "occurrenceId": "dayun.7.branch",
+        "branch": "辰",
+        "element": "土",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.7.branch.hidden.0",
+          "stem": "戊",
+          "element": "土",
+          "role": "primary",
+          "tenGod": "劫财"
+         },
+         {
+          "occurrenceId": "dayun.7.branch.hidden.1",
+          "stem": "乙",
+          "element": "木",
+          "role": "tertiary",
+          "tenGod": "七杀"
+         },
+         {
+          "occurrenceId": "dayun.7.branch.hidden.2",
+          "stem": "癸",
+          "element": "水",
+          "role": "secondary",
+          "tenGod": "偏财"
+         }
+        ]
+       }
+      },
+      {
+       "index": 8,
+       "startAge": 80,
+       "endAge": 89,
+       "stem": {
+        "occurrenceId": "dayun.8.stem",
+        "stem": "辛",
+        "element": "金",
+        "tenGod": "食神"
+       },
+       "branch": {
+        "occurrenceId": "dayun.8.branch",
+        "branch": "巳",
+        "element": "火",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.8.branch.hidden.0",
+          "stem": "丙",
+          "element": "火",
+          "role": "primary",
+          "tenGod": "正印"
+         },
+         {
+          "occurrenceId": "dayun.8.branch.hidden.1",
+          "stem": "戊",
+          "element": "土",
+          "role": "secondary",
+          "tenGod": "劫财"
+         },
+         {
+          "occurrenceId": "dayun.8.branch.hidden.2",
+          "stem": "庚",
+          "element": "金",
+          "role": "tertiary",
+          "tenGod": "伤官"
+         }
+        ]
+       }
+      },
+      {
+       "index": 9,
+       "startAge": 90,
+       "endAge": 99,
+       "stem": {
+        "occurrenceId": "dayun.9.stem",
+        "stem": "壬",
+        "element": "水",
+        "tenGod": "正财"
+       },
+       "branch": {
+        "occurrenceId": "dayun.9.branch",
+        "branch": "午",
+        "element": "火",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.9.branch.hidden.0",
+          "stem": "丁",
+          "element": "火",
+          "role": "primary",
+          "tenGod": "偏印"
+         },
+         {
+          "occurrenceId": "dayun.9.branch.hidden.1",
+          "stem": "己",
+          "element": "土",
+          "role": "tertiary",
+          "tenGod": "比肩"
+         }
+        ]
+       }
+      },
+      {
+       "index": 10,
+       "startAge": 100,
+       "endAge": 109,
+       "stem": {
+        "occurrenceId": "dayun.10.stem",
+        "stem": "癸",
+        "element": "水",
+        "tenGod": "偏财"
+       },
+       "branch": {
+        "occurrenceId": "dayun.10.branch",
+        "branch": "未",
+        "element": "土",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.10.branch.hidden.0",
+          "stem": "己",
+          "element": "土",
+          "role": "primary",
+          "tenGod": "比肩"
+         },
+         {
+          "occurrenceId": "dayun.10.branch.hidden.1",
+          "stem": "丁",
+          "element": "火",
+          "role": "tertiary",
+          "tenGod": "偏印"
+         },
+         {
+          "occurrenceId": "dayun.10.branch.hidden.2",
+          "stem": "乙",
+          "element": "木",
+          "role": "secondary",
+          "tenGod": "七杀"
+         }
+        ]
+       }
+      },
+      {
+       "index": 11,
+       "startAge": 110,
+       "endAge": 119,
+       "stem": {
+        "occurrenceId": "dayun.11.stem",
+        "stem": "甲",
+        "element": "木",
+        "tenGod": "正官"
+       },
+       "branch": {
+        "occurrenceId": "dayun.11.branch",
+        "branch": "申",
+        "element": "金",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.11.branch.hidden.0",
+          "stem": "庚",
+          "element": "金",
+          "role": "primary",
+          "tenGod": "伤官"
+         },
+         {
+          "occurrenceId": "dayun.11.branch.hidden.1",
+          "stem": "壬",
+          "element": "水",
+          "role": "secondary",
+          "tenGod": "正财"
+         },
+         {
+          "occurrenceId": "dayun.11.branch.hidden.2",
+          "stem": "戊",
+          "element": "土",
+          "role": "tertiary",
+          "tenGod": "劫财"
+         }
+        ]
+       }
+      },
+      {
+       "index": 12,
+       "startAge": 120,
+       "endAge": 129,
+       "stem": {
+        "occurrenceId": "dayun.12.stem",
+        "stem": "乙",
+        "element": "木",
+        "tenGod": "七杀"
+       },
+       "branch": {
+        "occurrenceId": "dayun.12.branch",
+        "branch": "酉",
+        "element": "金",
+        "hiddenStems": [
+         {
+          "occurrenceId": "dayun.12.branch.hidden.0",
+          "stem": "辛",
+          "element": "金",
+          "role": "primary",
+          "tenGod": "食神"
+         }
+        ]
+       }
+      }
+     ],
+     "annual": null
+    }
+   }
+  }
+ ]
+}

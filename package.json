@@ -7,7 +7,7 @@
   ],
   "scripts": {
     "typecheck": "tsc -b packages/bazi packages/mcp",
-    "test": "bun test",
+    "test": "bun test --path-ignore-patterns='**/dist/**' --path-ignore-patterns='apps/**'",
     "check": "bun run typecheck && bun run test && bun run check:public",
     "changeset": "changeset",
     "check:public": "bun scripts/public-surface/check.ts"
