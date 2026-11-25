@@ -8,9 +8,8 @@
   "scripts": {
     "typecheck": "tsc -b packages/bazi packages/mcp",
     "test": "bun test --path-ignore-patterns='**/dist/**' --path-ignore-patterns='apps/**'",
-    "check": "bun run typecheck && bun run test && bun run check:public",
+    "check": "bun run typecheck && bun run test",
     "changeset": "changeset",
-    "check:public": "bun scripts/public-surface/check.ts",
     "engine:nsh": "bun scripts/build-nsh-engine.ts",
     "theme:playground": "bun scripts/theme/build-playground-theme.ts"
   },

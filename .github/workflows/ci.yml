@@ -6,6 +6,8 @@ on:
 permissions:
   contents: read
 jobs:
+  public-surface:
+    uses: astrozi-ai/.github/.github/workflows/public-surface.yml@main
   check:
     runs-on: ubuntu-latest
     steps:

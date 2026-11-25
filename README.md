@@ -42,6 +42,10 @@ bun install
 bun run check
 ```
 
+## Contributing
+
+Please open an issue for questions or suggestions. Pull requests are accepted from collaborators only.
+
 ## License
 
 [MIT](LICENSE) © AstroZi
